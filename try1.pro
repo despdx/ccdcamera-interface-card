@@ -1,4 +1,4 @@
-update=Wed 13 Jul 2016 01:44:15 AM PDT
+update=7/19/2016 4:17:34 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/pdestefa/tmp/_reuse/kicadLayoutLibrary
@@ -56,15 +68,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
+LibName30=ERM8-013-XX.X-X-DV
+LibName31=ERM8-0030-XX.X-X-DV

@@ -1,3 +1,28 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Archon-connector-modules-ADC
+D Archon ADC module header connector mate ERF8-013
+K Archon, connector, header, ERM8-013, CCD
+$ENDCMP
+#
+$CMP Archon-connector-modules-Driver
+D Archon Driver module header connector mate ERF8-030
+K Archon, connector, header, ERM8-013, CCD
+$ENDCMP
+#
+$CMP Archon-connector-modules-HVBias
+D Archon HVBias module header connector mate ERF8-030
+K Archon, CCD, connector, header, ERM8-030
+$ENDCMP
+#
+$CMP Archon-connector-modules-Heater
+D Archon Heater module header connector mate ERF8-030
+K Archon, CCD, header, ERM8
+$ENDCMP
+#
+$CMP Archon-connector-modules-LVBias
+D Archon LVBias module header connector mate ERF8-030
+K Archon, connector, CCD, ERM8-030, header
+$ENDCMP
+#
 #End Doc Library

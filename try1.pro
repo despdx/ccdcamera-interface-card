@@ -1,4 +1,4 @@
-update=7/19/2016 4:17:34 PM
+update=Wed 20 Jul 2016 05:46:29 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=ERM8-013-XX.X-X-DV
 LibName31=ERM8-0030-XX.X-X-DV
+LibName32=archon

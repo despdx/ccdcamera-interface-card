@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF Archon-connector-modules-ADC J 0 40 Y Y 1 F N
 F0 "J" 200 130 45 H V L BNN
 F1 "Archon-connector-modules-ADC" -50 -1400 45 H V L BNN
-F2 "ERM8-013-XX.X-X-DV" 400 250 39 H I C CNN
+F2 "ERM8-013-XX.X-X-DV" 550 250 39 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  *ERM8-013-XX.X-X-DV*
@@ -50,7 +50,7 @@ ENDDEF
 DEF Archon-connector-modules-Driver J 0 40 Y Y 1 F N
 F0 "J" 200 130 45 H V L BNN
 F1 "Archon-connector-modules-Driver" -50 -1400 45 H V L BNN
-F2 "ERM8-013-XX.X-X-DV" 400 250 39 H I C CNN
+F2 "ERM8-013-XX.X-X-DV" 450 250 39 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  *ERM8-013-XX.X-X-DV*
@@ -93,8 +93,8 @@ ENDDEF
 #
 DEF Archon-connector-modules-HVBias J 0 40 Y Y 1 F N
 F0 "J" 200 130 45 H V L BNN
-F1 "Archon-connector-modules-HVBias" 100 -3100 45 H V L BNN
-F2 "ERM8-030-XX.X-X-DV" 650 250 39 H I C TNN
+F1 "Archon-connector-modules-HVBias" -100 -3100 45 H V L BNN
+F2 "ERM8-030-XX.X-X-DV" 500 250 39 H I C TNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  *ERM8-0030-XX.X-X-DV*
@@ -250,8 +250,8 @@ ENDDEF
 #
 DEF Archon-connector-modules-LVBias J 0 40 Y Y 1 F N
 F0 "J" 200 130 45 H V L BNN
-F1 "Archon-connector-modules-LVBias" 100 -3100 45 H V L BNN
-F2 "ERM8-030-XX.X-X-DV" 650 250 39 H I C TNN
+F1 "Archon-connector-modules-LVBias" -50 -3100 45 H V L BNN
+F2 "ERM8-030-XX.X-X-DV" 550 250 39 H I C TNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  *ERM8-0030-XX.X-X-DV*

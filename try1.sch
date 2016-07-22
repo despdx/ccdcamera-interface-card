@@ -233,19 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 2600 9850 2600
 Wire Wire Line
-	9700 2700 9850 2700
-Wire Wire Line
-	9700 2800 9850 2800
-Wire Wire Line
-	9700 2900 9850 2900
-Wire Wire Line
-	9700 3000 9850 3000
-Wire Wire Line
-	9700 3100 9850 3100
-Wire Wire Line
 	9700 3200 9850 3200
-Wire Wire Line
-	9700 3300 9850 3300
 Wire Wire Line
 	9700 3400 9850 3400
 Wire Wire Line
@@ -305,19 +293,9 @@ Wire Wire Line
 Wire Wire Line
 	7950 2600 8050 2600
 Wire Wire Line
-	7950 2700 8050 2700
-Wire Wire Line
-	7950 2800 8050 2800
-Wire Wire Line
-	7950 2900 8050 2900
-Wire Wire Line
 	7950 3000 8050 3000
 Wire Wire Line
-	7950 3100 8050 3100
-Wire Wire Line
 	7950 3200 8050 3200
-Wire Wire Line
-	7950 3300 8050 3300
 Wire Wire Line
 	7950 3400 8050 3400
 Wire Wire Line
@@ -378,10 +356,7 @@ Text Label 9850 2500 0    60   ~ 0
 GND
 Text Label 9850 2600 0    60   ~ 0
 TGY
-NoConn ~ 9850 2700
-NoConn ~ 8050 2700
-NoConn ~ 8050 3100
-NoConn ~ 9850 3100
+NoConn ~ 7950 3100
 Text Label 9850 2800 0    60   ~ 0
 P3Y
 Text Label 9850 3000 0    60   ~ 0
@@ -418,10 +393,8 @@ Text Label 9850 4700 0    60   ~ 0
 -15V
 Text Label 9850 4800 0    60   ~ 0
 +5V
-NoConn ~ 9850 2900
-NoConn ~ 9850 3300
-NoConn ~ 8050 2900
-NoConn ~ 8050 3300
+NoConn ~ 7950 2900
+NoConn ~ 7950 3300
 Text Label 8050 1300 0    60   ~ 0
 GND
 Text Label 8050 1400 0    60   ~ 0
@@ -504,4 +477,15 @@ NoConn ~ 2300 7700
 NoConn ~ 2300 7800
 NoConn ~ 2300 7900
 NoConn ~ 2300 8000
+Wire Wire Line
+	7950 2800 8050 2800
+NoConn ~ 7950 2700
+Wire Wire Line
+	9700 3000 9850 3000
+Wire Wire Line
+	9700 2800 9850 2800
+NoConn ~ 9700 3300
+NoConn ~ 9700 3100
+NoConn ~ 9700 2900
+NoConn ~ 9700 2700
 $EndSCHEMATC

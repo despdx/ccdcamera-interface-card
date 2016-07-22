@@ -41,7 +41,7 @@ Title "Archon CCD Camera Controller Interface Board"
 Date "2016-07-08"
 Rev "21"
 Comp "Porltand State University"
-Comment1 ""
+Comment1 "Copyright 2016 Paul DeStefano"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -49,24 +49,24 @@ $EndDescr
 $Comp
 L DB37 J22
 U 1 1 5786DE58
-P 8100 2250
-F 0 "J22" H 8200 4150 50  0000 C CNN
-F 1 "DB37" H 8050 300 50  0000 C CNN
-F 2 "Connect:DB37FD" H 8100 2250 50  0000 C CNN
-F 3 "" H 8100 2250 50  0000 C CNN
-	1    8100 2250
-	0    1    1    0   
+P 9250 3000
+F 0 "J22" H 9350 4900 50  0000 C CNN
+F 1 "DB37" H 9200 1050 50  0000 C CNN
+F 2 "Connect:DB37FD" H 9250 3000 50  0000 C CNN
+F 3 "" H 9250 3000 50  0000 C CNN
+	1    9250 3000
+	-1   0    0    1   
 $EndComp
 $Comp
 L DB37 J21
 U 1 1 5786DFD2
-P 8100 2900
-F 0 "J21" H 8200 4800 50  0000 C CNN
-F 1 "DB37" H 8050 950 50  0000 C CNN
-F 2 "Connect:DB37FD" H 8100 2900 50  0000 C CNN
-F 3 "" H 8100 2900 50  0000 C CNN
-	1    8100 2900
-	0    -1   -1   0   
+P 7500 3000
+F 0 "J21" H 7600 4900 50  0000 C CNN
+F 1 "DB37" H 7450 1050 50  0000 C CNN
+F 2 "Connect:DB37FD" H 7500 3000 50  0000 C CNN
+F 3 "" H 7500 3000 50  0000 C CNN
+	1    7500 3000
+	-1   0    0    1   
 $EndComp
 Text Notes 1400 9050 0    60   ~ 0
 Heater\nMOD2
@@ -133,10 +133,10 @@ F 3 "" H 5450 8600 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Archon-connector-modules-ADC j6
+L Archon-connector-modules-ADC J6
 U 1 1 5790C9D5
 P 6900 8600
-F 0 "j6" H 7100 8730 45  0000 L BNN
+F 0 "J6" H 7100 8730 45  0000 L BNN
 F 1 "Archon-connector-modules-ADC" H 6850 7200 45  0000 L BNN
 F 2 "ERM8-013-XX.X-X-DV" H 7450 8850 39  0001 C CNN
 F 3 "" H 6900 8600 60  0000 C CNN
@@ -198,4 +198,292 @@ F 3 "" H 14750 8600 60  0000 C CNN
 	1    14750 8600
 	1    0    0    1   
 $EndComp
+Text Label 8050 1200 0    60   ~ 0
+OUT_LR
+Wire Wire Line
+	7950 1200 8050 1200
+Wire Wire Line
+	9700 1200 9850 1200
+Wire Wire Line
+	9700 1300 9850 1300
+Wire Wire Line
+	9700 1400 9850 1400
+Wire Wire Line
+	9700 1500 9850 1500
+Wire Wire Line
+	9700 1600 9850 1600
+Wire Wire Line
+	9700 1700 9850 1700
+Wire Wire Line
+	9700 1800 9850 1800
+Wire Wire Line
+	9700 1900 9850 1900
+Wire Wire Line
+	9700 2000 9850 2000
+Wire Wire Line
+	9700 2100 9850 2100
+Wire Wire Line
+	9700 2200 9850 2200
+Wire Wire Line
+	9700 2300 9850 2300
+Wire Wire Line
+	9700 2400 9850 2400
+Wire Wire Line
+	9700 2500 9850 2500
+Wire Wire Line
+	9700 2600 9850 2600
+Wire Wire Line
+	9700 2700 9850 2700
+Wire Wire Line
+	9700 2800 9850 2800
+Wire Wire Line
+	9700 2900 9850 2900
+Wire Wire Line
+	9700 3000 9850 3000
+Wire Wire Line
+	9700 3100 9850 3100
+Wire Wire Line
+	9700 3200 9850 3200
+Wire Wire Line
+	9700 3300 9850 3300
+Wire Wire Line
+	9700 3400 9850 3400
+Wire Wire Line
+	9700 3500 9850 3500
+Wire Wire Line
+	9700 3600 9850 3600
+Wire Wire Line
+	9700 3700 9850 3700
+Wire Wire Line
+	9700 3800 9850 3800
+Wire Wire Line
+	9700 3900 9850 3900
+Wire Wire Line
+	9700 4000 9850 4000
+Wire Wire Line
+	9700 4100 9850 4100
+Wire Wire Line
+	9700 4200 9850 4200
+Wire Wire Line
+	9700 4300 9850 4300
+Wire Wire Line
+	9700 4400 9850 4400
+Wire Wire Line
+	9700 4500 9850 4500
+Wire Wire Line
+	9700 4600 9850 4600
+Wire Wire Line
+	9700 4700 9850 4700
+Wire Wire Line
+	9700 4800 9850 4800
+Wire Wire Line
+	7950 1300 8050 1300
+Wire Wire Line
+	7950 1400 8050 1400
+Wire Wire Line
+	7950 1500 8050 1500
+Wire Wire Line
+	7950 1600 8050 1600
+Wire Wire Line
+	7950 1700 8050 1700
+Wire Wire Line
+	7950 1800 8050 1800
+Wire Wire Line
+	7950 1900 8050 1900
+Wire Wire Line
+	7950 2000 8050 2000
+Wire Wire Line
+	7950 2100 8050 2100
+Wire Wire Line
+	7950 2200 8050 2200
+Wire Wire Line
+	7950 2300 8050 2300
+Wire Wire Line
+	7950 2400 8050 2400
+Wire Wire Line
+	7950 2500 8050 2500
+Wire Wire Line
+	7950 2600 8050 2600
+Wire Wire Line
+	7950 2700 8050 2700
+Wire Wire Line
+	7950 2800 8050 2800
+Wire Wire Line
+	7950 2900 8050 2900
+Wire Wire Line
+	7950 3000 8050 3000
+Wire Wire Line
+	7950 3100 8050 3100
+Wire Wire Line
+	7950 3200 8050 3200
+Wire Wire Line
+	7950 3300 8050 3300
+Wire Wire Line
+	7950 3400 8050 3400
+Wire Wire Line
+	7950 3500 8050 3500
+Wire Wire Line
+	7950 3600 8050 3600
+Wire Wire Line
+	7950 3700 8050 3700
+Wire Wire Line
+	7950 3800 8050 3800
+Wire Wire Line
+	7950 3900 8050 3900
+Wire Wire Line
+	7950 4000 8050 4000
+Wire Wire Line
+	7950 4100 8050 4100
+Wire Wire Line
+	7950 4200 8050 4200
+Wire Wire Line
+	7950 4300 8050 4300
+Wire Wire Line
+	7950 4400 8050 4400
+Wire Wire Line
+	7950 4500 8050 4500
+Wire Wire Line
+	7950 4600 8050 4600
+Wire Wire Line
+	7950 4700 8050 4700
+Wire Wire Line
+	7950 4800 8050 4800
+Text Label 9850 1200 0    60   ~ 0
+OUT_UL
+Text Label 9850 1300 0    60   ~ 0
+GND
+Text Label 9850 1400 0    60   ~ 0
+OUT_LL
+Text Label 9850 1500 0    60   ~ 0
+GND
+Text Label 9850 1600 0    60   ~ 0
+GND
+Text Label 9850 1700 0    60   ~ 0
+GND
+Text Label 9850 1800 0    60   ~ 0
+S3Y
+Text Label 9850 1900 0    60   ~ 0
+GND
+Text Label 9850 2000 0    60   ~ 0
+S2Y
+Text Label 9850 2100 0    60   ~ 0
+GND
+Text Label 9850 2200 0    60   ~ 0
+S1Y
+Text Label 9850 2300 0    60   ~ 0
+GND
+Text Label 9850 2400 0    60   ~ 0
+SWY
+Text Label 9850 2500 0    60   ~ 0
+GND
+Text Label 9850 2600 0    60   ~ 0
+TGY
+NoConn ~ 9850 2700
+NoConn ~ 8050 2700
+NoConn ~ 8050 3100
+NoConn ~ 9850 3100
+Text Label 9850 2800 0    60   ~ 0
+P3Y
+Text Label 9850 3000 0    60   ~ 0
+P2Y
+Text Label 9850 3200 0    60   ~ 0
+PY1
+Text Label 9850 3400 0    60   ~ 0
+Samplel_L
+Text Label 9850 3500 0    60   ~ 0
+ResetHI_L
+Text Label 9850 3600 0    60   ~ 0
+ResetLOG_L
+Text Label 9850 3700 0    60   ~ 0
+VDD_B
+Text Label 9850 3800 0    60   ~ 0
+Spare_3
+Text Label 9850 3900 0    60   ~ 0
+Spare_2
+Text Label 9850 4000 0    60   ~ 0
+VRD2_L
+Text Label 9850 4100 0    60   ~ 0
+VDD_D
+Text Label 9850 4200 0    60   ~ 0
+VLg_L
+Text Label 9850 4300 0    60   ~ 0
+VRD1_L
+Text Label 9850 4400 0    60   ~ 0
+GainSW2
+Text Label 9850 4500 0    60   ~ 0
+ResetLO_L
+Text Label 9850 4600 0    60   ~ 0
++15V
+Text Label 9850 4700 0    60   ~ 0
+-15V
+Text Label 9850 4800 0    60   ~ 0
++5V
+NoConn ~ 9850 2900
+NoConn ~ 9850 3300
+NoConn ~ 8050 2900
+NoConn ~ 8050 3300
+Text Label 8050 1300 0    60   ~ 0
+GND
+Text Label 8050 1400 0    60   ~ 0
+OUT_UR
+Text Label 8050 1500 0    60   ~ 0
+GND
+Text Label 8050 1600 0    60   ~ 0
+GND
+Text Label 8050 1700 0    60   ~ 0
+GND
+Text Label 8050 1800 0    60   ~ 0
+S3X
+Text Label 8050 1900 0    60   ~ 0
+GND
+Text Label 8050 2000 0    60   ~ 0
+S2X
+Text Label 8050 2100 0    60   ~ 0
+GND
+Text Label 8050 2200 0    60   ~ 0
+S1X
+Text Label 8050 2300 0    60   ~ 0
+GND
+Text Label 8050 2400 0    60   ~ 0
+SWX
+Text Label 8050 2500 0    60   ~ 0
+GND
+Text Label 8050 2600 0    60   ~ 0
+P1X
+Text Label 8050 2800 0    60   ~ 0
+P2X
+Text Label 8050 3000 0    60   ~ 0
+P3X
+Text Label 8050 3200 0    60   ~ 0
+TGX
+Text Label 8050 3400 0    60   ~ 0
+Sample_R
+Text Label 8050 3500 0    60   ~ 0
+ResetHI_R
+Text Label 8050 3600 0    60   ~ 0
+ResetLOG_R
+Text Label 8050 3700 0    60   ~ 0
+VDD_A
+Text Label 8050 3800 0    60   ~ 0
+Spare_1
+Text Label 8050 3900 0    60   ~ 0
+Spare_4
+Text Label 8050 4000 0    60   ~ 0
+VRD2_R
+Text Label 8050 4100 0    60   ~ 0
+VDD_C
+Text Label 8050 4200 0    60   ~ 0
+VLg_R
+Text Label 8050 4300 0    60   ~ 0
+VRD1_R
+Text Label 8050 4400 0    60   ~ 0
+GainSW2
+Text Label 8050 4500 0    60   ~ 0
+ResetLO_R
+Text Label 8050 4600 0    60   ~ 0
++15V
+Text Label 8050 4700 0    60   ~ 0
+-15V
+Text Label 8050 4800 0    60   ~ 0
++5V
 $EndSCHEMATC

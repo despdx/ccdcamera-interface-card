@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Archon CCD Camera Controller Interface Board"
 Date "2016-07-08"
-Rev "21"
+Rev "31"
 Comp "Porltand State University"
 Comment1 "Copyright 2016 Paul DeStefano"
 Comment2 ""

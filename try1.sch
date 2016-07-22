@@ -486,4 +486,22 @@ Text Label 8050 4700 0    60   ~ 0
 -15V
 Text Label 8050 4800 0    60   ~ 0
 +5V
+NoConn ~ 12450 8300
+NoConn ~ 12450 8400
+NoConn ~ 12450 8500
+NoConn ~ 12450 8600
+NoConn ~ 11550 8300
+NoConn ~ 11550 8400
+NoConn ~ 11550 8500
+NoConn ~ 11550 8600
+NoConn ~ 950  7600
+NoConn ~ 950  7700
+NoConn ~ 950  7800
+NoConn ~ 950  7900
+NoConn ~ 950  8000
+NoConn ~ 2300 7600
+NoConn ~ 2300 7700
+NoConn ~ 2300 7800
+NoConn ~ 2300 7900
+NoConn ~ 2300 8000
 $EndSCHEMATC

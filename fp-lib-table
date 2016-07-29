@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name ccdcamera)(type KiCad)(uri "$(KIPRJMOD)\\ccdcamera.pretty")(options "")(descr ""))
+  (lib (name ccdcamera)(type KiCad)(uri "$(KIPRJMOD)/ccdcamera.pretty")(options "")(descr ""))
 )

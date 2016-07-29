@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP RJ45_LEDS_SHLD
-D RJ45, status leds
-K RJ45 RJ45_LEDS
+$CMP CONN_DVI
+D Digital Video Interface - DVI
+K dvi, connector
 $ENDCMP
 #
 #End Doc Library

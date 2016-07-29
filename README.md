@@ -1,4 +1,4 @@
-CCD Camera Interface Card README
+CCD Camera Interface Card
 ======
 
 Motivation
@@ -8,7 +8,7 @@ to design and build an interface card/board to properly route electrical
 connections from the Archon ERF8 connectors to the CCD personality card.  This
 is the documentation for that card.
 
-### Copyright 2016 Paul DeStefano
+### Copyright 2016 Paul R. DeStefano
 >   This program is free software: you can redistribute it and/or modify
 >   it under the terms of the GNU General Public License as published by
 >   the Free Software Foundation, either version 3 of the License, or

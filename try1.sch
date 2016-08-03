@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Archon CCD Camera Controller Interface Board"
 Date "2016-07-08"
-Rev "39"
+Rev "41"
 Comp "Porltand State University"
 Comment1 "Copyright 2016 Paul R. DeStefano"
 Comment2 ""
@@ -368,7 +368,7 @@ Samplel_L
 Text Label 15450 5200 0    60   ~ 0
 ResetHI_L
 Text Label 15450 5300 0    60   ~ 0
-ResetLOG_L
+ResetLog_L
 Text Label 15450 5400 0    60   ~ 0
 VDD_B
 Text Label 15450 5500 0    60   ~ 0
@@ -434,7 +434,7 @@ Sample_R
 Text Label 12150 5200 0    60   ~ 0
 ResetHI_R
 Text Label 12150 5300 0    60   ~ 0
-ResetLOG_R
+ResetLog_R
 Text Label 12150 5400 0    60   ~ 0
 VDD_A
 Text Label 12150 5500 0    60   ~ 0
@@ -652,4 +652,88 @@ Wire Wire Line
 	12150 6500 12750 6500
 Text GLabel 12750 3500 2    60   Input ~ 0
 DRV3_CH2
+Text GLabel 22300 11300 0    60   Input ~ 0
+HV9_5
+Text GLabel 22300 11400 0    60   Input ~ 0
+HV9_6
+Text GLabel 22300 11600 0    60   Input ~ 0
+HV9_7
+Text GLabel 22300 11700 0    60   Input ~ 0
+HV9_8
+Text GLabel 22300 11000 0    60   Input ~ 0
+HV9_3
+Text GLabel 22300 11100 0    60   Input ~ 0
+HV9_4
+Text GLabel 22300 10700 0    60   Input ~ 0
+HV9_1
+Text GLabel 22300 10800 0    60   Input ~ 0
+HV9_2
+Text GLabel 16350 5400 2    60   Input ~ 0
+HV9_1
+Text GLabel 16350 5700 2    60   Input ~ 0
+HV9_3
+Text GLabel 16350 5800 2    60   Input ~ 0
+HV9_5
+Text GLabel 16350 6000 2    60   Input ~ 0
+HV9_5
+Text GLabel 12750 5400 2    60   Input ~ 0
+HV9_2
+Text GLabel 12750 5700 2    60   Input ~ 0
+HV9_4
+Text GLabel 12750 5800 2    60   Input ~ 0
+HV9_6
+Text GLabel 12750 6000 2    60   Input ~ 0
+HV9_6
+Text GLabel 12750 5200 2    60   Input ~ 0
+HV9_8
+Text GLabel 16350 5200 2    60   Input ~ 0
+HV9_7
+Text GLabel 8600 10750 0    60   Input ~ 0
+LV4_1
+Text GLabel 8600 10850 0    60   Input ~ 0
+LV4_2
+Text GLabel 8600 11050 0    60   Input ~ 0
+LV4_3
+Text GLabel 8600 11150 0    60   Input ~ 0
+LV4_4
+Text GLabel 8600 11350 0    60   Input ~ 0
+LV4_5
+Text GLabel 8600 11450 0    60   Input ~ 0
+LV4_6
+Text GLabel 8600 11650 0    60   Input ~ 0
+LV4_7
+Text GLabel 8600 11750 0    60   Input ~ 0
+LV4_8
+Text GLabel 16350 5900 2    60   Input ~ 0
+LV4_1
+Text GLabel 12750 5900 2    60   Input ~ 0
+LV4_2
+Text GLabel 16350 5300 2    60   Input ~ 0
+DRV10_CH1
+Text GLabel 12750 5300 2    60   Input ~ 0
+DRV10_CH2
+Text GLabel 16350 4300 2    60   Input ~ 0
+DRV3_CH1
+Text GLabel 12750 4300 2    60   Input ~ 0
+DRV3_CH2
+Text GLabel 16350 4500 2    60   Input ~ 0
+DRV3_CH3
+Text GLabel 12750 4500 2    60   Input ~ 0
+DRV3_CH4
+Text GLabel 16350 4700 2    60   Input ~ 0
+DRV3_CH5
+Text GLabel 12750 4700 2    60   Input ~ 0
+DRV3_CH6
+Text GLabel 16350 4900 2    60   Input ~ 0
+DRV3_CH7
+Text GLabel 12750 4900 2    60   Input ~ 0
+DRV3_CH8
+Text GLabel 16350 6200 2    60   Input ~ 0
+HV9_9
+Text GLabel 12750 6200 2    60   Input ~ 0
+HV9_10
+Text GLabel 22300 11900 0    60   Input ~ 0
+HV9_9
+Text GLabel 22300 12000 0    60   Input ~ 0
+HV9_10
 $EndSCHEMATC

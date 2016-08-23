@@ -1139,4 +1139,40 @@ NoConn ~ 29600 13150
 NoConn ~ 29600 13350
 NoConn ~ 25900 13350
 NoConn ~ 26800 13350
+Text GLabel 11550 13450 0    60   Input ~ 0
+ADC5_GND1
+Text GLabel 12600 13450 2    60   Input ~ 0
+ADC5_GND2
+Text GLabel 25900 13350 0    60   Input ~ 0
+DRV10_GND1
+Text GLabel 26800 13350 2    60   Input ~ 0
+DRV10_GND2
+Text GLabel 28700 13350 0    60   Input ~ 0
+DRV11_GND1
+Text GLabel 29600 13350 2    60   Input ~ 0
+DRV11_GND2
+Text GLabel 16200 12350 2    60   Input ~ 0
+ADC6_CH1_N
+Text GLabel 16200 12450 2    60   Input ~ 0
+ADC6_CH1_P
+Text GLabel 16200 12650 2    60   Input ~ 0
+ADC6_CH2_N
+Text GLabel 16200 12750 2    60   Input ~ 0
+ADC6_CH2_P
+Text GLabel 16200 12950 2    60   Input ~ 0
+ADC6_CH3_N
+Text GLabel 16200 13050 2    60   Input ~ 0
+ADC6_CH3_P
+Text GLabel 16200 13250 2    60   Input ~ 0
+ADC6_CH4_N
+Text GLabel 16200 13350 2    60   Input ~ 0
+ADC6_CH4_P
+Text GLabel 16200 13450 2    60   Input ~ 0
+ADC6_GND2
+NoConn ~ 16200 12250
+NoConn ~ 16200 12550
+NoConn ~ 16200 12850
+NoConn ~ 16200 13150
+Text GLabel 15150 13450 0    60   Input ~ 0
+ADC6_GND1
 $EndSCHEMATC

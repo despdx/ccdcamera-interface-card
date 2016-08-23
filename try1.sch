@@ -834,7 +834,7 @@ DVI_P9_T5
 Text GLabel 24150 2500 3    60   Input ~ 0
 DVI_P9_T6
 Text Notes 23300 3900 0    60   ~ 0
-SHIELD PINS:\n3,11,19,22
+SHIELD PINS:\n3,11,19,22\n(Connect to Dewar/Cold Finger Heater GND)
 NoConn ~ 22750 4350
 NoConn ~ 22750 5150
 NoConn ~ 24250 4450

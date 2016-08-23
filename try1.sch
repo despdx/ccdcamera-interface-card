@@ -368,7 +368,7 @@ Samplel_L
 Text Label 15450 5200 0    60   ~ 0
 ResetHI_L
 Text Label 15450 5300 0    60   ~ 0
-ResetLog_L
+~ResetLog_L
 Text Label 15450 5400 0    60   ~ 0
 VDD_B
 Text Label 15450 5500 0    60   ~ 0
@@ -434,7 +434,7 @@ Sample_R
 Text Label 12150 5200 0    60   ~ 0
 ResetHI_R
 Text Label 12150 5300 0    60   ~ 0
-ResetLog_R
+~ResetLog_R
 Text Label 12150 5400 0    60   ~ 0
 VDD_A
 Text Label 12150 5500 0    60   ~ 0

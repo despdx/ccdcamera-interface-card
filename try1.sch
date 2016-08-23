@@ -335,25 +335,25 @@ OUT_LL
 Text Label 15450 3200 0    60   ~ 0
 OUT_LL_GND
 Text Label 15450 3300 0    60   ~ 0
-GND
+CONNY_GND
 Text Label 15450 3400 0    60   ~ 0
-GND
+CONNY_GND
 Text Label 15450 3500 0    60   ~ 0
 S3Y
 Text Label 15450 3600 0    60   ~ 0
-GND
+CONNY_GND
 Text Label 15450 3700 0    60   ~ 0
 S2Y
 Text Label 15450 3800 0    60   ~ 0
-GND
+CONNY_GND
 Text Label 15450 3900 0    60   ~ 0
 S1Y
 Text Label 15450 4000 0    60   ~ 0
-GND
+CONNY_GND
 Text Label 15450 4100 0    60   ~ 0
 SWY
 Text Label 15450 4200 0    60   ~ 0
-GND
+CONNY_GND
 Text Label 15450 4300 0    60   ~ 0
 TGY
 NoConn ~ 12050 4800
@@ -384,15 +384,15 @@ VLg_L
 Text Label 15450 6000 0    60   ~ 0
 VRD1_L
 Text Label 15450 6100 0    60   ~ 0
-GainSW2
+GainSW2_L
 Text Label 15450 6200 0    60   ~ 0
 ResetLO_L
 Text Label 15450 6300 0    60   ~ 0
-+15V
++15V_L
 Text Label 15450 6400 0    60   ~ 0
--15V
+-15V_L
 Text Label 15450 6500 0    60   ~ 0
-+5V
++5V_L
 NoConn ~ 12050 4600
 NoConn ~ 12050 5000
 Text Label 12150 3000 0    60   ~ 0
@@ -402,25 +402,25 @@ OUT_UR
 Text Label 12150 3200 0    60   ~ 0
 OUT_UR_GND
 Text Label 12150 3300 0    60   ~ 0
-GND
+CONNX_GND
 Text Label 12150 3400 0    60   ~ 0
-GND
+CONNX_GND
 Text Label 12150 3500 0    60   ~ 0
 S3X
 Text Label 12150 3600 0    60   ~ 0
-GND
+CONNX_GND
 Text Label 12150 3700 0    60   ~ 0
 S2X
 Text Label 12150 3800 0    60   ~ 0
-GND
+CONNX_GND
 Text Label 12150 3900 0    60   ~ 0
 S1X
 Text Label 12150 4000 0    60   ~ 0
-GND
+CONNX_GND
 Text Label 12150 4100 0    60   ~ 0
 SWX
 Text Label 12150 4200 0    60   ~ 0
-GND
+CONNX_GND
 Text Label 12150 4300 0    60   ~ 0
 P1X
 Text Label 12150 4500 0    60   ~ 0
@@ -450,15 +450,15 @@ VLg_R
 Text Label 12150 6000 0    60   ~ 0
 VRD1_R
 Text Label 12150 6100 0    60   ~ 0
-GainSW2
+GainSW2_R
 Text Label 12150 6200 0    60   ~ 0
 ResetLO_R
 Text Label 12150 6300 0    60   ~ 0
-+15V
++15V_R
 Text Label 12150 6400 0    60   ~ 0
--15V
+-15V_R
 Text Label 12150 6500 0    60   ~ 0
-+5V
++5V_R
 NoConn ~ 23200 13200
 NoConn ~ 23200 13300
 NoConn ~ 23200 13400
@@ -1093,8 +1093,6 @@ NoConn ~ 22300 11200
 NoConn ~ 22300 11500
 NoConn ~ 22300 11800
 NoConn ~ 22300 12100
-NoConn ~ 22300 12200
-NoConn ~ 22300 12300
 NoConn ~ 22300 12400
 NoConn ~ 22300 12500
 NoConn ~ 22300 12600
@@ -1175,4 +1173,20 @@ NoConn ~ 16200 12850
 NoConn ~ 16200 13150
 Text GLabel 15150 13450 0    60   Input ~ 0
 ADC6_GND1
+Text GLabel 12750 6500 2    60   Input ~ 0
+LV4_4
+Text GLabel 16350 6500 2    60   Input ~ 0
+LV4_3
+Text GLabel 22300 12200 0    60   Input ~ 0
+HV9_11
+Text GLabel 22300 12300 0    60   Input ~ 0
+HV9_12
+Text GLabel 16350 6300 2    60   Input ~ 0
+HV9_11
+Text GLabel 12750 6300 2    60   Input ~ 0
+HV9_12
+Text GLabel 12750 6400 2    60   Input ~ 0
+LV4_6
+Text GLabel 16350 6400 2    60   Input ~ 0
+LV4_5
 $EndSCHEMATC

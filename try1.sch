@@ -852,7 +852,7 @@ NoConn ~ 24250 5350
 NoConn ~ 24250 5450
 NoConn ~ 24250 5550
 Text GLabel 4000 4600 0    60   Input ~ 0
-GND
+SHUT_GND
 Text GLabel 4000 4400 0    60   Input ~ 0
 SHUT_OUT
 Text GLabel 4000 4200 0    60   Input ~ 0

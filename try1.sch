@@ -68,9 +68,9 @@ F 3 "" H 11600 4700 50  0000 C CNN
 	1    11600 4700
 	-1   0    0    1   
 $EndComp
-Text Notes 1550 13650 0    60   ~ 0
+Text Notes 2000 13650 0    60   ~ 0
 Heater\nMOD2
-Text Notes 5050 13700 0    60   ~ 0
+Text Notes 5900 13700 0    60   ~ 0
 Driver\nMOD3
 Text Notes 8950 14000 0    60   ~ 0
 LVBias\nMOD4
@@ -91,23 +91,23 @@ Driver\nMOD11
 $Comp
 L Archon-connector-modules-Heater J2
 U 1 1 5790BF23
-P 1100 13200
-F 0 "J2" H 1300 13330 45  0000 L BNN
-F 1 "Archon-connector-modules-Heater" H 1200 10100 45  0000 L BNN
-F 2 "ERM8-030-XX.X-X-DV" H 1750 13450 39  0001 C TNN
-F 3 "" H 1100 13200 60  0000 C CNN
-	1    1100 13200
+P 1550 13200
+F 0 "J2" H 1750 13330 45  0000 L BNN
+F 1 "Archon-connector-modules-Heater" H 1650 10100 45  0000 L BNN
+F 2 "ERM8-030-XX.X-X-DV" H 2200 13450 39  0001 C TNN
+F 3 "" H 1550 13200 60  0000 C CNN
+	1    1550 13200
 	1    0    0    1   
 $EndComp
 $Comp
 L Archon-connector-modules-Driver J3
 U 1 1 5790C1E7
-P 4750 13250
-F 0 "J3" H 4950 13380 45  0000 L BNN
-F 1 "Archon-connector-modules-Driver" H 4700 11850 45  0000 L BNN
-F 2 "ERM8-013-XX.X-X-DV" H 5200 13500 39  0001 C CNN
-F 3 "" H 4750 13250 60  0000 C CNN
-	1    4750 13250
+P 5600 13250
+F 0 "J3" H 5800 13380 45  0000 L BNN
+F 1 "Archon-connector-modules-Driver" H 5550 11850 45  0000 L BNN
+F 2 "ERM8-013-XX.X-X-DV" H 6050 13500 39  0001 C CNN
+F 3 "" H 5600 13250 60  0000 C CNN
+	1    5600 13250
 	1    0    0    1   
 $EndComp
 $Comp
@@ -467,16 +467,16 @@ NoConn ~ 22300 13200
 NoConn ~ 22300 13300
 NoConn ~ 22300 13400
 NoConn ~ 22300 13500
-NoConn ~ 1100 12200
-NoConn ~ 1100 12300
-NoConn ~ 1100 12400
-NoConn ~ 1100 12500
-NoConn ~ 1100 12600
-NoConn ~ 2450 12200
-NoConn ~ 2450 12300
-NoConn ~ 2450 12400
-NoConn ~ 2450 12500
-NoConn ~ 2450 12600
+NoConn ~ 1550 12200
+NoConn ~ 1550 12300
+NoConn ~ 1550 12400
+NoConn ~ 1550 12500
+NoConn ~ 1550 12600
+NoConn ~ 2900 12200
+NoConn ~ 2900 12300
+NoConn ~ 2900 12400
+NoConn ~ 2900 12500
+NoConn ~ 2900 12600
 Wire Wire Line
 	12050 4500 12750 4500
 NoConn ~ 12050 4400
@@ -536,21 +536,21 @@ Text Label 12600 12950 0    60   ~ 0
 OUT_LL_GND
 Text Label 12600 13250 0    60   ~ 0
 OUT_UR_GND
-Text GLabel 5650 12250 2    60   Input ~ 0
+Text GLabel 6500 12250 2    60   Input ~ 0
 DRV3_CH1
-Text GLabel 4750 12150 0    60   Input ~ 0
+Text GLabel 5600 12150 0    60   Input ~ 0
 DRV3_CH2
-Text GLabel 4750 12450 0    60   Input ~ 0
+Text GLabel 5600 12450 0    60   Input ~ 0
 DRV3_CH4
-Text GLabel 5650 12550 2    60   Input ~ 0
+Text GLabel 6500 12550 2    60   Input ~ 0
 DRV3_CH3
-Text GLabel 4750 12750 0    60   Input ~ 0
+Text GLabel 5600 12750 0    60   Input ~ 0
 DRV3_CH6
-Text GLabel 4750 13050 0    60   Input ~ 0
+Text GLabel 5600 13050 0    60   Input ~ 0
 DRV3_CH8
-Text GLabel 5650 13150 2    60   Input ~ 0
+Text GLabel 6500 13150 2    60   Input ~ 0
 DRV3_CH7
-Text GLabel 5650 12850 2    60   Input ~ 0
+Text GLabel 6500 12850 2    60   Input ~ 0
 DRV3_CH5
 Text GLabel 26800 12350 2    60   Input ~ 0
 DRV10_CH1
@@ -695,29 +695,29 @@ F 3 "" H 20850 3450 50  0000 C CNN
 	1    20850 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 10400 2    60   Input ~ 0
+Text GLabel 2900 10400 2    60   Input ~ 0
 HEATER1_BP
-Text GLabel 2450 11900 2    60   Input ~ 0
+Text GLabel 2900 11900 2    60   Input ~ 0
 HEATER1_AP
-Text GLabel 2450 10700 2    60   Input ~ 0
+Text GLabel 2900 10700 2    60   Input ~ 0
 HEATER1_BN
-Text GLabel 2450 11600 2    60   Input ~ 0
+Text GLabel 2900 11600 2    60   Input ~ 0
 HEATER1_AN
-Text GLabel 1100 11000 0    60   Input ~ 0
+Text GLabel 1550 11000 0    60   Input ~ 0
 HEATER1_TEMPB_FN
-Text GLabel 1100 11100 0    60   Input ~ 0
+Text GLabel 1550 11100 0    60   Input ~ 0
 HEATER1_TEMPB_FP
-Text GLabel 1100 11300 0    60   Input ~ 0
+Text GLabel 1550 11300 0    60   Input ~ 0
 HEATER1_TEMPA_FN
-Text GLabel 1100 11400 0    60   Input ~ 0
+Text GLabel 1550 11400 0    60   Input ~ 0
 HEATER1_TEMPA_FP
-Text GLabel 2450 11000 2    60   Input ~ 0
+Text GLabel 2900 11000 2    60   Input ~ 0
 HEATER1_TEMPB_SP
-Text GLabel 2450 11100 2    60   Input ~ 0
+Text GLabel 2900 11100 2    60   Input ~ 0
 HEATER1_TEMPB_SN
-Text GLabel 2450 11300 2    60   Input ~ 0
+Text GLabel 2900 11300 2    60   Input ~ 0
 HEATER1_TEMPA_SP
-Text GLabel 2450 11400 2    60   Input ~ 0
+Text GLabel 2900 11400 2    60   Input ~ 0
 HEATER1_TEMPA_SN
 Text GLabel 20600 4600 0    60   Input ~ 0
 HEATER1_AP
@@ -868,63 +868,63 @@ FLASH_V
 Text GLabel 4000 3900 0    60   Input ~ 0
 SHUT_+15V
 NoConn ~ 4000 4300
-NoConn ~ 1100 10300
-NoConn ~ 1100 10400
-NoConn ~ 1100 10500
-NoConn ~ 1100 10600
-NoConn ~ 1100 10700
-NoConn ~ 1100 10800
-NoConn ~ 1100 10900
-NoConn ~ 1100 11200
-NoConn ~ 1100 11500
-NoConn ~ 1100 11600
-NoConn ~ 1100 11700
-NoConn ~ 1100 11800
-NoConn ~ 1100 11900
-NoConn ~ 1100 12000
-NoConn ~ 1100 12100
-NoConn ~ 1100 12700
-NoConn ~ 1100 12800
-NoConn ~ 1100 12900
-NoConn ~ 1100 13000
-NoConn ~ 1100 13100
-NoConn ~ 1100 13200
-NoConn ~ 2450 12700
-NoConn ~ 2450 12800
-NoConn ~ 2450 12900
-NoConn ~ 2450 13000
-NoConn ~ 2450 13100
-NoConn ~ 2450 13200
-NoConn ~ 2450 10300
-NoConn ~ 2450 10500
-NoConn ~ 2450 10600
-NoConn ~ 2450 10800
-NoConn ~ 2450 10900
-NoConn ~ 2450 11200
-NoConn ~ 2450 11500
-NoConn ~ 2450 11700
-NoConn ~ 2450 11800
-NoConn ~ 2450 12000
-NoConn ~ 2450 12100
-NoConn ~ 4750 12050
-NoConn ~ 4750 12250
-NoConn ~ 4750 12350
-NoConn ~ 4750 12550
-NoConn ~ 4750 12650
-NoConn ~ 4750 12850
-NoConn ~ 4750 12950
-NoConn ~ 4750 13150
-NoConn ~ 5650 12050
-NoConn ~ 5650 12150
-NoConn ~ 5650 12350
-NoConn ~ 5650 12450
-NoConn ~ 5650 12650
-NoConn ~ 5650 12750
-NoConn ~ 5650 12950
-NoConn ~ 5650 13050
-Text GLabel 4750 13250 0    60   Input ~ 0
+NoConn ~ 1550 10300
+NoConn ~ 1550 10400
+NoConn ~ 1550 10500
+NoConn ~ 1550 10600
+NoConn ~ 1550 10700
+NoConn ~ 1550 10800
+NoConn ~ 1550 10900
+NoConn ~ 1550 11200
+NoConn ~ 1550 11500
+NoConn ~ 1550 11600
+NoConn ~ 1550 11700
+NoConn ~ 1550 11800
+NoConn ~ 1550 11900
+NoConn ~ 1550 12000
+NoConn ~ 1550 12100
+NoConn ~ 1550 12700
+NoConn ~ 1550 12800
+NoConn ~ 1550 12900
+NoConn ~ 1550 13000
+NoConn ~ 1550 13100
+NoConn ~ 1550 13200
+NoConn ~ 2900 12700
+NoConn ~ 2900 12800
+NoConn ~ 2900 12900
+NoConn ~ 2900 13000
+NoConn ~ 2900 13100
+NoConn ~ 2900 13200
+NoConn ~ 2900 10300
+NoConn ~ 2900 10500
+NoConn ~ 2900 10600
+NoConn ~ 2900 10800
+NoConn ~ 2900 10900
+NoConn ~ 2900 11200
+NoConn ~ 2900 11500
+NoConn ~ 2900 11700
+NoConn ~ 2900 11800
+NoConn ~ 2900 12000
+NoConn ~ 2900 12100
+NoConn ~ 5600 12050
+NoConn ~ 5600 12250
+NoConn ~ 5600 12350
+NoConn ~ 5600 12550
+NoConn ~ 5600 12650
+NoConn ~ 5600 12850
+NoConn ~ 5600 12950
+NoConn ~ 5600 13150
+NoConn ~ 6500 12050
+NoConn ~ 6500 12150
+NoConn ~ 6500 12350
+NoConn ~ 6500 12450
+NoConn ~ 6500 12650
+NoConn ~ 6500 12750
+NoConn ~ 6500 12950
+NoConn ~ 6500 13050
+Text GLabel 5600 13250 0    60   Input ~ 0
 DRV3_GND1
-Text GLabel 5650 13250 2    60   Input ~ 0
+Text GLabel 6500 13250 2    60   Input ~ 0
 DRV3_GND2
 NoConn ~ 8600 10650
 NoConn ~ 8600 10950
@@ -1241,4 +1241,78 @@ Text Label 15600 7800 3    60   ~ 0
 Spare_2
 Text Label 15950 7800 3    60   ~ 0
 Spare_3
+$Comp
+L GND #PWR?
+U 1 1 57BF0379
+P 29050 3950
+F 0 "#PWR?" H 29050 3700 50  0001 C CNN
+F 1 "GND" H 29050 3800 50  0000 C CNN
+F 2 "" H 29050 3950 50  0000 C CNN
+F 3 "" H 29050 3950 50  0000 C CNN
+	1    29050 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 12750 3600 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 12750 3800 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 12750 4000 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 12750 4200 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 16350 3600 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 16350 3800 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 16350 4000 2    60   Input ~ 0
+DRV3_GND
+Text GLabel 16350 4200 2    60   Input ~ 0
+DRV3_GND
+Wire Wire Line
+	5750 11400 6350 11400
+Wire Wire Line
+	5750 11250 6000 11250
+Wire Wire Line
+	6000 11250 6000 11400
+Connection ~ 6000 11400
+Text GLabel 5750 11250 0    60   Input ~ 0
+DRV3_GND1
+Text GLabel 5750 11400 0    60   Input ~ 0
+DRV3_GND2
+Text GLabel 6350 11400 2    60   Input ~ 0
+DRV3_GND
+$Comp
+L JUMPER JP?
+U 1 1 57BF7B2C
+P 5950 4000
+F 0 "JP?" H 5950 4150 50  0000 C CNN
+F 1 "JUMPER" H 5950 3920 50  0000 C CNN
+F 2 "" H 5950 4000 50  0000 C CNN
+F 3 "" H 5950 4000 50  0000 C CNN
+	1    5950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP?
+U 1 1 57BF7BA1
+P 5950 4300
+F 0 "JP?" H 5950 4450 50  0000 C CNN
+F 1 "JUMPER" H 5950 4220 50  0000 C CNN
+F 2 "" H 5950 4300 50  0000 C CNN
+F 3 "" H 5950 4300 50  0000 C CNN
+	1    5950 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 4000 0    60   Input ~ 0
+SEL_LED_1
+Text GLabel 5650 4300 0    60   Input ~ 0
+SEL_LED_2
+NoConn ~ 6250 4000
+NoConn ~ 6250 4300
+Text Notes 5250 11550 0    60   ~ 0
+Signal Ground Connections for CCD
+Text Notes 5350 4650 0    60   ~ 0
+1: Blue/Red\n2: IR/Green
+Text Notes 23050 3250 0    60   ~ 0
+DVI Spare Pinouts
 $EndSCHEMATC

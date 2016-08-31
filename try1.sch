@@ -1269,34 +1269,6 @@ Text GLabel 5750 11400 0    60   Input ~ 0
 DRV3_GND2
 Text GLabel 6350 11400 2    60   Input ~ 0
 DRV3_GND
-$Comp
-L JUMPER JP1
-U 1 1 57BF7B2C
-P 5950 4000
-F 0 "JP1" H 5950 4150 50  0000 C CNN
-F 1 "JUMPER" H 5950 3920 50  0000 C CNN
-F 2 "" H 5950 4000 50  0000 C CNN
-F 3 "" H 5950 4000 50  0000 C CNN
-	1    5950 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L JUMPER JP2
-U 1 1 57BF7BA1
-P 5950 4300
-F 0 "JP2" H 5950 4450 50  0000 C CNN
-F 1 "JUMPER" H 5950 4220 50  0000 C CNN
-F 2 "" H 5950 4300 50  0000 C CNN
-F 3 "" H 5950 4300 50  0000 C CNN
-	1    5950 4300
-	1    0    0    -1  
-$EndComp
-Text GLabel 5650 4000 0    60   Input ~ 0
-SEL_LED_1
-Text GLabel 5650 4300 0    60   Input ~ 0
-SEL_LED_2
-NoConn ~ 6250 4000
-NoConn ~ 6250 4300
 Text Notes 5250 11550 0    60   ~ 0
 Signal Ground Connections for CCD
 Text Notes 5350 4650 0    60   ~ 0

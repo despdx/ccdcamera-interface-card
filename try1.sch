@@ -939,9 +939,7 @@ NoConn ~ 8600 12350
 NoConn ~ 8600 12450
 NoConn ~ 8600 12550
 NoConn ~ 8600 12650
-NoConn ~ 8600 12750
 NoConn ~ 8600 12850
-NoConn ~ 8600 12950
 NoConn ~ 8600 13050
 NoConn ~ 8600 13150
 NoConn ~ 8600 13250
@@ -969,9 +967,7 @@ NoConn ~ 9600 12350
 NoConn ~ 9600 12450
 NoConn ~ 9600 12550
 NoConn ~ 9600 12650
-NoConn ~ 9600 12750
 NoConn ~ 9600 12850
-NoConn ~ 9600 12950
 NoConn ~ 9600 13050
 NoConn ~ 9600 13150
 NoConn ~ 9600 13250
@@ -1181,14 +1177,6 @@ Text GLabel 22300 12200 0    60   Input ~ 0
 HV9_11
 Text GLabel 22300 12300 0    60   Input ~ 0
 HV9_12
-Text GLabel 16350 6300 2    60   Input ~ 0
-HV9_11
-Text GLabel 12750 6300 2    60   Input ~ 0
-HV9_12
-Text GLabel 12750 6400 2    60   Input ~ 0
-LV4_6
-Text GLabel 16350 6400 2    60   Input ~ 0
-LV4_5
 $Comp
 L TEST_1P W1
 U 1 1 57BED8F1
@@ -1315,4 +1303,24 @@ Text Notes 5350 4650 0    60   ~ 0
 1: Blue/Red\n2: IR/Green
 Text Notes 23050 3250 0    60   ~ 0
 DVI Spare Pinouts
+Text GLabel 9600 13050 2    60   Input ~ 0
+LV4_GND2
+Text GLabel 8600 13050 0    60   Input ~ 0
+LV4_GND1
+Text GLabel 9600 12950 2    60   Input ~ 0
+LV4_30
+Text GLabel 8600 12950 0    60   Input ~ 0
+LV4_27
+Text GLabel 12750 6300 2    60   Input ~ 0
+LV4_26
+Text GLabel 12750 6400 2    60   Input ~ 0
+LV4_27
+Text GLabel 16350 6400 2    60   Input ~ 0
+LV4_30
+Text GLabel 16350 6300 2    60   Input ~ 0
+LV4_29
+Text GLabel 9600 12750 2    60   Input ~ 0
+LV4_29
+Text GLabel 8600 12750 0    60   Input ~ 0
+LV4_26
 $EndSCHEMATC

@@ -520,21 +520,21 @@ F 3 "DOCUMENTATION" H 23550 3700 50  0001 C CNN
 	1    23500 4850
 	1    0    0    -1  
 $EndComp
-Text Label 12600 12450 0    60   ~ 0
-OUT_UL
-Text Label 12600 12750 0    60   ~ 0
-OUT_LR
-Text Label 12600 13050 0    60   ~ 0
-OUT_LL
-Text Label 12600 13350 0    60   ~ 0
-OUT_UR
 Text Label 12600 12350 0    60   ~ 0
-OUT_UL_GND
+OUT_UL
 Text Label 12600 12650 0    60   ~ 0
-OUT_LR_GND
+OUT_LR
 Text Label 12600 12950 0    60   ~ 0
-OUT_LL_GND
+OUT_LL
 Text Label 12600 13250 0    60   ~ 0
+OUT_UR
+Text Label 12600 12450 0    60   ~ 0
+OUT_UL_GND
+Text Label 12600 12750 0    60   ~ 0
+OUT_LR_GND
+Text Label 12600 13050 0    60   ~ 0
+OUT_LL_GND
+Text Label 12600 13350 0    60   ~ 0
 OUT_UR_GND
 Text GLabel 6500 12250 2    60   Input ~ 0
 DRV3_CH1

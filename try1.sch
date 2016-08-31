@@ -1169,9 +1169,9 @@ NoConn ~ 16200 12850
 NoConn ~ 16200 13150
 Text GLabel 15150 13450 0    60   Input ~ 0
 ADC6_GND1
-Text GLabel 12750 6500 2    60   Input ~ 0
+Text GLabel 12750 6100 2    60   Input ~ 0
 LV4_4
-Text GLabel 16350 6500 2    60   Input ~ 0
+Text GLabel 16350 6100 2    60   Input ~ 0
 LV4_3
 Text GLabel 22300 12200 0    60   Input ~ 0
 HV9_11
@@ -1311,16 +1311,24 @@ Text GLabel 9600 12950 2    60   Input ~ 0
 LV4_30
 Text GLabel 8600 12950 0    60   Input ~ 0
 LV4_27
-Text GLabel 12750 6300 2    60   Input ~ 0
-LV4_26
 Text GLabel 12750 6400 2    60   Input ~ 0
+LV4_26
+Text GLabel 12750 6500 2    60   Input ~ 0
 LV4_27
-Text GLabel 16350 6400 2    60   Input ~ 0
+Text GLabel 16350 6500 2    60   Input ~ 0
 LV4_30
-Text GLabel 16350 6300 2    60   Input ~ 0
+Text GLabel 16350 6400 2    60   Input ~ 0
 LV4_29
 Text GLabel 9600 12750 2    60   Input ~ 0
 LV4_29
 Text GLabel 8600 12750 0    60   Input ~ 0
 LV4_26
+Text GLabel 9600 12550 2    60   Input ~ 0
+LV4_28
+Text GLabel 8600 12550 0    60   Input ~ 0
+LV4_25
+Text GLabel 16350 6300 2    60   Input ~ 0
+LV4_28
+Text GLabel 12750 6300 2    60   Input ~ 0
+LV4_25
 $EndSCHEMATC

@@ -217,19 +217,19 @@ Wire Wire Line
 Wire Wire Line
 	15300 3500 16350 3500
 Wire Wire Line
-	15300 3600 16350 3600
+	15300 3600 15450 3600
 Wire Wire Line
 	15300 3700 16350 3700
 Wire Wire Line
-	15300 3800 16350 3800
+	15300 3800 15450 3800
 Wire Wire Line
 	15300 3900 16350 3900
 Wire Wire Line
-	15300 4000 16350 4000
+	15300 4000 15450 4000
 Wire Wire Line
 	15300 4100 16350 4100
 Wire Wire Line
-	15300 4200 16350 4200
+	15300 4200 15450 4200
 Wire Wire Line
 	15300 4300 16350 4300
 Wire Wire Line
@@ -277,19 +277,17 @@ Wire Wire Line
 Wire Wire Line
 	12050 3500 12750 3500
 Wire Wire Line
-	12050 3600 12750 3600
-Wire Wire Line
 	12050 3700 12750 3700
 Wire Wire Line
-	12050 3800 12750 3800
+	12050 3800 12150 3800
 Wire Wire Line
 	12050 3900 12750 3900
 Wire Wire Line
-	12050 4000 12750 4000
+	12050 4000 12150 4000
 Wire Wire Line
 	12050 4100 12750 4100
 Wire Wire Line
-	12050 4200 12750 4200
+	12050 4200 12150 4200
 Wire Wire Line
 	12050 4300 12750 4300
 Wire Wire Line
@@ -332,28 +330,14 @@ Text Label 15450 3000 0    60   ~ 0
 OUT_UL_GND
 Text Label 15450 3100 0    60   ~ 0
 OUT_LL
-Text Label 15450 3200 0    60   ~ 0
-OUT_LL_GND
-Text Label 15450 3300 0    60   ~ 0
-CONNY_GND
-Text Label 15450 3400 0    60   ~ 0
-CONNY_GND
 Text Label 15450 3500 0    60   ~ 0
 S3Y
-Text Label 15450 3600 0    60   ~ 0
-CONNY_GND
 Text Label 15450 3700 0    60   ~ 0
 S2Y
-Text Label 15450 3800 0    60   ~ 0
-CONNY_GND
 Text Label 15450 3900 0    60   ~ 0
 S1Y
-Text Label 15450 4000 0    60   ~ 0
-CONNY_GND
 Text Label 15450 4100 0    60   ~ 0
 SWY
-Text Label 15450 4200 0    60   ~ 0
-CONNY_GND
 Text Label 15450 4300 0    60   ~ 0
 TGY
 NoConn ~ 12050 4800
@@ -401,26 +385,14 @@ Text Label 12150 3100 0    60   ~ 0
 OUT_UR
 Text Label 12150 3200 0    60   ~ 0
 OUT_UR_GND
-Text Label 12150 3300 0    60   ~ 0
-CONNX_GND
-Text Label 12150 3400 0    60   ~ 0
-CONNX_GND
 Text Label 12150 3500 0    60   ~ 0
 S3X
-Text Label 12150 3600 0    60   ~ 0
-CONNX_GND
 Text Label 12150 3700 0    60   ~ 0
 S2X
-Text Label 12150 3800 0    60   ~ 0
-CONNX_GND
 Text Label 12150 3900 0    60   ~ 0
 S1X
-Text Label 12150 4000 0    60   ~ 0
-CONNX_GND
 Text Label 12150 4100 0    60   ~ 0
 SWX
-Text Label 12150 4200 0    60   ~ 0
-CONNX_GND
 Text Label 12150 4300 0    60   ~ 0
 P1X
 Text Label 12150 4500 0    60   ~ 0
@@ -851,8 +823,6 @@ NoConn ~ 24250 5250
 NoConn ~ 24250 5350
 NoConn ~ 24250 5450
 NoConn ~ 24250 5550
-Text GLabel 4000 4600 0    60   Input ~ 0
-SHUT_GND
 Text GLabel 4000 4400 0    60   Input ~ 0
 SHUT_OUT
 Text GLabel 4000 4200 0    60   Input ~ 0
@@ -1240,22 +1210,6 @@ F 3 "" H 29050 3950 50  0000 C CNN
 	1    29050 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 12750 3600 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 12750 3800 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 12750 4000 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 12750 4200 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 16350 3600 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 16350 3800 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 16350 4000 2    60   Input ~ 0
-DRV3_GND
-Text GLabel 16350 4200 2    60   Input ~ 0
-DRV3_GND
 Wire Wire Line
 	5750 11400 6350 11400
 Wire Wire Line
@@ -1374,5 +1328,37 @@ GND
 Text Label 15400 8600 2    60   ~ 0
 GND
 Text Label 15400 9100 2    60   ~ 0
+GND
+Wire Wire Line
+	12050 3600 12150 3600
+Text Label 12150 3300 0    60   ~ 0
+GND
+Text Label 12150 3400 0    60   ~ 0
+GND
+Text Label 12150 3600 0    60   ~ 0
+GND
+Text Label 12150 3800 0    60   ~ 0
+GND
+Text Label 12150 4000 0    60   ~ 0
+GND
+Text Label 12150 4200 0    60   ~ 0
+GND
+Text Label 15450 3200 0    60   ~ 0
+OUT_LL_GND
+Text Label 15450 3300 0    60   ~ 0
+GND
+Text Label 15450 3400 0    60   ~ 0
+GND
+Text Label 15450 3600 0    60   ~ 0
+GND
+Text Label 15450 3800 0    60   ~ 0
+GND
+Text Label 15450 4000 0    60   ~ 0
+GND
+Text Label 15450 4200 0    60   ~ 0
+GND
+NoConn ~ 12750 5100
+NoConn ~ 16350 5100
+Text Label 4000 4600 2    60   ~ 0
 GND
 $EndSCHEMATC

@@ -835,9 +835,9 @@ Text GLabel 4000 4100 0    60   Input ~ 0
 SEL_LED_2
 Text GLabel 4000 3900 0    60   Input ~ 0
 FLASH_V
-Text GLabel 4000 4000 0    60   Input ~ 0
+Text GLabel 4000 3800 0    60   Input ~ 0
 SHUT_+15V
-NoConn ~ 4000 3800
+NoConn ~ 4000 4000
 NoConn ~ 1550 10300
 NoConn ~ 1550 10400
 NoConn ~ 1550 10500

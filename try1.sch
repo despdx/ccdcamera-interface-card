@@ -1046,11 +1046,8 @@ NoConn ~ 23200 12100
 NoConn ~ 23200 12200
 NoConn ~ 23200 12300
 NoConn ~ 23200 12400
-NoConn ~ 23200 12500
 NoConn ~ 23200 12600
-NoConn ~ 23200 12700
 NoConn ~ 23200 12800
-NoConn ~ 23200 12900
 NoConn ~ 23200 13000
 NoConn ~ 23200 13100
 NoConn ~ 22300 10600
@@ -1060,11 +1057,8 @@ NoConn ~ 22300 11500
 NoConn ~ 22300 11800
 NoConn ~ 22300 12100
 NoConn ~ 22300 12400
-NoConn ~ 22300 12500
 NoConn ~ 22300 12600
-NoConn ~ 22300 12700
 NoConn ~ 22300 12800
-NoConn ~ 22300 12900
 NoConn ~ 22300 13000
 NoConn ~ 22300 13100
 NoConn ~ 25900 12150
@@ -1361,4 +1355,36 @@ NoConn ~ 12750 5100
 NoConn ~ 16350 5100
 Text Label 4000 4600 2    60   ~ 0
 GND
+Wire Wire Line
+	4100 5450 4850 5450
+Wire Wire Line
+	4100 5550 4850 5550
+Wire Wire Line
+	4100 5650 4850 5650
+Wire Wire Line
+	4100 5750 4850 5750
+Text GLabel 4100 5650 0    60   Input ~ 0
+SHUT_+5
+Text GLabel 4100 5750 0    60   Input ~ 0
+SHUT_+15V
+Text GLabel 4100 5450 0    60   Input ~ 0
+FLASH_V
+Text GLabel 4100 5550 0    60   Input ~ 0
+~FLASH_STB
+Text GLabel 4850 5450 2    60   Input ~ 0
+DRV10_CH8
+Text GLabel 4850 5550 2    60   Input ~ 0
+DRV10_CH7
+Text GLabel 22300 12500 0    60   Input ~ 0
+HV9_25
+Text GLabel 23200 12500 2    60   Input ~ 0
+HV9_28
+Text GLabel 22300 12700 0    60   Input ~ 0
+HV9_26
+Text GLabel 22300 12900 0    60   Input ~ 0
+HV9_27
+Text GLabel 23200 12700 2    60   Input ~ 0
+HV9_29
+Text GLabel 23200 12900 2    60   Input ~ 0
+HV9_30
 $EndSCHEMATC

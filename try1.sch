@@ -1373,8 +1373,6 @@ Text GLabel 4100 5550 0    60   Input ~ 0
 ~FLASH_STB
 Text GLabel 4850 5450 2    60   Input ~ 0
 DRV10_CH8
-Text GLabel 4850 5550 2    60   Input ~ 0
-DRV10_CH7
 Text GLabel 22300 12500 0    60   Input ~ 0
 HV9_25
 Text GLabel 23200 12500 2    60   Input ~ 0
@@ -1387,4 +1385,16 @@ Text GLabel 23200 12700 2    60   Input ~ 0
 HV9_29
 Text GLabel 23200 12900 2    60   Input ~ 0
 HV9_30
+Text GLabel 4100 5850 0    60   Input ~ 0
+SHUT_OUT
+Wire Wire Line
+	4100 5850 4850 5850
+Text GLabel 4850 5550 2    60   Input ~ 0
+HV9_30
+Text GLabel 4850 5850 2    60   Input ~ 0
+LV4_9
+Text GLabel 4850 5650 2    60   Input ~ 0
+HV9_29
+Text GLabel 4850 5750 2    60   Input ~ 0
+HV9_28
 $EndSCHEMATC

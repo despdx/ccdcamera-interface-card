@@ -852,7 +852,6 @@ NoConn ~ 1550 11700
 NoConn ~ 1550 11800
 NoConn ~ 1550 11900
 NoConn ~ 1550 12000
-NoConn ~ 1550 12100
 NoConn ~ 1550 12700
 NoConn ~ 1550 12800
 NoConn ~ 1550 12900
@@ -875,7 +874,6 @@ NoConn ~ 2900 11500
 NoConn ~ 2900 11700
 NoConn ~ 2900 11800
 NoConn ~ 2900 12000
-NoConn ~ 2900 12100
 NoConn ~ 5600 12050
 NoConn ~ 5600 12250
 NoConn ~ 5600 12350
@@ -892,10 +890,6 @@ NoConn ~ 6500 12650
 NoConn ~ 6500 12750
 NoConn ~ 6500 12950
 NoConn ~ 6500 13050
-Text GLabel 5600 13250 0    60   Input ~ 0
-DRV3_GND1
-Text GLabel 6500 13250 2    60   Input ~ 0
-DRV3_GND2
 NoConn ~ 8600 10650
 NoConn ~ 8600 10950
 NoConn ~ 8600 11250
@@ -910,7 +904,6 @@ NoConn ~ 8600 12450
 NoConn ~ 8600 12550
 NoConn ~ 8600 12650
 NoConn ~ 8600 12850
-NoConn ~ 8600 13050
 NoConn ~ 8600 13150
 NoConn ~ 8600 13250
 NoConn ~ 8600 13350
@@ -938,8 +931,6 @@ NoConn ~ 9600 12450
 NoConn ~ 9600 12550
 NoConn ~ 9600 12650
 NoConn ~ 9600 12850
-NoConn ~ 9600 13050
-NoConn ~ 9600 13150
 NoConn ~ 9600 13250
 NoConn ~ 9600 13350
 NoConn ~ 9600 13450
@@ -956,12 +947,10 @@ NoConn ~ 11550 13050
 NoConn ~ 11550 13150
 NoConn ~ 11550 13250
 NoConn ~ 11550 13350
-NoConn ~ 11550 13450
 NoConn ~ 12600 12250
 NoConn ~ 12600 12550
 NoConn ~ 12600 12850
 NoConn ~ 12600 13150
-NoConn ~ 12600 13450
 NoConn ~ 15150 12250
 NoConn ~ 15150 12350
 NoConn ~ 15150 12450
@@ -974,7 +963,6 @@ NoConn ~ 15150 13050
 NoConn ~ 15150 13150
 NoConn ~ 15150 13250
 NoConn ~ 15150 13350
-NoConn ~ 15150 13450
 NoConn ~ 17750 12250
 NoConn ~ 17750 12350
 NoConn ~ 17750 12450
@@ -1049,7 +1037,6 @@ NoConn ~ 23200 12400
 NoConn ~ 23200 12600
 NoConn ~ 23200 12800
 NoConn ~ 23200 13000
-NoConn ~ 23200 13100
 NoConn ~ 22300 10600
 NoConn ~ 22300 10900
 NoConn ~ 22300 11200
@@ -1060,7 +1047,6 @@ NoConn ~ 22300 12400
 NoConn ~ 22300 12600
 NoConn ~ 22300 12800
 NoConn ~ 22300 13000
-NoConn ~ 22300 13100
 NoConn ~ 25900 12150
 NoConn ~ 25900 12350
 NoConn ~ 25900 12450
@@ -1085,7 +1071,6 @@ NoConn ~ 28700 12750
 NoConn ~ 28700 12950
 NoConn ~ 28700 13050
 NoConn ~ 28700 13250
-NoConn ~ 28700 13350
 NoConn ~ 29600 12150
 NoConn ~ 29600 12250
 NoConn ~ 29600 12450
@@ -1094,21 +1079,6 @@ NoConn ~ 29600 12750
 NoConn ~ 29600 12850
 NoConn ~ 29600 13050
 NoConn ~ 29600 13150
-NoConn ~ 29600 13350
-NoConn ~ 25900 13350
-NoConn ~ 26800 13350
-Text GLabel 11550 13450 0    60   Input ~ 0
-ADC5_GND1
-Text GLabel 12600 13450 2    60   Input ~ 0
-ADC5_GND2
-Text GLabel 25900 13350 0    60   Input ~ 0
-DRV10_GND1
-Text GLabel 26800 13350 2    60   Input ~ 0
-DRV10_GND2
-Text GLabel 28700 13350 0    60   Input ~ 0
-DRV11_GND1
-Text GLabel 29600 13350 2    60   Input ~ 0
-DRV11_GND2
 Text GLabel 16200 12350 2    60   Input ~ 0
 ADC6_CH1_N
 Text GLabel 16200 12450 2    60   Input ~ 0
@@ -1125,14 +1095,10 @@ Text GLabel 16200 13250 2    60   Input ~ 0
 ADC6_CH4_N
 Text GLabel 16200 13350 2    60   Input ~ 0
 ADC6_CH4_P
-Text GLabel 16200 13450 2    60   Input ~ 0
-ADC6_GND2
 NoConn ~ 16200 12250
 NoConn ~ 16200 12550
 NoConn ~ 16200 12850
 NoConn ~ 16200 13150
-Text GLabel 15150 13450 0    60   Input ~ 0
-ADC6_GND1
 Text GLabel 12750 6100 2    60   Input ~ 0
 LV4_4
 Text GLabel 16350 6100 2    60   Input ~ 0
@@ -1204,29 +1170,10 @@ F 3 "" H 29050 3950 50  0000 C CNN
 	1    29050 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 11400 6350 11400
-Wire Wire Line
-	5750 11250 6000 11250
-Wire Wire Line
-	6000 11250 6000 11400
-Connection ~ 6000 11400
-Text GLabel 5750 11250 0    60   Input ~ 0
-DRV3_GND1
-Text GLabel 5750 11400 0    60   Input ~ 0
-DRV3_GND2
-Text GLabel 6350 11400 2    60   Input ~ 0
-DRV3_GND
-Text Notes 5250 11550 0    60   ~ 0
-Signal Ground Connections for CCD
 Text Notes 5350 4650 0    60   ~ 0
 1: Blue/Red\n2: IR/Green
 Text Notes 23050 3250 0    60   ~ 0
 DVI Spare Pinouts
-Text GLabel 9600 13050 2    60   Input ~ 0
-LV4_GND2
-Text GLabel 8600 13050 0    60   Input ~ 0
-LV4_GND1
 Text GLabel 9600 12950 2    60   Input ~ 0
 LV4_30
 Text GLabel 8600 12950 0    60   Input ~ 0
@@ -1397,4 +1344,37 @@ Text GLabel 4850 5650 2    60   Input ~ 0
 HV9_29
 Text GLabel 4850 5750 2    60   Input ~ 0
 HV9_28
+Text Label 1550 12100 2    60   ~ 0
+GND
+Text Label 2900 12100 0    60   ~ 0
+GND
+Text Label 5600 13250 2    60   ~ 0
+GND
+NoConn ~ 9600 13150
+Text Label 6500 13250 0    60   ~ 0
+GND
+Text Label 9600 13050 0    60   ~ 0
+GND
+Text Label 8600 13050 2    60   ~ 0
+GND
+Text Label 12600 13450 0    60   ~ 0
+GND
+Text Label 11550 13450 2    60   ~ 0
+GND
+Text Label 16200 13450 0    60   ~ 0
+GND
+Text Label 15150 13450 2    60   ~ 0
+GND
+Text Label 23200 13100 0    60   ~ 0
+GND
+Text Label 22300 13100 2    60   ~ 0
+GND
+Text Label 26800 13350 0    60   ~ 0
+GND
+Text Label 25900 13350 2    60   ~ 0
+GND
+Text Label 29600 13350 0    60   ~ 0
+GND
+Text Label 28700 13350 2    60   ~ 0
+GND
 $EndSCHEMATC

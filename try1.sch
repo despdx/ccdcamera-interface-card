@@ -476,7 +476,7 @@ F 3 "" H 4450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4100 5250 0    60   ~ 0
-LED/Projector\n(Formerly J73 - Shutter Control)
+LED/Projector\n(unnamed DB9 - Shutter Control)
 Text Notes 23300 6150 0    60   ~ 0
 Heater
 Text Notes 23300 6350 0    60   ~ 0
@@ -823,21 +823,21 @@ NoConn ~ 24250 5250
 NoConn ~ 24250 5350
 NoConn ~ 24250 5450
 NoConn ~ 24250 5550
-Text GLabel 4000 4400 0    60   Input ~ 0
-SHUT_OUT
-Text GLabel 4000 4200 0    60   Input ~ 0
-~FLASH_STB
-Text GLabel 4000 4000 0    60   Input ~ 0
-SEL_LED_1
-Text GLabel 4000 3800 0    60   Input ~ 0
-SHUT_+5
 Text GLabel 4000 4500 0    60   Input ~ 0
-SEL_LED_2
+SHUT_OUT
+Text GLabel 4000 4400 0    60   Input ~ 0
+~FLASH_STB
+Text GLabel 4000 4300 0    60   Input ~ 0
+SEL_LED_1
+Text GLabel 4000 4200 0    60   Input ~ 0
+SHUT_+5
 Text GLabel 4000 4100 0    60   Input ~ 0
-FLASH_V
+SEL_LED_2
 Text GLabel 4000 3900 0    60   Input ~ 0
+FLASH_V
+Text GLabel 4000 3800 0    60   Input ~ 0
 SHUT_+15V
-NoConn ~ 4000 4300
+NoConn ~ 4000 4000
 NoConn ~ 1550 10300
 NoConn ~ 1550 10400
 NoConn ~ 1550 10500

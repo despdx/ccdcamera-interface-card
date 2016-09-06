@@ -649,9 +649,9 @@ DRV3_CH7
 Text GLabel 12750 4900 2    60   Input ~ 0
 DRV3_CH8
 Text GLabel 16350 6200 2    60   Input ~ 0
-HV9_9
+LV4_13
 Text GLabel 12750 6200 2    60   Input ~ 0
-HV9_10
+LV4_14
 Text GLabel 22300 11900 0    60   Input ~ 0
 HV9_9
 Text GLabel 22300 12000 0    60   Input ~ 0
@@ -901,8 +901,6 @@ NoConn ~ 8600 10950
 NoConn ~ 8600 11250
 NoConn ~ 8600 11550
 NoConn ~ 8600 11850
-NoConn ~ 8600 11950
-NoConn ~ 8600 12050
 NoConn ~ 8600 12150
 NoConn ~ 8600 12250
 NoConn ~ 8600 12350
@@ -917,8 +915,6 @@ NoConn ~ 8600 13350
 NoConn ~ 8600 13450
 NoConn ~ 8600 13550
 NoConn ~ 9600 10650
-NoConn ~ 9600 10750
-NoConn ~ 9600 10850
 NoConn ~ 9600 10950
 NoConn ~ 9600 11050
 NoConn ~ 9600 11150
@@ -1397,4 +1393,10 @@ Text GLabel 4850 5650 2    60   Input ~ 0
 HV9_29
 Text GLabel 4850 5750 2    60   Input ~ 0
 HV9_28
+NoConn ~ 8600 12050
+NoConn ~ 8600 11950
+Text GLabel 9600 10750 2    60   Input ~ 0
+LV4_13
+Text GLabel 9600 10850 2    60   Input ~ 0
+LV4_14
 $EndSCHEMATC

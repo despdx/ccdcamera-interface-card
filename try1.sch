@@ -830,13 +830,13 @@ Text GLabel 4000 4400 0    60   Input ~ 0
 Text GLabel 4000 4300 0    60   Input ~ 0
 SEL_LED_1
 Text GLabel 4000 4200 0    60   Input ~ 0
-SHUT_+5
+LED_+5
 Text GLabel 4000 4100 0    60   Input ~ 0
 SEL_LED_2
 Text GLabel 4000 3900 0    60   Input ~ 0
 FLASH_V
 Text GLabel 4000 3800 0    60   Input ~ 0
-SHUT_+15V
+LED_+15V
 NoConn ~ 4000 4000
 NoConn ~ 1550 10300
 NoConn ~ 1550 10400
@@ -1307,9 +1307,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 5750 4850 5750
 Text GLabel 4100 5650 0    60   Input ~ 0
-SHUT_+5
+LED_+5
 Text GLabel 4100 5750 0    60   Input ~ 0
-SHUT_+15V
+LED_+15V
 Text GLabel 4100 5450 0    60   Input ~ 0
 FLASH_V
 Text GLabel 4100 5550 0    60   Input ~ 0

@@ -346,7 +346,7 @@ P3Y
 Text Label 15450 4700 0    60   ~ 0
 P2Y
 Text Label 15450 4900 0    60   ~ 0
-PY1
+P1Y
 Text Label 15450 5100 0    60   ~ 0
 Samplel_L
 Text Label 15450 5200 0    60   ~ 0

@@ -826,7 +826,7 @@ NoConn ~ 24250 5550
 Text GLabel 4000 4500 0    60   Input ~ 0
 SHUT_OUT
 Text GLabel 4000 4400 0    60   Input ~ 0
-~FLASH_STB
+LED_PWR
 Text GLabel 4000 4300 0    60   Input ~ 0
 SEL_LED_1
 Text GLabel 4000 4200 0    60   Input ~ 0
@@ -1309,7 +1309,7 @@ LED_+15V
 Text GLabel 4100 5450 0    60   Input ~ 0
 FLASH_V
 Text GLabel 4100 5550 0    60   Input ~ 0
-~FLASH_STB
+LED_PWR
 Text GLabel 4850 5450 2    60   Input ~ 0
 DRV10_CH8
 Text GLabel 22300 12500 0    60   Input ~ 0

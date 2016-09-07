@@ -1374,9 +1374,10 @@ LV4_25
 Text GLabel 16350 6500 2    60   Input ~ 0
 HV9_28
 NoConn ~ 8600 12050
-NoConn ~ 8600 11950
 Text GLabel 9600 10750 2    60   Input ~ 0
 LV4_13
 Text GLabel 9600 10850 2    60   Input ~ 0
 LV4_14
+Text GLabel 8600 11950 0    60   Input ~ 0
+LV4_9
 $EndSCHEMATC

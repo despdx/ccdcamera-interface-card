@@ -1178,13 +1178,11 @@ Text GLabel 9600 12950 2    60   Input ~ 0
 LV4_30
 Text GLabel 8600 12950 0    60   Input ~ 0
 LV4_27
-Text GLabel 12750 6400 2    60   Input ~ 0
+Text GLabel 12750 6300 2    60   Input ~ 0
 LV4_26
-Text GLabel 12750 6500 2    60   Input ~ 0
-LV4_27
-Text GLabel 16350 6500 2    60   Input ~ 0
+Text GLabel 4850 5750 2    60   Input ~ 0
 LV4_30
-Text GLabel 16350 6400 2    60   Input ~ 0
+Text GLabel 16350 6300 2    60   Input ~ 0
 LV4_29
 Text GLabel 9600 12750 2    60   Input ~ 0
 LV4_29
@@ -1194,10 +1192,8 @@ Text GLabel 9600 12550 2    60   Input ~ 0
 LV4_28
 Text GLabel 8600 12550 0    60   Input ~ 0
 LV4_25
-Text GLabel 16350 6300 2    60   Input ~ 0
+Text GLabel 16350 6400 2    60   Input ~ 0
 LV4_28
-Text GLabel 12750 6300 2    60   Input ~ 0
-LV4_25
 $Comp
 L JUMPER JP?
 U 1 1 57C6B93E
@@ -1342,8 +1338,8 @@ Text GLabel 4850 5850 2    60   Input ~ 0
 LV4_9
 Text GLabel 4850 5650 2    60   Input ~ 0
 HV9_29
-Text GLabel 4850 5750 2    60   Input ~ 0
-HV9_28
+Text GLabel 12750 6500 2    60   Input ~ 0
+HV9_25
 Text Label 1550 12100 2    60   ~ 0
 GND
 Text Label 2900 12100 0    60   ~ 0
@@ -1377,4 +1373,8 @@ Text Label 29600 13350 0    60   ~ 0
 GND
 Text Label 28700 13350 2    60   ~ 0
 GND
+Text GLabel 12750 6400 2    60   Input ~ 0
+LV4_25
+Text GLabel 16350 6500 2    60   Input ~ 0
+HV9_28
 $EndSCHEMATC

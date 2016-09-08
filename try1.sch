@@ -528,34 +528,6 @@ Text GLabel 26800 12350 2    60   Input ~ 0
 DRV10_CH1
 Text GLabel 25900 12250 0    60   Input ~ 0
 DRV10_CH2
-Text GLabel 25900 12550 0    60   Input ~ 0
-DRV10_CH4
-Text GLabel 26800 12950 2    60   Input ~ 0
-DRV10_CH5
-Text GLabel 25900 12850 0    60   Input ~ 0
-DRV10_CH6
-Text GLabel 26800 13250 2    60   Input ~ 0
-DRV10_CH7
-Text GLabel 25900 13150 0    60   Input ~ 0
-DRV10_CH8
-Text GLabel 26800 12650 2    60   Input ~ 0
-DRV10_CH3
-Text GLabel 29600 12350 2    60   Input ~ 0
-DRV11_CH1
-Text GLabel 28700 12250 0    60   Input ~ 0
-DRV11_CH2
-Text GLabel 29600 12650 2    60   Input ~ 0
-DRV11_CH3
-Text GLabel 28700 12550 0    60   Input ~ 0
-DRV11_CH4
-Text GLabel 29600 12950 2    60   Input ~ 0
-DRV11_CH5
-Text GLabel 28700 12850 0    60   Input ~ 0
-DRV11_CH6
-Text GLabel 29600 13250 2    60   Input ~ 0
-DRV11_CH7
-Text GLabel 28700 13150 0    60   Input ~ 0
-DRV11_CH8
 Text GLabel 16350 3500 2    60   Input ~ 0
 DRV3_CH1
 Text GLabel 16350 3700 2    60   Input ~ 0
@@ -616,10 +588,6 @@ Text GLabel 8600 11050 0    60   Input ~ 0
 LV4_3
 Text GLabel 8600 11150 0    60   Input ~ 0
 LV4_4
-Text GLabel 8600 11350 0    60   Input ~ 0
-LV4_5
-Text GLabel 8600 11450 0    60   Input ~ 0
-LV4_6
 Text GLabel 8600 11650 0    60   Input ~ 0
 LV4_7
 Text GLabel 8600 11750 0    60   Input ~ 0
@@ -633,7 +601,7 @@ DRV10_CH1
 Text GLabel 12750 5300 2    60   Input ~ 0
 DRV10_CH2
 Text GLabel 16350 4300 2    60   Input ~ 0
-DRV3_CH1
+DRV3_CH8
 Text GLabel 12750 4300 2    60   Input ~ 0
 DRV3_CH2
 Text GLabel 16350 4500 2    60   Input ~ 0
@@ -1073,22 +1041,6 @@ NoConn ~ 29600 12750
 NoConn ~ 29600 12850
 NoConn ~ 29600 13050
 NoConn ~ 29600 13150
-Text GLabel 16200 12350 2    60   Input ~ 0
-ADC6_CH1_N
-Text GLabel 16200 12450 2    60   Input ~ 0
-ADC6_CH1_P
-Text GLabel 16200 12650 2    60   Input ~ 0
-ADC6_CH2_N
-Text GLabel 16200 12750 2    60   Input ~ 0
-ADC6_CH2_P
-Text GLabel 16200 12950 2    60   Input ~ 0
-ADC6_CH3_N
-Text GLabel 16200 13050 2    60   Input ~ 0
-ADC6_CH3_P
-Text GLabel 16200 13250 2    60   Input ~ 0
-ADC6_CH4_N
-Text GLabel 16200 13350 2    60   Input ~ 0
-ADC6_CH4_P
 NoConn ~ 16200 12250
 NoConn ~ 16200 12550
 NoConn ~ 16200 12850
@@ -1170,8 +1122,6 @@ Text Notes 23050 3250 0    60   ~ 0
 DVI Spare Pinouts
 Text GLabel 9600 12950 2    60   Input ~ 0
 LV4_30
-Text GLabel 8600 12950 0    60   Input ~ 0
-LV4_27
 Text GLabel 12750 6300 2    60   Input ~ 0
 LV4_26
 Text GLabel 4850 5750 2    60   Input ~ 0
@@ -1378,4 +1328,29 @@ Text GLabel 9600 10850 2    60   Input ~ 0
 LV4_14
 Text GLabel 8600 11950 0    60   Input ~ 0
 LV4_9
+NoConn ~ 8600 11450
+NoConn ~ 8600 12950
+NoConn ~ 8600 11350
+NoConn ~ 16200 12350
+NoConn ~ 16200 12450
+NoConn ~ 16200 12650
+NoConn ~ 16200 12750
+NoConn ~ 16200 12950
+NoConn ~ 16200 13050
+NoConn ~ 16200 13250
+NoConn ~ 16200 13350
+NoConn ~ 25900 12550
+NoConn ~ 26800 12650
+NoConn ~ 26800 12950
+NoConn ~ 25900 12850
+NoConn ~ 25900 13150
+NoConn ~ 26800 13250
+NoConn ~ 29600 13250
+NoConn ~ 28700 13150
+NoConn ~ 29600 12950
+NoConn ~ 28700 12850
+NoConn ~ 28700 12550
+NoConn ~ 28700 12250
+NoConn ~ 29600 12350
+NoConn ~ 29600 12650
 $EndSCHEMATC

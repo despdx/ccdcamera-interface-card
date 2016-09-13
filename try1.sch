@@ -1096,17 +1096,6 @@ Text Label 15600 7800 3    60   ~ 0
 Spare_2
 Text Label 15950 7800 3    60   ~ 0
 Spare_3
-$Comp
-L GND #PWR01
-U 1 1 57BF0379
-P 29050 3950
-F 0 "#PWR01" H 29050 3700 50  0001 C CNN
-F 1 "GND" H 29050 3800 50  0000 C CNN
-F 2 "" H 29050 3950 50  0000 C CNN
-F 3 "" H 29050 3950 50  0000 C CNN
-	1    29050 3950
-	1    0    0    -1  
-$EndComp
 Text Notes 5350 4650 0    60   ~ 0
 1: Blue/Red\n2: IR/Green
 Text Notes 23050 3250 0    60   ~ 0

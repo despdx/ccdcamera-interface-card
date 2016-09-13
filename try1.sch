@@ -620,10 +620,6 @@ Text GLabel 16350 6200 2    60   Input ~ 0
 LV4_13
 Text GLabel 12750 6200 2    60   Input ~ 0
 LV4_14
-Text GLabel 22300 11900 0    60   Input ~ 0
-HV9_9
-Text GLabel 22300 12000 0    60   Input ~ 0
-HV9_10
 $Comp
 L CONN_02X02 P1
 U 1 1 57B547B3
@@ -1022,7 +1018,6 @@ NoConn ~ 26800 12450
 NoConn ~ 26800 12550
 NoConn ~ 26800 12750
 NoConn ~ 26800 12850
-NoConn ~ 26800 13050
 NoConn ~ 26800 13150
 NoConn ~ 25900 13250
 NoConn ~ 28700 12150
@@ -1049,10 +1044,6 @@ Text GLabel 12750 6100 2    60   Input ~ 0
 LV4_4
 Text GLabel 16350 6100 2    60   Input ~ 0
 LV4_3
-Text GLabel 22300 12200 0    60   Input ~ 0
-HV9_11
-Text GLabel 22300 12300 0    60   Input ~ 0
-HV9_12
 $Comp
 L TEST_1P W1
 U 1 1 57BED8F1
@@ -1264,10 +1255,6 @@ Text GLabel 22300 12500 0    60   Input ~ 0
 HV9_25
 Text GLabel 23200 12500 2    60   Input ~ 0
 HV9_28
-Text GLabel 22300 12700 0    60   Input ~ 0
-HV9_26
-Text GLabel 22300 12900 0    60   Input ~ 0
-HV9_27
 Text GLabel 23200 12700 2    60   Input ~ 0
 HV9_29
 Text GLabel 23200 12900 2    60   Input ~ 0
@@ -1353,4 +1340,12 @@ NoConn ~ 28700 12550
 NoConn ~ 28700 12250
 NoConn ~ 29600 12350
 NoConn ~ 29600 12650
+Text GLabel 26800 13050 2    60   Input ~ 0
+DRV10_CH8
+NoConn ~ 22300 12700
+NoConn ~ 22300 12900
+NoConn ~ 22300 12300
+NoConn ~ 22300 12200
+NoConn ~ 22300 12000
+NoConn ~ 22300 11900
 $EndSCHEMATC

@@ -1,0 +1,40 @@
+Source,/home/pdestefa/tmp/ccdProject/testPCBdesign/try1.sch
+Kicad Rev,Eeschema 4.0.3-1.fc24-product
+Generated Date,Tue 13 Sep 2016 11:20:06 PM PDT
+
+Title,Archon CCD Camera Controller Interface Board
+Company,Porltand State University
+Revision,41
+Date Issue,2016-07-08
+Comment,Copyright 2016 Paul R. DeStefano
+
+Reference,Value,Library,Library Ref
+J22,DB37,conn,DB37
+J21,DB37,conn,DB37
+J2,Archon-connector-modules-Heater,archon,Archon-connector-modules-Heater
+J3,Archon-connector-modules-Driver,archon,Archon-connector-modules-Driver
+J4,Archon-connector-modules-LVBias,archon,Archon-connector-modules-LVBias
+J5,Archon-connector-modules-ADC,archon,Archon-connector-modules-ADC
+J6,Archon-connector-modules-ADC,archon,Archon-connector-modules-ADC
+J7,Archon-connector-modules-ADC,archon,Archon-connector-modules-ADC
+J8,Archon-connector-modules-ADC,archon,Archon-connector-modules-ADC
+J9,Archon-connector-modules-HVBias,archon,Archon-connector-modules-HVBias
+J10,Archon-connector-modules-Driver,archon,Archon-connector-modules-Driver
+J11,Archon-connector-modules-Driver,archon,Archon-connector-modules-Driver
+J31,DB9,conn,DB9
+J41,CONN_DVI,try1-cache,CONN_DVI
+P1,CONN_02X02,conn,CONN_02X02
+W5,TEST_1P,conn,TEST_1P
+W6,TEST_1P,conn,TEST_1P
+W7,TEST_1P,conn,TEST_1P
+W8,TEST_1P,conn,TEST_1P
+W9,TEST_1P,conn,TEST_1P
+W10,TEST_1P,conn,TEST_1P
+W1,Spare1,conn,TEST_1P
+W2,Spare4,conn,TEST_1P
+W4,Spare3,conn,TEST_1P
+W3,Spare2,conn,TEST_1P
+JP1,JUMPER,device,JUMPER
+JP2,JUMPER,device,JUMPER
+JP3,JUMPER,device,JUMPER
+JP4,JUMPER,device,JUMPER

@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name molex_MiniFiT-JR_5556)(type KiCad)(uri "$(KIPRJMOD)\\molex_MiniFiT-JR_5556.pretty")(options "")(descr ""))
   (lib (name samtec)(type KiCad)(uri "$(KIPRJMOD)\\samtec.pretty")(options "")(descr ""))
+  (lib (name ccdcamera)(type KiCad)(uri "$(KIPRJMOD)/ccdcamera.pretty")(options "")(descr ""))
 )

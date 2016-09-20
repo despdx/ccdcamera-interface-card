@@ -1,4 +1,4 @@
-(module ERM8-0030-XX.X-X-DV (layer F.Cu) (tedit 200000)
+(module ERM8-0030-XX.X-X-DV (layer F.Cu) (tedit 57E1B967)
   (descr "0.8MM EDGE RATE TERMINAL ASSEMBLY, 60 PINS.")
   (tags "0.8MM EDGE RATE TERMINAL ASSEMBLY, 60 PINS.")
   (attr smd)
@@ -90,4 +90,6 @@
   (pad 58 smd rect (at 10.79754 1.89992) (size 0.49784 1.09982) (layers F.Cu F.Paste F.Mask))
   (pad 59 smd rect (at 11.59764 -1.89992) (size 0.49784 1.09982) (layers F.Cu F.Paste F.Mask))
   (pad 60 smd rect (at 11.59764 1.89992) (size 0.49784 1.09982) (layers F.Cu F.Paste F.Mask))
+  (pad "" np_thru_hole circle (at -13.4 1.5) (size 1.45 1.45) (drill 1.45) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 13.4 1.5) (size 1.45 1.45) (drill 1.45) (layers *.Cu *.Mask F.SilkS))
 )

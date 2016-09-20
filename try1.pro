@@ -1,4 +1,4 @@
-update=Tue 20 Sep 2016 02:43:10 AM PDT
+update=9/20/2016 2:40:28 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=/home/pdestefa/tmp/_reuse/kicadLayoutLibrary
@@ -59,15 +69,6 @@ LibName29=valves
 LibName30=ERM8-013-XX.X-X-DV
 LibName31=ERM8-0030-XX.X-X-DV
 LibName32=archon
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName33=conn_dvi
 [general]
 version=1

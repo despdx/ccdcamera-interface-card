@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:ERM8-013-XX.X-X-DV
 LIBS:ERM8-0030-XX.X-X-DV
 LIBS:archon
+LIBS:conn_dvi
 LIBS:try1-cache
 EELAYER 25 0
 EELAYER END
@@ -786,7 +787,6 @@ NoConn ~ 24250 5150
 NoConn ~ 24250 5250
 NoConn ~ 24250 5350
 NoConn ~ 24250 5450
-NoConn ~ 24250 5550
 Text GLabel 4000 4500 0    60   Input ~ 0
 SHUT_OUT
 Text GLabel 4000 4400 0    60   Input ~ 0

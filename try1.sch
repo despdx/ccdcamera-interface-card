@@ -1050,7 +1050,7 @@ U 1 1 57BED8F1
 P 12150 7800
 F 0 "W1" H 12150 8070 50  0000 C CNN
 F 1 "Spare1" H 12150 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 12350 7800 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 12350 7800 50  0001 C CNN
 F 3 "" H 12350 7800 50  0000 C CNN
 	1    12150 7800
 	1    0    0    -1  
@@ -1061,7 +1061,7 @@ U 1 1 57BEF217
 P 12450 7800
 F 0 "W2" H 12450 8070 50  0000 C CNN
 F 1 "Spare4" H 12450 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 12650 7800 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 12650 7800 50  0001 C CNN
 F 3 "" H 12650 7800 50  0000 C CNN
 	1    12450 7800
 	1    0    0    -1  
@@ -1072,7 +1072,7 @@ U 1 1 57BEF28B
 P 15950 7800
 F 0 "W4" H 15950 8070 50  0000 C CNN
 F 1 "Spare3" H 15950 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 16150 7800 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 16150 7800 50  0001 C CNN
 F 3 "" H 16150 7800 50  0000 C CNN
 	1    15950 7800
 	1    0    0    -1  
@@ -1083,7 +1083,7 @@ U 1 1 57BEF46D
 P 15600 7800
 F 0 "W3" H 15600 8070 50  0000 C CNN
 F 1 "Spare2" H 15600 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 15800 7800 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 15800 7800 50  0001 C CNN
 F 3 "" H 15800 7800 50  0000 C CNN
 	1    15600 7800
 	1    0    0    -1  

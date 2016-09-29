@@ -1603,7 +1603,7 @@
   )
 
   (module ccdcamera:archonInterfaceMountingHole (layer F.Cu) (tedit 57EAE789) (tstamp 57EAE03B)
-    (at 215.9 68.834)
+    (at 211.59724 68.834)
     (fp_text reference NPTH1 (at 0 3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1614,7 +1614,7 @@
   )
 
   (module ccdcamera:archonInterfaceMountingHole (layer F.Cu) (tedit 57EAE79F) (tstamp 57EAE051)
-    (at 215.9 134.874)
+    (at 211.59724 134.874)
     (fp_text reference NPTH2 (at 0 3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2739,9 +2739,9 @@
     (pad "" np_thru_hole circle (at -6.6 1.524 90) (size 1.524 1.524) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (gr_line (start 226.12 23.1) (end 45.78 23.1) (layer Edge.Cuts) (width 0.0254))
-  (gr_line (start 226.12 142.48) (end 226.12 23.1) (layer Edge.Cuts) (width 0.0254))
-  (gr_line (start 45.78 142.48) (end 226.12 142.48) (layer Edge.Cuts) (width 0.0254))
+  (gr_line (start 221.12 23.1) (end 45.78 23.1) (layer Edge.Cuts) (width 0.0254))
+  (gr_line (start 221.12 142.48) (end 221.12 23.1) (layer Edge.Cuts) (width 0.0254))
+  (gr_line (start 45.78 142.48) (end 221.12 142.48) (layer Edge.Cuts) (width 0.0254))
   (gr_line (start 45.78 23.1) (end 45.78 142.48) (layer Edge.Cuts) (width 0.0254))
   (target plus (at 190.549187 89.143945) (size 5) (width 0.15) (layer Edge.Cuts))
   (target plus (at 52.07 99.06) (size 5) (width 0.15) (layer Edge.Cuts))

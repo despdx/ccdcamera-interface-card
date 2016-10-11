@@ -1,0 +1,139 @@
+
+(rules PCB try1FreeRouted
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 99)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clear 152.6)
+    (clear 76.2 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-1]_685.8:330.2_um"
+    (shape
+      (circle F.Cu 685.8 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 685.8 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_685.8:330.2_um" "Via[0-1]_685.8:330.2_um" default
+  )
+  (via 
+    "Via[0-1]_685.8:330.2_um-kicad_default" "Via[0-1]_685.8:330.2_um" default
+  )
+  (via 
+    "Via[0-1]_685.8:330.2_um-OshPark" "Via[0-1]_685.8:330.2_um" default
+  )
+  (via_rule
+    default "Via[0-1]_685.8:330.2_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_685.8:330.2_um-kicad_default"
+  )
+  (via_rule
+    OshPark "Via[0-1]_685.8:330.2_um-OshPark"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(J2-Pad1)" "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)" "Net-(J2-Pad5)" "Net-(J2-Pad6)" "Net-(J2-Pad7)" "Net-(J2-Pad8)"
+    "Net-(J2-Pad9)" "Net-(J2-Pad10)" "Net-(J2-Pad11)" "Net-(J2-Pad12)" "Net-(J2-Pad13)" "Net-(J2-Pad14)" "Net-(J2-Pad15)" "Net-(J2-Pad16)"
+    "Net-(J2-Pad17)" "Net-(J2-Pad18)" "Net-(J2-Pad19)" "Net-(J2-Pad20)" "Net-(J2-Pad21)" "Net-(J2-Pad22)" /GND "Net-(J2-Pad25)"
+    "Net-(J2-Pad26)" "Net-(J2-Pad27)" "HEATER1_AP" "Net-(J2-Pad29)" "Net-(J2-Pad30)" "Net-(J2-Pad31)" "Net-(J2-Pad32)" "Net-(J2-Pad33)"
+    "HEATER1_AN" "Net-(J2-Pad35)" "Net-(J2-Pad36)" "HEATER1_TEMPA_FP" "HEATER1_TEMPA_SN" "HEATER1_TEMPA_FN" "HEATER1_TEMPA_SP" "Net-(J2-Pad41)"
+    "Net-(J2-Pad42)" "HEATER1_TEMPB_FP" "HEATER1_TEMPB_SN" "HEATER1_TEMPB_FN" "HEATER1_TEMPB_SP" "Net-(J2-Pad47)" "Net-(J2-Pad48)" "Net-(J2-Pad49)"
+    "Net-(J2-Pad50)" "Net-(J2-Pad51)" "HEATER1_BN" "Net-(J2-Pad53)" "Net-(J2-Pad54)" "Net-(J2-Pad55)" "Net-(J2-Pad56)" "Net-(J2-Pad57)"
+    "HEATER1_BP" "Net-(J2-Pad59)" "Net-(J2-Pad60)" "Net-(J3-Pad3)" "DRV3_CH7" "DRV3_CH8" "Net-(J3-Pad6)" "Net-(J3-Pad7)"
+    "Net-(J3-Pad8)" "Net-(J3-Pad9)" "DRV3_CH5" "DRV3_CH6" "Net-(J3-Pad12)" "Net-(J3-Pad13)" "Net-(J3-Pad14)" "Net-(J3-Pad15)"
+    "DRV3_CH3" "DRV3_CH4" "Net-(J3-Pad18)" "Net-(J3-Pad19)" "Net-(J3-Pad20)" "Net-(J3-Pad21)" "DRV3_CH1" "DRV3_CH2"
+    "Net-(J3-Pad24)" "Net-(J3-Pad25)" "Net-(J3-Pad26)" "Net-(J4-Pad1)" "Net-(J4-Pad2)" "Net-(J4-Pad3)" "Net-(J4-Pad4)" "Net-(J4-Pad5)"
+    "Net-(J4-Pad6)" "Net-(J4-Pad7)" "Net-(J4-Pad8)" "Net-(J4-Pad9)" "Net-(J4-Pad10)" "Net-(J4-Pad13)" "LED_+15V" "Net-(J4-Pad15)"
+    "Net-(J4-Pad16)" "LV4_26" "LV4_29" "Net-(J4-Pad19)" "Net-(J4-Pad20)" "LV4_25" "LV4_28" "Net-(J4-Pad23)"
+    "Net-(J4-Pad24)" "Net-(J4-Pad25)" "Net-(J4-Pad26)" "Net-(J4-Pad27)" "Net-(J4-Pad28)" "Net-(J4-Pad29)" "Net-(J4-Pad30)" "Net-(J4-Pad31)"
+    "Net-(J4-Pad32)" "LV4_9" "Net-(J4-Pad34)" "Net-(J4-Pad35)" "Net-(J4-Pad36)" "LV4_8" "Net-(J4-Pad38)" "LV4_7"
+    "Net-(J4-Pad40)" "Net-(J4-Pad41)" "Net-(J4-Pad42)" "Net-(J4-Pad43)" "Net-(J4-Pad44)" "Net-(J4-Pad45)" "Net-(J4-Pad46)" "Net-(J4-Pad47)"
+    "Net-(J4-Pad48)" "LV4_4" "Net-(J4-Pad50)" "LV4_3" "Net-(J4-Pad52)" "Net-(J4-Pad53)" "Net-(J4-Pad54)" "LV4_2"
+    "LV4_14" "LV4_1" "LV4_13" "Net-(J4-Pad59)" "Net-(J4-Pad60)" "Net-(J5-Pad3)" "/OUT_UR_GND" "Net-(J5-Pad5)"
+    "/OUT_UR" "Net-(J5-Pad7)" "Net-(J5-Pad8)" "Net-(J5-Pad9)" "/OUT_LL_GND" "Net-(J5-Pad11)" "/OUT_LL" "Net-(J5-Pad13)"
+    "Net-(J5-Pad14)" "Net-(J5-Pad15)" "/OUT_LR_GND" "Net-(J5-Pad17)" "/OUT_LR" "Net-(J5-Pad19)" "Net-(J5-Pad20)" "Net-(J5-Pad21)"
+    "/OUT_UL_GND" "Net-(J5-Pad23)" "/OUT_UL" "Net-(J5-Pad25)" "Net-(J5-Pad26)" "Net-(J6-Pad3)" "Net-(J6-Pad4)" "Net-(J6-Pad5)"
+    "Net-(J6-Pad6)" "Net-(J6-Pad7)" "Net-(J6-Pad8)" "Net-(J6-Pad9)" "Net-(J6-Pad10)" "Net-(J6-Pad11)" "Net-(J6-Pad12)" "Net-(J6-Pad13)"
+    "Net-(J6-Pad14)" "Net-(J6-Pad15)" "Net-(J6-Pad16)" "Net-(J6-Pad17)" "Net-(J6-Pad18)" "Net-(J6-Pad19)" "Net-(J6-Pad20)" "Net-(J6-Pad21)"
+    "Net-(J6-Pad22)" "Net-(J6-Pad23)" "Net-(J6-Pad24)" "Net-(J6-Pad25)" "Net-(J6-Pad26)" "Net-(J7-Pad1)" "Net-(J7-Pad2)" "Net-(J7-Pad3)"
+    "Net-(J7-Pad4)" "Net-(J7-Pad5)" "Net-(J7-Pad6)" "Net-(J7-Pad7)" "Net-(J7-Pad8)" "Net-(J7-Pad9)" "Net-(J7-Pad10)" "Net-(J7-Pad11)"
+    "Net-(J7-Pad12)" "Net-(J7-Pad13)" "Net-(J7-Pad14)" "Net-(J7-Pad15)" "Net-(J7-Pad16)" "Net-(J7-Pad17)" "Net-(J7-Pad18)" "Net-(J7-Pad19)"
+    "Net-(J7-Pad20)" "Net-(J7-Pad21)" "Net-(J7-Pad22)" "Net-(J7-Pad23)" "Net-(J7-Pad24)" "Net-(J7-Pad25)" "Net-(J7-Pad26)" "Net-(J8-Pad1)"
+    "Net-(J8-Pad2)" "Net-(J8-Pad3)" "Net-(J8-Pad4)" "Net-(J8-Pad5)" "Net-(J8-Pad6)" "Net-(J8-Pad7)" "Net-(J8-Pad8)" "Net-(J8-Pad9)"
+    "Net-(J8-Pad10)" "Net-(J8-Pad11)" "Net-(J8-Pad12)" "Net-(J8-Pad13)" "Net-(J8-Pad14)" "Net-(J8-Pad15)" "Net-(J8-Pad16)" "Net-(J8-Pad17)"
+    "Net-(J8-Pad18)" "Net-(J8-Pad19)" "Net-(J8-Pad20)" "Net-(J8-Pad21)" "Net-(J8-Pad22)" "Net-(J8-Pad23)" "Net-(J8-Pad24)" "Net-(J8-Pad25)"
+    "Net-(J8-Pad26)" "Net-(J9-Pad1)" "Net-(J9-Pad2)" "Net-(J9-Pad3)" "Net-(J9-Pad4)" "Net-(J9-Pad5)" "Net-(J9-Pad6)" "Net-(J9-Pad7)"
+    "Net-(J9-Pad8)" "Net-(J9-Pad11)" "Net-(J9-Pad12)" "Net-(J9-Pad13)" "HV9_30" "Net-(J9-Pad15)" "Net-(J9-Pad16)" "Net-(J9-Pad17)"
+    "HV9_29" "Net-(J9-Pad19)" "Net-(J9-Pad20)" "HV9_25" "HV9_28" "Net-(J9-Pad23)" "Net-(J9-Pad24)" "Net-(J9-Pad25)"
+    "Net-(J9-Pad26)" "Net-(J9-Pad27)" "Net-(J9-Pad28)" "Net-(J9-Pad29)" "Net-(J9-Pad30)" "Net-(J9-Pad31)" "Net-(J9-Pad32)" "Net-(J9-Pad33)"
+    "Net-(J9-Pad34)" "Net-(J9-Pad35)" "Net-(J9-Pad36)" "HV9_8" "Net-(J9-Pad38)" "HV9_7" "Net-(J9-Pad40)" "Net-(J9-Pad41)"
+    "Net-(J9-Pad42)" "HV9_6" "Net-(J9-Pad44)" "HV9_5" "Net-(J9-Pad46)" "Net-(J9-Pad47)" "Net-(J9-Pad48)" "HV9_4"
+    "Net-(J9-Pad50)" "HV9_3" "Net-(J9-Pad52)" "Net-(J9-Pad53)" "Net-(J9-Pad54)" "HV9_2" "Net-(J9-Pad56)" "HV9_1"
+    "Net-(J9-Pad58)" "Net-(J9-Pad59)" "Net-(J9-Pad60)" "Net-(J10-Pad3)" "Net-(J10-Pad4)" "Net-(J10-Pad5)" "Net-(J10-Pad6)" "Net-(J10-Pad7)"
+    "DRV10_CH8" "Net-(J10-Pad9)" "Net-(J10-Pad10)" "Net-(J10-Pad11)" "Net-(J10-Pad12)" "Net-(J10-Pad13)" "Net-(J10-Pad14)" "Net-(J10-Pad15)"
+    "Net-(J10-Pad16)" "Net-(J10-Pad17)" "Net-(J10-Pad18)" "Net-(J10-Pad19)" "Net-(J10-Pad20)" "Net-(J10-Pad21)" "DRV10_CH1" "DRV10_CH2"
+    "Net-(J10-Pad24)" "Net-(J10-Pad25)" "Net-(J10-Pad26)" "Net-(J11-Pad3)" "Net-(J11-Pad4)" "Net-(J11-Pad5)" "Net-(J11-Pad6)" "Net-(J11-Pad7)"
+    "Net-(J11-Pad8)" "Net-(J11-Pad9)" "Net-(J11-Pad10)" "Net-(J11-Pad11)" "Net-(J11-Pad12)" "Net-(J11-Pad13)" "Net-(J11-Pad14)" "Net-(J11-Pad15)"
+    "Net-(J11-Pad16)" "Net-(J11-Pad17)" "Net-(J11-Pad18)" "Net-(J11-Pad19)" "Net-(J11-Pad20)" "Net-(J11-Pad21)" "Net-(J11-Pad22)" "Net-(J11-Pad23)"
+    "Net-(J11-Pad24)" "Net-(J11-Pad25)" "Net-(J11-Pad26)" "/Sample_R" "/Spare_1" "Net-(J21-Pad27)" "Net-(J21-Pad28)" "Net-(J21-Pad29)"
+    "Net-(J21-Pad30)" "/Spare_4" "/Samplel_L" "/Spare_3" "Net-(J22-Pad27)" "Net-(J22-Pad28)" "Net-(J22-Pad29)" "Net-(J22-Pad30)"
+    "/Spare_2" "Net-(J31-Pad4)" "Net-(J41-Pad29)" "Net-(J41-Pad3)" "Net-(J41-Pad26)" "Net-(J41-Pad25)" "Net-(J41-Pad28)" "Net-(J41-Pad27)"
+    "Net-(J41-Pad6)" "Net-(J41-Pad7)" "Net-(J41-Pad8)" "DVI_P9_SPARET1" "DVI_P9_SPARET2" "Net-(J41-Pad11)" "DVI_P9_SPARET3" "DVI_P9_SPARET4"
+    "Net-(J41-Pad14)" "Net-(J41-Pad15)" "Net-(J41-Pad16)" "Net-(J41-Pad19)" "Net-(J41-Pad22)" "DVI_P9_SPARET6" "DVI_P9_SPARET5"
+    (clearance_class default)
+    (via_rule kicad_default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class OshPark
+    (clearance_class default)
+    (via_rule OshPark)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

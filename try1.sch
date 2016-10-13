@@ -90,17 +90,6 @@ Driver\nMOD10
 Text Notes 29050 13800 0    60   ~ 0
 Driver\nMOD11
 $Comp
-L Archon-connector-modules-Heater J2
-U 1 1 5790BF23
-P 1550 13200
-F 0 "J2" H 1750 13330 45  0000 L BNN
-F 1 "Archon-connector-modules-Heater" H 1650 10100 45  0000 L BNN
-F 2 "samtec:ERM8-0030-XX.X-X-DV" H 2200 13450 39  0001 C TNN
-F 3 "" H 1550 13200 60  0000 C CNN
-	1    1550 13200
-	1    0    0    1   
-$EndComp
-$Comp
 L Archon-connector-modules-Driver J3
 U 1 1 5790C1E7
 P 5600 13250
@@ -802,7 +791,6 @@ FLASH_V
 Text GLabel 4000 3800 0    60   Input ~ 0
 LED_+15V
 NoConn ~ 4000 4000
-NoConn ~ 1550 10300
 NoConn ~ 1550 10400
 NoConn ~ 1550 10500
 NoConn ~ 1550 10600
@@ -828,7 +816,6 @@ NoConn ~ 2900 12900
 NoConn ~ 2900 13000
 NoConn ~ 2900 13100
 NoConn ~ 2900 13200
-NoConn ~ 2900 10300
 NoConn ~ 2900 10500
 NoConn ~ 2900 10600
 NoConn ~ 2900 10800
@@ -854,7 +841,6 @@ NoConn ~ 6500 12650
 NoConn ~ 6500 12750
 NoConn ~ 6500 12950
 NoConn ~ 6500 13050
-NoConn ~ 8600 10650
 NoConn ~ 8600 10950
 NoConn ~ 8600 11250
 NoConn ~ 8600 11550
@@ -870,7 +856,6 @@ NoConn ~ 8600 13250
 NoConn ~ 8600 13350
 NoConn ~ 8600 13450
 NoConn ~ 8600 13550
-NoConn ~ 9600 10650
 NoConn ~ 9600 10950
 NoConn ~ 9600 11050
 NoConn ~ 9600 11150
@@ -1337,4 +1322,23 @@ NoConn ~ 22300 12300
 NoConn ~ 22300 12200
 NoConn ~ 22300 12000
 NoConn ~ 22300 11900
+Text Label 2900 10300 0    60   ~ 0
+GND
+$Comp
+L Archon-connector-modules-Heater J2
+U 1 1 5790BF23
+P 1550 13200
+F 0 "J2" H 1750 13330 45  0000 L BNN
+F 1 "Archon-connector-modules-Heater" H 1650 10100 45  0000 L BNN
+F 2 "samtec:ERM8-0030-XX.X-X-DV" H 2200 13450 39  0001 C TNN
+F 3 "" H 1550 13200 60  0000 C CNN
+	1    1550 13200
+	1    0    0    1   
+$EndComp
+Text Label 1550 10300 2    60   ~ 0
+GND
+Text Label 8600 10650 2    60   ~ 0
+GND
+Text Label 9600 10650 0    60   ~ 0
+GND
 $EndSCHEMATC

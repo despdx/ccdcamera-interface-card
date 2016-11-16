@@ -402,10 +402,6 @@ Text GLabel 18350 9100 0    60   Input ~ 0
 HV9_8
 Text GLabel 10200 9100 0    60   Input ~ 0
 HV9_7
-Text GLabel 4250 6600 0    60   Input ~ 0
-LV4_7
-Text GLabel 4250 6700 0    60   Input ~ 0
-LV4_8
 $Comp
 L CONN_02X02 P1
 U 1 1 57B547B3
@@ -640,7 +636,6 @@ NoConn ~ 4250 6200
 NoConn ~ 4250 6500
 NoConn ~ 4250 6800
 NoConn ~ 4250 7100
-NoConn ~ 4250 7200
 NoConn ~ 4250 7300
 NoConn ~ 4250 7400
 NoConn ~ 4250 7600
@@ -663,8 +658,6 @@ NoConn ~ 5250 6800
 NoConn ~ 5250 6900
 NoConn ~ 5250 7000
 NoConn ~ 5250 7100
-NoConn ~ 5250 7200
-NoConn ~ 5250 7300
 NoConn ~ 5250 7400
 NoConn ~ 5250 7600
 NoConn ~ 5250 7800
@@ -868,10 +861,6 @@ Text Notes 29700 7300 0    60   ~ 0
 DVI Spare Pinouts
 Text GLabel 29300 14050 2    60   Input ~ 0
 LV4_30
-Text GLabel 4250 7700 0    60   Input ~ 0
-LV4_26
-Text GLabel 4250 7500 0    60   Input ~ 0
-LV4_25
 $Comp
 L JUMPER JP1
 U 1 1 57C6B93E
@@ -999,16 +988,8 @@ HV9_25
 NoConn ~ 5250 8100
 Text GLabel 10200 10400 0    60   Input ~ 0
 HV9_28
-NoConn ~ 4250 7000
-Text GLabel 5250 5700 2    60   Input ~ 0
-LV4_13
-Text GLabel 5250 5800 2    60   Input ~ 0
-LV4_14
-Text GLabel 4250 6900 0    60   Input ~ 0
-LV4_9
 NoConn ~ 4250 6400
 NoConn ~ 4250 7900
-NoConn ~ 4250 6300
 NoConn ~ 12300 2900
 NoConn ~ 12300 3000
 NoConn ~ 12300 3200
@@ -1103,15 +1084,15 @@ Wire Wire Line
 Wire Wire Line
 	11250 9700 10200 9700
 Wire Wire Line
-	2800 9800 11250 9800
+	3550 9800 11250 9800
 Wire Wire Line
 	11250 9900 10200 9900
 Wire Wire Line
-	2950 10000 11250 10000
+	3500 10000 11250 10000
 Wire Wire Line
-	3100 10100 11250 10100
+	3450 10100 11250 10100
 Wire Wire Line
-	3200 10200 11250 10200
+	3400 10200 11250 10200
 Wire Wire Line
 	3300 10300 11250 10300
 Wire Wire Line
@@ -1318,25 +1299,15 @@ Wire Notes Line
 Wire Notes Line
 	25650 1200 25650 5900
 Wire Wire Line
-	2800 5700 4250 5700
+	3550 7200 3550 9800
 Wire Wire Line
-	2800 5700 2800 9800
+	3500 7000 3500 10000
 Wire Wire Line
-	4250 5800 2950 5800
+	3450 6900 3450 10100
 Wire Wire Line
-	2950 5800 2950 10000
+	3400 10200 3400 6700
 Wire Wire Line
-	3100 6000 3100 10100
-Wire Wire Line
-	4250 6000 3100 6000
-Wire Wire Line
-	3200 10200 3200 6100
-Wire Wire Line
-	3200 6100 4250 6100
-Wire Wire Line
-	4250 6300 3300 6300
-Wire Wire Line
-	3300 6300 3300 10300
+	3300 6600 3300 10300
 Text Label 18950 10000 2    60   ~ 0
 GainSW2_R
 Wire Wire Line
@@ -1383,4 +1354,25 @@ Wire Wire Line
 	5650 7300 5250 7300
 Wire Wire Line
 	5650 7300 5650 11400
+Wire Wire Line
+	4250 6600 3300 6600
+Wire Wire Line
+	3400 6700 4250 6700
+Wire Wire Line
+	3450 6900 4250 6900
+Wire Wire Line
+	3500 7000 4250 7000
+Wire Wire Line
+	3550 7200 4250 7200
+NoConn ~ 4250 5700
+NoConn ~ 4250 5800
+NoConn ~ 4250 6000
+NoConn ~ 4250 6100
+NoConn ~ 4250 6300
+NoConn ~ 4250 7500
+NoConn ~ 4250 7700
+Text GLabel 5250 5800 2    60   Input ~ 0
+LV4_14
+Text GLabel 5250 5700 2    60   Input ~ 0
+LV4_13
 $EndSCHEMATC

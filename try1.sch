@@ -368,28 +368,6 @@ Text Label 12350 3100 0    60   ~ 0
 OUT_UR_GND
 Text GLabel 6000 2300 0    60   Input ~ 0
 HV9_5
-Text GLabel 6000 2400 0    60   Input ~ 0
-HV9_6
-Text GLabel 6000 2600 0    60   Input ~ 0
-HV9_7
-Text GLabel 6000 2700 0    60   Input ~ 0
-HV9_8
-Text GLabel 6000 2000 0    60   Input ~ 0
-HV9_3
-Text GLabel 6000 2100 0    60   Input ~ 0
-HV9_4
-Text GLabel 6000 1700 0    60   Input ~ 0
-HV9_1
-Text GLabel 6000 1800 0    60   Input ~ 0
-HV9_2
-Text GLabel 10200 9300 0    60   Input ~ 0
-HV9_1
-Text GLabel 10200 9600 0    60   Input ~ 0
-HV9_3
-Text GLabel 10200 9700 0    60   Input ~ 0
-HV9_5
-Text GLabel 10200 9900 0    60   Input ~ 0
-HV9_5
 Text GLabel 18350 9300 0    60   Input ~ 0
 HV9_2
 Text GLabel 18350 9600 0    60   Input ~ 0
@@ -400,8 +378,6 @@ Text GLabel 18350 9900 0    60   Input ~ 0
 HV9_6
 Text GLabel 18350 9100 0    60   Input ~ 0
 HV9_8
-Text GLabel 10200 9100 0    60   Input ~ 0
-HV9_7
 $Comp
 L CONN_02X02 P1
 U 1 1 57B547B3
@@ -965,8 +941,6 @@ Text GLabel 28550 14050 0    60   Input ~ 0
 LED_+15V
 Text GLabel 28550 13850 0    60   Input ~ 0
 LED_PWR
-Text GLabel 6000 3500 0    60   Input ~ 0
-HV9_25
 Text GLabel 6900 3500 2    60   Input ~ 0
 HV9_28
 Text GLabel 6900 3700 2    60   Input ~ 0
@@ -984,8 +958,6 @@ HV9_29
 Text GLabel 18350 10400 0    60   Input ~ 0
 HV9_25
 NoConn ~ 5250 8100
-Text GLabel 10200 10400 0    60   Input ~ 0
-HV9_28
 NoConn ~ 4250 6400
 NoConn ~ 4250 7900
 NoConn ~ 15950 2700
@@ -1068,23 +1040,23 @@ Wire Wire Line
 Wire Wire Line
 	11250 9000 10200 9000
 Wire Wire Line
-	11250 9100 10200 9100
+	6500 9100 11250 9100
 Wire Wire Line
 	9650 9200 11250 9200
 Wire Wire Line
-	11250 9300 10200 9300
+	6550 9300 11250 9300
 Wire Wire Line
 	11250 9400 10200 9400
 Wire Wire Line
 	11250 9500 10200 9500
 Wire Wire Line
-	11250 9600 10200 9600
+	6600 9600 11250 9600
 Wire Wire Line
-	11250 9700 10200 9700
+	6650 9700 11250 9700
 Wire Wire Line
 	3550 9800 11250 9800
 Wire Wire Line
-	11250 9900 10200 9900
+	6700 9900 11250 9900
 Wire Wire Line
 	3500 10000 11250 10000
 Wire Wire Line
@@ -1094,7 +1066,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 10300 11250 10300
 Wire Wire Line
-	11250 10400 10200 10400
+	6750 10400 11250 10400
 Wire Wire Line
 	19050 6900 18950 6900
 Wire Wire Line
@@ -1376,4 +1348,66 @@ Wire Wire Line
 Wire Wire Line
 	22850 6450 22850 12200
 NoConn ~ 17150 5550
+Wire Wire Line
+	6000 2400 5500 2400
+Wire Wire Line
+	5500 2400 5500 5250
+Wire Wire Line
+	5500 5250 6500 5250
+Wire Wire Line
+	6500 5250 6500 9100
+Wire Wire Line
+	6000 2600 5550 2600
+Wire Wire Line
+	5550 2600 5550 5200
+Wire Wire Line
+	5550 5200 6550 5200
+Wire Wire Line
+	6550 5200 6550 9300
+Wire Wire Line
+	6000 2700 5600 2700
+Wire Wire Line
+	5600 2700 5600 5150
+Wire Wire Line
+	5600 5150 6600 5150
+Wire Wire Line
+	6600 5150 6600 9600
+Wire Wire Line
+	6000 2900 5650 2900
+Wire Wire Line
+	5650 2900 5650 5100
+Wire Wire Line
+	5650 5100 6650 5100
+Wire Wire Line
+	6650 5100 6650 9700
+Wire Wire Line
+	6000 3000 5700 3000
+Wire Wire Line
+	5700 3000 5700 5050
+Wire Wire Line
+	5700 5050 6700 5050
+Wire Wire Line
+	6700 5050 6700 9900
+Wire Wire Line
+	6000 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 5000
+Wire Wire Line
+	5750 5000 6750 5000
+Wire Wire Line
+	6750 5000 6750 10400
+NoConn ~ 6000 3500
+NoConn ~ 6000 1700
+NoConn ~ 6000 1800
+NoConn ~ 6000 2000
+NoConn ~ 6000 2100
+NoConn ~ 6000 2300
+Text GLabel 6000 2100 0    60   Input ~ 0
+HV9_4
+Text GLabel 6000 2000 0    60   Input ~ 0
+HV9_3
+Text GLabel 6000 1800 0    60   Input ~ 0
+HV9_2
+Text GLabel 6000 1700 0    60   Input ~ 0
+HV9_1
 $EndSCHEMATC

@@ -1034,39 +1034,7 @@ Text GLabel 3500 4350 2    60   Input ~ 0
 HV9_29
 Text GLabel 18500 6550 0    60   Input ~ 0
 HV9_25
-Text Label 1550 12100 2    60   ~ 0
-GND
-Text Label 2900 12100 0    60   ~ 0
-GND
-Text Label 8000 2700 2    60   ~ 0
-GND
 NoConn ~ 9600 13150
-Text Label 8900 2700 0    60   ~ 0
-GND
-Text Label 9600 13050 0    60   ~ 0
-GND
-Text Label 8600 13050 2    60   ~ 0
-GND
-Text Label 12600 13450 0    60   ~ 0
-GND
-Text Label 11550 13450 2    60   ~ 0
-GND
-Text Label 16200 13450 0    60   ~ 0
-GND
-Text Label 15150 13450 2    60   ~ 0
-GND
-Text Label 23200 13100 0    60   ~ 0
-GND
-Text Label 22300 13100 2    60   ~ 0
-GND
-Text Label 14500 2700 0    60   ~ 0
-GND
-Text Label 13600 2700 2    60   ~ 0
-GND
-Text Label 17300 2700 0    60   ~ 0
-GND
-Text Label 16400 2700 2    60   ~ 0
-GND
 Text GLabel 18500 6450 0    60   Input ~ 0
 LV4_25
 Text GLabel 10350 6550 0    60   Input ~ 0
@@ -1395,4 +1363,18 @@ Wire Notes Line
 	25150 8400 32450 8400
 Wire Notes Line
 	32450 8400 32450 3350
+NoConn ~ 23200 13100
+NoConn ~ 22300 13100
+NoConn ~ 16200 13450
+NoConn ~ 15150 13450
+NoConn ~ 12600 13450
+NoConn ~ 11550 13450
+NoConn ~ 2900 12100
+NoConn ~ 1550 12100
+NoConn ~ 13600 2700
+NoConn ~ 14500 2700
+NoConn ~ 16400 2700
+NoConn ~ 17300 2700
+NoConn ~ 8900 2700
+NoConn ~ 8000 2700
 $EndSCHEMATC

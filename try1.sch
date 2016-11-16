@@ -50,28 +50,28 @@ $EndDescr
 $Comp
 L DB37 J22
 U 1 1 5786DE58
-P 13600 4450
-F 0 "J22" H 13700 6350 50  0000 C CNN
-F 1 "DB37" H 13550 2500 50  0000 C CNN
-F 2 "Connect:DB37FD" H 13450 2350 50  0000 C CNN
-F 3 "" H 13600 4450 50  0000 C CNN
-	1    13600 4450
+P 11850 4750
+F 0 "J22" H 11950 6650 50  0000 C CNN
+F 1 "DB37" H 11800 2800 50  0000 C CNN
+F 2 "Connect:DB37FD" H 11700 2650 50  0000 C CNN
+F 3 "" H 11850 4750 50  0000 C CNN
+	1    11850 4750
 	1    0    0    1   
 $EndComp
 $Comp
 L DB37 J21
 U 1 1 5786DFD2
-P 16400 4450
-F 0 "J21" H 16500 6350 50  0000 C CNN
-F 1 "DB37" H 16350 2500 50  0000 C CNN
-F 2 "Connect:DB37FD" H 16250 2350 50  0000 C CNN
-F 3 "" H 16400 4450 50  0000 C CNN
-	1    16400 4450
+P 19650 4750
+F 0 "J21" H 19750 6650 50  0000 C CNN
+F 1 "DB37" H 19600 2800 50  0000 C CNN
+F 2 "Connect:DB37FD" H 19500 2650 50  0000 C CNN
+F 3 "" H 19650 4750 50  0000 C CNN
+	1    19650 4750
 	1    0    0    1   
 $EndComp
 Text Notes 2000 13650 0    60   ~ 0
 Heater\nMOD2
-Text Notes 10050 2850 0    60   ~ 0
+Text Notes 8300 3150 0    60   ~ 0
 Driver\nMOD3
 Text Notes 8950 14000 0    60   ~ 0
 LVBias\nMOD4
@@ -85,19 +85,19 @@ Text Notes 19400 13900 0    60   ~ 0
 ADC\nMOD8
 Text Notes 22600 13950 0    60   ~ 0
 HVBias\nMOD9
-Text Notes 26150 13800 0    60   ~ 0
+Text Notes 13850 3150 0    60   ~ 0
 Driver\nMOD10
-Text Notes 29050 13800 0    60   ~ 0
+Text Notes 16750 3150 0    60   ~ 0
 Driver\nMOD11
 $Comp
 L Archon-connector-modules-Driver J3
 U 1 1 5790C1E7
-P 9750 2400
-F 0 "J3" H 9950 2530 45  0000 L BNN
-F 1 "Archon-connector-modules-Driver" H 9700 1000 45  0000 L BNN
-F 2 "samtec:ERM8-013-XX.X-X-DV" H 10200 2650 39  0001 C CNN
-F 3 "" H 9750 2400 60  0000 C CNN
-	1    9750 2400
+P 8000 2700
+F 0 "J3" H 8200 2830 45  0000 L BNN
+F 1 "Archon-connector-modules-Driver" H 7950 1300 45  0000 L BNN
+F 2 "samtec:ERM8-013-XX.X-X-DV" H 8450 2950 39  0001 C CNN
+F 3 "" H 8000 2700 60  0000 C CNN
+	1    8000 2700
 	1    0    0    1   
 $EndComp
 $Comp
@@ -169,133 +169,133 @@ $EndComp
 $Comp
 L Archon-connector-modules-Driver J10
 U 1 1 5790CFD6
-P 25900 13350
-F 0 "J10" H 26100 13480 45  0000 L BNN
-F 1 "Archon-connector-modules-Driver" H 25850 11950 45  0000 L BNN
-F 2 "samtec:ERM8-013-XX.X-X-DV" H 26350 13600 39  0001 C CNN
-F 3 "" H 25900 13350 60  0000 C CNN
-	1    25900 13350
+P 13600 2700
+F 0 "J10" H 13800 2830 45  0000 L BNN
+F 1 "Archon-connector-modules-Driver" H 13550 1300 45  0000 L BNN
+F 2 "samtec:ERM8-013-XX.X-X-DV" H 14050 2950 39  0001 C CNN
+F 3 "" H 13600 2700 60  0000 C CNN
+	1    13600 2700
 	1    0    0    1   
 $EndComp
 $Comp
 L Archon-connector-modules-Driver J11
 U 1 1 5790D085
-P 28700 13350
-F 0 "J11" H 28900 13480 45  0000 L BNN
-F 1 "Archon-connector-modules-Driver" H 28650 11950 45  0000 L BNN
-F 2 "samtec:ERM8-013-XX.X-X-DV" H 29150 13600 39  0001 C CNN
-F 3 "" H 28700 13350 60  0000 C CNN
-	1    28700 13350
+P 16400 2700
+F 0 "J11" H 16600 2830 45  0000 L BNN
+F 1 "Archon-connector-modules-Driver" H 16350 1300 45  0000 L BNN
+F 2 "samtec:ERM8-013-XX.X-X-DV" H 16850 2950 39  0001 C CNN
+F 3 "" H 16400 2700 60  0000 C CNN
+	1    16400 2700
 	1    0    0    1   
 $EndComp
-Text Label 15850 2650 2    60   ~ 0
+Text Label 19100 2950 2    60   ~ 0
 OUT_LR
-Text Label 13000 2650 2    60   ~ 0
+Text Label 11250 2950 2    60   ~ 0
 OUT_UL
-Text Label 13000 2750 2    60   ~ 0
+Text Label 11250 3050 2    60   ~ 0
 OUT_UL_GND
-Text Label 13000 2850 2    60   ~ 0
+Text Label 11250 3150 2    60   ~ 0
 OUT_LL
-Text Label 13000 3250 2    60   ~ 0
+Text Label 11250 3550 2    60   ~ 0
 S3Y
-Text Label 13000 3450 2    60   ~ 0
+Text Label 11250 3750 2    60   ~ 0
 S2Y
-Text Label 13000 3650 2    60   ~ 0
+Text Label 11250 3950 2    60   ~ 0
 S1Y
-Text Label 13000 3850 2    60   ~ 0
+Text Label 11250 4150 2    60   ~ 0
 SWY
-Text Label 13000 4050 2    60   ~ 0
+Text Label 11250 4350 2    60   ~ 0
 TGY
-NoConn ~ 15950 4550
-Text Label 13000 4250 2    60   ~ 0
+NoConn ~ 19200 4850
+Text Label 11250 4550 2    60   ~ 0
 P3Y
-Text Label 13000 4450 2    60   ~ 0
+Text Label 11250 4750 2    60   ~ 0
 P2Y
-Text Label 13000 4650 2    60   ~ 0
+Text Label 11250 4950 2    60   ~ 0
 P1Y
-Text Label 13000 4850 2    60   ~ 0
+Text Label 11250 5150 2    60   ~ 0
 Samplel_L
-Text Label 13000 4950 2    60   ~ 0
+Text Label 11250 5250 2    60   ~ 0
 ResetHI_L
-Text Label 13000 5050 2    60   ~ 0
+Text Label 11250 5350 2    60   ~ 0
 ~ResetLog_L
-Text Label 13000 5150 2    60   ~ 0
+Text Label 11250 5450 2    60   ~ 0
 VDD_B
-Text Label 13000 5250 2    60   ~ 0
+Text Label 11250 5550 2    60   ~ 0
 Spare_3
-Text Label 13000 5350 2    60   ~ 0
+Text Label 11250 5650 2    60   ~ 0
 Spare_2
-Text Label 13000 5450 2    60   ~ 0
+Text Label 11250 5750 2    60   ~ 0
 VRD2_L
-Text Label 13000 5550 2    60   ~ 0
+Text Label 11250 5850 2    60   ~ 0
 VDD_D
-Text Label 13000 5650 2    60   ~ 0
+Text Label 11250 5950 2    60   ~ 0
 VLg_L
-Text Label 13000 5750 2    60   ~ 0
+Text Label 11250 6050 2    60   ~ 0
 VRD1_L
-Text Label 13000 5850 2    60   ~ 0
+Text Label 11250 6150 2    60   ~ 0
 GainSW2_L
-Text Label 13000 5950 2    60   ~ 0
+Text Label 11250 6250 2    60   ~ 0
 ResetLO_L
-Text Label 13000 6050 2    60   ~ 0
+Text Label 11250 6350 2    60   ~ 0
 +15V_L
-Text Label 13000 6150 2    60   ~ 0
+Text Label 11250 6450 2    60   ~ 0
 -15V_L
-Text Label 13000 6250 2    60   ~ 0
+Text Label 11250 6550 2    60   ~ 0
 +5V_L
-NoConn ~ 15950 4350
-NoConn ~ 15950 4750
-Text Label 15850 2750 2    60   ~ 0
+NoConn ~ 19200 4650
+NoConn ~ 19200 5050
+Text Label 19100 3050 2    60   ~ 0
 OUT_LR_GND
-Text Label 15850 2850 2    60   ~ 0
+Text Label 19100 3150 2    60   ~ 0
 OUT_UR
-Text Label 15850 2950 2    60   ~ 0
+Text Label 19100 3250 2    60   ~ 0
 OUT_UR_GND
-Text Label 15850 3250 2    60   ~ 0
+Text Label 19100 3550 2    60   ~ 0
 S3X
-Text Label 15850 3450 2    60   ~ 0
+Text Label 19100 3750 2    60   ~ 0
 S2X
-Text Label 15850 3650 2    60   ~ 0
+Text Label 19100 3950 2    60   ~ 0
 S1X
-Text Label 15850 3850 2    60   ~ 0
+Text Label 19100 4150 2    60   ~ 0
 SWX
-Text Label 15850 4050 2    60   ~ 0
+Text Label 19100 4350 2    60   ~ 0
 P1X
-Text Label 15850 4250 2    60   ~ 0
+Text Label 19100 4550 2    60   ~ 0
 P2X
-Text Label 15850 4450 2    60   ~ 0
+Text Label 19100 4750 2    60   ~ 0
 P3X
-Text Label 15850 4650 2    60   ~ 0
+Text Label 19100 4950 2    60   ~ 0
 TGX
-Text Label 15850 4850 2    60   ~ 0
+Text Label 19100 5150 2    60   ~ 0
 Sample_R
-Text Label 15850 4950 2    60   ~ 0
+Text Label 19100 5250 2    60   ~ 0
 ResetHI_R
-Text Label 15850 5050 2    60   ~ 0
+Text Label 19100 5350 2    60   ~ 0
 ~ResetLog_R
-Text Label 15850 5150 2    60   ~ 0
+Text Label 19100 5450 2    60   ~ 0
 VDD_A
-Text Label 15850 5250 2    60   ~ 0
+Text Label 19100 5550 2    60   ~ 0
 Spare_1
-Text Label 15850 5350 2    60   ~ 0
+Text Label 19100 5650 2    60   ~ 0
 Spare_4
-Text Label 15850 5450 2    60   ~ 0
+Text Label 19100 5750 2    60   ~ 0
 VRD2_R
-Text Label 15850 5550 2    60   ~ 0
+Text Label 19100 5850 2    60   ~ 0
 VDD_C
-Text Label 15850 5650 2    60   ~ 0
+Text Label 19100 5950 2    60   ~ 0
 VLg_R
-Text Label 15850 5750 2    60   ~ 0
+Text Label 19100 6050 2    60   ~ 0
 VRD1_R
-Text Label 15850 5850 2    60   ~ 0
+Text Label 19100 6150 2    60   ~ 0
 GainSW2_R
-Text Label 15850 5950 2    60   ~ 0
+Text Label 19100 6250 2    60   ~ 0
 ResetLO_R
-Text Label 15850 6050 2    60   ~ 0
+Text Label 19100 6350 2    60   ~ 0
 +15V_R
-Text Label 15850 6150 2    60   ~ 0
+Text Label 19100 6450 2    60   ~ 0
 -15V_R
-Text Label 15850 6250 2    60   ~ 0
+Text Label 19100 6550 2    60   ~ 0
 +5V_R
 NoConn ~ 23200 13200
 NoConn ~ 23200 13300
@@ -315,41 +315,41 @@ NoConn ~ 2900 12300
 NoConn ~ 2900 12400
 NoConn ~ 2900 12500
 NoConn ~ 2900 12600
-NoConn ~ 15950 4150
-NoConn ~ 13150 4750
-NoConn ~ 13150 4550
-NoConn ~ 13150 4350
-NoConn ~ 13150 4150
-Text Notes 13450 6650 2    60   ~ 0
+NoConn ~ 19200 4450
+NoConn ~ 11400 5050
+NoConn ~ 11400 4850
+NoConn ~ 11400 4650
+NoConn ~ 11400 4450
+Text Notes 11700 6950 2    60   ~ 0
 CONN_Y
-Text Notes 16350 6650 2    60   ~ 0
+Text Notes 19600 6950 2    60   ~ 0
 CONN_X
 $Comp
 L DB9 J31
 U 1 1 57922AB6
-P 4450 4200
-F 0 "J31" H 4450 4750 50  0000 C CNN
-F 1 "DB9" H 4450 3650 50  0000 C CNN
-F 2 "Connect:DB9MD" H 4450 4200 50  0000 C CNN
-F 3 "" H 4450 4200 50  0000 C CNN
-	1    4450 4200
+P 3100 2900
+F 0 "J31" H 3100 3450 50  0000 C CNN
+F 1 "DB9" H 3100 2350 50  0000 C CNN
+F 2 "Connect:DB9MD" H 3100 2900 50  0000 C CNN
+F 3 "" H 3100 2900 50  0000 C CNN
+	1    3100 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 4100 5250 0    60   ~ 0
+Text Notes 2750 3950 0    60   ~ 0
 LED/Projector\n(unnamed DB9 - Shutter Control)
-Text Notes 23300 6150 0    60   ~ 0
+Text Notes 29450 7700 0    60   ~ 0
 Heater
-Text Notes 23300 6350 0    60   ~ 0
+Text Notes 29450 7900 0    60   ~ 0
 Radiation Shield
 $Comp
 L CONN_DVI J41
 U 1 1 579AEE72
-P 23500 4850
-F 0 "J41" H 23100 5800 50  0000 C CNN
-F 1 "CONN_DVI" H 23500 3900 50  0000 C CNN
-F 2 "ccdcamera:MOLEX_DVI_29pin_PN743203000" H 23500 3800 50  0001 C CNN
-F 3 "DOCUMENTATION" H 23550 3700 50  0001 C CNN
-	1    23500 4850
+P 29650 6400
+F 0 "J41" H 29250 7350 50  0000 C CNN
+F 1 "CONN_DVI" H 29650 5450 50  0000 C CNN
+F 2 "ccdcamera:MOLEX_DVI_29pin_PN743203000" H 29650 5350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 29700 5250 50  0001 C CNN
+	1    29650 6400
 	1    0    0    -1  
 $EndComp
 Text Label 12600 12950 0    60   ~ 0
@@ -368,9 +368,9 @@ Text Label 12600 13350 0    60   ~ 0
 OUT_LL_GND
 Text Label 12600 12750 0    60   ~ 0
 OUT_UR_GND
-Text GLabel 26800 12350 2    60   Input ~ 0
+Text GLabel 14500 1700 2    60   Input ~ 0
 DRV10_CH1
-Text GLabel 25900 12250 0    60   Input ~ 0
+Text GLabel 13600 1600 0    60   Input ~ 0
 DRV10_CH2
 Text GLabel 22300 11300 0    60   Input ~ 0
 HV9_5
@@ -388,25 +388,25 @@ Text GLabel 22300 10700 0    60   Input ~ 0
 HV9_1
 Text GLabel 22300 10800 0    60   Input ~ 0
 HV9_2
-Text GLabel 12100 5150 0    60   Input ~ 0
+Text GLabel 10350 5450 0    60   Input ~ 0
 HV9_1
-Text GLabel 12100 5450 0    60   Input ~ 0
+Text GLabel 10350 5750 0    60   Input ~ 0
 HV9_3
-Text GLabel 12100 5550 0    60   Input ~ 0
+Text GLabel 10350 5850 0    60   Input ~ 0
 HV9_5
-Text GLabel 12100 5750 0    60   Input ~ 0
+Text GLabel 10350 6050 0    60   Input ~ 0
 HV9_5
-Text GLabel 15250 5150 0    60   Input ~ 0
+Text GLabel 18500 5450 0    60   Input ~ 0
 HV9_2
-Text GLabel 15250 5450 0    60   Input ~ 0
+Text GLabel 18500 5750 0    60   Input ~ 0
 HV9_4
-Text GLabel 15250 5550 0    60   Input ~ 0
+Text GLabel 18500 5850 0    60   Input ~ 0
 HV9_6
-Text GLabel 15250 5750 0    60   Input ~ 0
+Text GLabel 18500 6050 0    60   Input ~ 0
 HV9_6
-Text GLabel 15250 4950 0    60   Input ~ 0
+Text GLabel 18500 5250 0    60   Input ~ 0
 HV9_8
-Text GLabel 12100 4950 0    60   Input ~ 0
+Text GLabel 10350 5250 0    60   Input ~ 0
 HV9_7
 Text GLabel 8600 10750 0    60   Input ~ 0
 LV4_1
@@ -420,23 +420,23 @@ Text GLabel 8600 11650 0    60   Input ~ 0
 LV4_7
 Text GLabel 8600 11750 0    60   Input ~ 0
 LV4_8
-Text GLabel 12100 5650 0    60   Input ~ 0
+Text GLabel 10350 5950 0    60   Input ~ 0
 LV4_1
-Text GLabel 15250 5650 0    60   Input ~ 0
+Text GLabel 18500 5950 0    60   Input ~ 0
 LV4_2
-Text GLabel 12100 5950 0    60   Input ~ 0
+Text GLabel 10350 6250 0    60   Input ~ 0
 LV4_13
-Text GLabel 15250 5950 0    60   Input ~ 0
+Text GLabel 18500 6250 0    60   Input ~ 0
 LV4_14
 $Comp
 L CONN_02X02 P1
 U 1 1 57B547B3
-P 20850 4650
-F 0 "P1" H 20850 4800 50  0000 C CNN
-F 1 "CONN_02X02" H 20850 4500 50  0000 C CNN
-F 2 "molex_MiniFiT-JR_5556:Molex_MiniFit-JR-5556-04A_2x02x4.20mm_Straight" H 20850 3450 50  0000 C CNN
-F 3 "" H 20850 3450 50  0000 C CNN
-	1    20850 4650
+P 27000 6200
+F 0 "P1" H 27000 6350 50  0000 C CNN
+F 1 "CONN_02X02" H 27000 6050 50  0000 C CNN
+F 2 "molex_MiniFiT-JR_5556:Molex_MiniFit-JR-5556-04A_2x02x4.20mm_Straight" H 27000 5000 50  0000 C CNN
+F 3 "" H 27000 5000 50  0000 C CNN
+	1    27000 6200
 	1    0    0    -1  
 $EndComp
 Text GLabel 2900 10400 2    60   Input ~ 0
@@ -463,152 +463,152 @@ Text GLabel 2900 11300 2    60   Input ~ 0
 HEATER1_TEMPA_SP
 Text GLabel 2900 11400 2    60   Input ~ 0
 HEATER1_TEMPA_SN
-Text GLabel 20600 4600 0    60   Input ~ 0
+Text GLabel 26750 6150 0    60   Input ~ 0
 HEATER1_AP
-Text GLabel 20600 4700 0    60   Input ~ 0
+Text GLabel 26750 6250 0    60   Input ~ 0
 HEATER1_AN
-Text GLabel 21100 4600 2    60   Input ~ 0
+Text GLabel 27250 6150 2    60   Input ~ 0
 HEATER1_BP
-Text GLabel 21100 4700 2    60   Input ~ 0
+Text GLabel 27250 6250 2    60   Input ~ 0
 HEATER1_BN
-Text GLabel 22750 4150 0    60   Input ~ 0
+Text GLabel 28900 5700 0    60   Input ~ 0
 HEATER1_TEMPA_FN
-Text GLabel 22750 4250 0    60   Input ~ 0
+Text GLabel 28900 5800 0    60   Input ~ 0
 HEATER1_TEMPA_FP
-Text GLabel 22750 4450 0    60   Input ~ 0
+Text GLabel 28900 6000 0    60   Input ~ 0
 HEATER1_TEMPA_SN
-Text GLabel 22750 4550 0    60   Input ~ 0
+Text GLabel 28900 6100 0    60   Input ~ 0
 HEATER1_TEMPA_SP
-Text GLabel 24250 4250 2    60   Input ~ 0
+Text GLabel 30400 5800 2    60   Input ~ 0
 HEATER1_TEMPB_FN
-Text GLabel 24250 4350 2    60   Input ~ 0
+Text GLabel 30400 5900 2    60   Input ~ 0
 HEATER1_TEMPB_FP
-Text GLabel 24250 4550 2    60   Input ~ 0
+Text GLabel 30400 6100 2    60   Input ~ 0
 HEATER1_TEMPB_SN
-Text GLabel 24250 4650 2    60   Input ~ 0
+Text GLabel 30400 6200 2    60   Input ~ 0
 HEATER1_TEMPB_SP
 $Comp
 L TEST_1P W5
 U 1 1 57B5D36F
-P 22650 2500
-F 0 "W5" H 22650 2770 50  0000 C CNN
-F 1 "TEST_1P" H 22650 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 22850 2500 50  0001 C CNN
-F 3 "" H 22850 2500 50  0000 C CNN
-	1    22650 2500
+P 28800 4050
+F 0 "W5" H 28800 4320 50  0000 C CNN
+F 1 "TEST_1P" H 28800 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 29000 4050 50  0001 C CNN
+F 3 "" H 29000 4050 50  0000 C CNN
+	1    28800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W6
 U 1 1 57B5D617
-P 22950 2500
-F 0 "W6" H 22950 2770 50  0000 C CNN
-F 1 "TEST_1P" H 22950 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 23150 2500 50  0001 C CNN
-F 3 "" H 23150 2500 50  0000 C CNN
-	1    22950 2500
+P 29100 4050
+F 0 "W6" H 29100 4320 50  0000 C CNN
+F 1 "TEST_1P" H 29100 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 29300 4050 50  0001 C CNN
+F 3 "" H 29300 4050 50  0000 C CNN
+	1    29100 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W7
 U 1 1 57B5D666
-P 23250 2500
-F 0 "W7" H 23250 2770 50  0000 C CNN
-F 1 "TEST_1P" H 23250 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 23450 2500 50  0001 C CNN
-F 3 "" H 23450 2500 50  0000 C CNN
-	1    23250 2500
+P 29400 4050
+F 0 "W7" H 29400 4320 50  0000 C CNN
+F 1 "TEST_1P" H 29400 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 29600 4050 50  0001 C CNN
+F 3 "" H 29600 4050 50  0000 C CNN
+	1    29400 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W8
 U 1 1 57B5D69D
-P 23550 2500
-F 0 "W8" H 23550 2770 50  0000 C CNN
-F 1 "TEST_1P" H 23550 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 23750 2500 50  0001 C CNN
-F 3 "" H 23750 2500 50  0000 C CNN
-	1    23550 2500
+P 29700 4050
+F 0 "W8" H 29700 4320 50  0000 C CNN
+F 1 "TEST_1P" H 29700 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 29900 4050 50  0001 C CNN
+F 3 "" H 29900 4050 50  0000 C CNN
+	1    29700 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W9
 U 1 1 57B5D6ED
-P 23850 2500
-F 0 "W9" H 23850 2770 50  0000 C CNN
-F 1 "TEST_1P" H 23850 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 24050 2500 50  0001 C CNN
-F 3 "" H 24050 2500 50  0000 C CNN
-	1    23850 2500
+P 30000 4050
+F 0 "W9" H 30000 4320 50  0000 C CNN
+F 1 "TEST_1P" H 30000 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 30200 4050 50  0001 C CNN
+F 3 "" H 30200 4050 50  0000 C CNN
+	1    30000 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W10
 U 1 1 57B5D728
-P 24150 2500
-F 0 "W10" H 24150 2770 50  0000 C CNN
-F 1 "TEST_1P" H 24150 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 24350 2500 50  0001 C CNN
-F 3 "" H 24350 2500 50  0000 C CNN
-	1    24150 2500
+P 30300 4050
+F 0 "W10" H 30300 4320 50  0000 C CNN
+F 1 "TEST_1P" H 30300 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 30500 4050 50  0001 C CNN
+F 3 "" H 30500 4050 50  0000 C CNN
+	1    30300 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 22750 4950 0    60   Input ~ 0
+Text GLabel 28900 6500 0    60   Input ~ 0
 DVI_P9_SPARET1
-Text GLabel 22750 5050 0    60   Input ~ 0
+Text GLabel 28900 6600 0    60   Input ~ 0
 DVI_P9_SPARET2
-Text GLabel 22750 5250 0    60   Input ~ 0
+Text GLabel 28900 6800 0    60   Input ~ 0
 DVI_P9_SPARET3
-Text GLabel 22750 5350 0    60   Input ~ 0
+Text GLabel 28900 6900 0    60   Input ~ 0
 DVI_P9_SPARET4
-Text GLabel 24250 4950 2    60   Input ~ 0
+Text GLabel 30400 6500 2    60   Input ~ 0
 DVI_P9_SPARET5
-Text GLabel 24250 4850 2    60   Input ~ 0
+Text GLabel 30400 6400 2    60   Input ~ 0
 DVI_P9_SPARET6
-Text GLabel 22650 2500 3    60   Input ~ 0
+Text GLabel 28800 4050 3    60   Input ~ 0
 DVI_P9_SPARET1
-Text GLabel 22950 2500 3    60   Input ~ 0
+Text GLabel 29100 4050 3    60   Input ~ 0
 DVI_P9_SPARET2
-Text GLabel 23250 2500 3    60   Input ~ 0
+Text GLabel 29400 4050 3    60   Input ~ 0
 DVI_P9_SPARET3
-Text GLabel 23550 2500 3    60   Input ~ 0
+Text GLabel 29700 4050 3    60   Input ~ 0
 DVI_P9_SPARET4
-Text GLabel 23850 2500 3    60   Input ~ 0
+Text GLabel 30000 4050 3    60   Input ~ 0
 DVI_P9_SPARET5
-Text GLabel 24150 2500 3    60   Input ~ 0
+Text GLabel 30300 4050 3    60   Input ~ 0
 DVI_P9_SPARET6
-Text Notes 23300 3900 0    60   ~ 0
+Text Notes 29450 5450 0    60   ~ 0
 SHIELD PINS:\n3,11,19,22\n(Connect to Dewar/Cold Finger Heater GND)
-NoConn ~ 22750 4350
-NoConn ~ 22750 5150
-NoConn ~ 24250 4450
-NoConn ~ 24250 4750
-NoConn ~ 24250 4150
-NoConn ~ 22750 4650
-NoConn ~ 22750 4850
-NoConn ~ 22750 4750
-NoConn ~ 22750 5450
-NoConn ~ 22750 5550
-NoConn ~ 24250 5050
-NoConn ~ 24250 5150
-NoConn ~ 24250 5250
-NoConn ~ 24250 5350
-NoConn ~ 24250 5450
-Text GLabel 4000 4500 0    60   Input ~ 0
+NoConn ~ 28900 5900
+NoConn ~ 28900 6700
+NoConn ~ 30400 6000
+NoConn ~ 30400 6300
+NoConn ~ 30400 5700
+NoConn ~ 28900 6200
+NoConn ~ 28900 6400
+NoConn ~ 28900 6300
+NoConn ~ 28900 7000
+NoConn ~ 28900 7100
+NoConn ~ 30400 6600
+NoConn ~ 30400 6700
+NoConn ~ 30400 6800
+NoConn ~ 30400 6900
+NoConn ~ 30400 7000
+Text GLabel 2650 3200 0    60   Input ~ 0
 SHUT_OUT
-Text GLabel 4000 4400 0    60   Input ~ 0
+Text GLabel 2650 3100 0    60   Input ~ 0
 LED_PWR
-Text GLabel 4000 4300 0    60   Input ~ 0
+Text GLabel 2650 3000 0    60   Input ~ 0
 SEL_LED_1
-Text GLabel 4000 4200 0    60   Input ~ 0
+Text GLabel 2650 2900 0    60   Input ~ 0
 LED_+5
-Text GLabel 4000 4100 0    60   Input ~ 0
+Text GLabel 2650 2800 0    60   Input ~ 0
 SEL_LED_2
-Text GLabel 4000 3900 0    60   Input ~ 0
+Text GLabel 2650 2600 0    60   Input ~ 0
 FLASH_V
-Text GLabel 4000 3800 0    60   Input ~ 0
+Text GLabel 2650 2500 0    60   Input ~ 0
 LED_+15V
-NoConn ~ 4000 4000
+NoConn ~ 2650 2700
 NoConn ~ 1550 10400
 NoConn ~ 1550 10500
 NoConn ~ 1550 10600
@@ -643,20 +643,20 @@ NoConn ~ 2900 11500
 NoConn ~ 2900 11700
 NoConn ~ 2900 11800
 NoConn ~ 2900 12000
-NoConn ~ 9750 1400
-NoConn ~ 9750 1500
-NoConn ~ 9750 1700
-NoConn ~ 9750 1800
-NoConn ~ 9750 2000
-NoConn ~ 9750 2100
-NoConn ~ 9750 2300
-NoConn ~ 10650 1300
-NoConn ~ 10650 1500
-NoConn ~ 10650 1600
-NoConn ~ 10650 1800
-NoConn ~ 10650 1900
-NoConn ~ 10650 2100
-NoConn ~ 10650 2200
+NoConn ~ 8000 1700
+NoConn ~ 8000 1800
+NoConn ~ 8000 2000
+NoConn ~ 8000 2100
+NoConn ~ 8000 2300
+NoConn ~ 8000 2400
+NoConn ~ 8000 2600
+NoConn ~ 8900 1600
+NoConn ~ 8900 1800
+NoConn ~ 8900 1900
+NoConn ~ 8900 2100
+NoConn ~ 8900 2200
+NoConn ~ 8900 2400
+NoConn ~ 8900 2500
 NoConn ~ 8600 10950
 NoConn ~ 8600 11250
 NoConn ~ 8600 11550
@@ -802,103 +802,103 @@ NoConn ~ 22300 12400
 NoConn ~ 22300 12600
 NoConn ~ 22300 12800
 NoConn ~ 22300 13000
-NoConn ~ 25900 12350
-NoConn ~ 25900 12450
-NoConn ~ 25900 12650
-NoConn ~ 25900 12750
-NoConn ~ 25900 12950
-NoConn ~ 25900 13050
-NoConn ~ 26800 12250
-NoConn ~ 26800 12450
-NoConn ~ 26800 12550
-NoConn ~ 26800 12750
-NoConn ~ 26800 12850
-NoConn ~ 26800 13150
-NoConn ~ 25900 13250
-NoConn ~ 28700 12350
-NoConn ~ 28700 12450
-NoConn ~ 28700 12650
-NoConn ~ 28700 12750
-NoConn ~ 28700 12950
-NoConn ~ 28700 13050
-NoConn ~ 28700 13250
-NoConn ~ 29600 12450
-NoConn ~ 29600 12550
-NoConn ~ 29600 12750
-NoConn ~ 29600 12850
-NoConn ~ 29600 13050
-NoConn ~ 29600 13150
+NoConn ~ 13600 1700
+NoConn ~ 13600 1800
+NoConn ~ 13600 2000
+NoConn ~ 13600 2100
+NoConn ~ 13600 2300
+NoConn ~ 13600 2400
+NoConn ~ 14500 1600
+NoConn ~ 14500 1800
+NoConn ~ 14500 1900
+NoConn ~ 14500 2100
+NoConn ~ 14500 2200
+NoConn ~ 14500 2500
+NoConn ~ 13600 2600
+NoConn ~ 16400 1700
+NoConn ~ 16400 1800
+NoConn ~ 16400 2000
+NoConn ~ 16400 2100
+NoConn ~ 16400 2300
+NoConn ~ 16400 2400
+NoConn ~ 16400 2600
+NoConn ~ 17300 1800
+NoConn ~ 17300 1900
+NoConn ~ 17300 2100
+NoConn ~ 17300 2200
+NoConn ~ 17300 2400
+NoConn ~ 17300 2500
 NoConn ~ 16200 12250
 NoConn ~ 16200 12550
 NoConn ~ 16200 12850
 NoConn ~ 16200 13150
-Text GLabel 15250 5850 0    60   Input ~ 0
+Text GLabel 18500 6150 0    60   Input ~ 0
 LV4_4
-Text GLabel 12100 5850 0    60   Input ~ 0
+Text GLabel 10350 6150 0    60   Input ~ 0
 LV4_3
 $Comp
 L TEST_1P W1
 U 1 1 57BED8F1
-P 12150 7800
-F 0 "W1" H 12150 8070 50  0000 C CNN
-F 1 "Spare1" H 12150 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 12350 7800 50  0001 C CNN
-F 3 "" H 12350 7800 50  0000 C CNN
-	1    12150 7800
+P 10400 8100
+F 0 "W1" H 10400 8370 50  0000 C CNN
+F 1 "Spare1" H 10400 8300 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 10600 8100 50  0001 C CNN
+F 3 "" H 10600 8100 50  0000 C CNN
+	1    10400 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W2
 U 1 1 57BEF217
-P 12450 7800
-F 0 "W2" H 12450 8070 50  0000 C CNN
-F 1 "Spare4" H 12450 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 12650 7800 50  0001 C CNN
-F 3 "" H 12650 7800 50  0000 C CNN
-	1    12450 7800
+P 10700 8100
+F 0 "W2" H 10700 8370 50  0000 C CNN
+F 1 "Spare4" H 10700 8300 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 10900 8100 50  0001 C CNN
+F 3 "" H 10900 8100 50  0000 C CNN
+	1    10700 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W4
 U 1 1 57BEF28B
-P 15950 7800
-F 0 "W4" H 15950 8070 50  0000 C CNN
-F 1 "Spare3" H 15950 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 16150 7800 50  0001 C CNN
-F 3 "" H 16150 7800 50  0000 C CNN
-	1    15950 7800
+P 19200 8100
+F 0 "W4" H 19200 8370 50  0000 C CNN
+F 1 "Spare3" H 19200 8300 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 19400 8100 50  0001 C CNN
+F 3 "" H 19400 8100 50  0000 C CNN
+	1    19200 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W3
 U 1 1 57BEF46D
-P 15600 7800
-F 0 "W3" H 15600 8070 50  0000 C CNN
-F 1 "Spare2" H 15600 8000 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 15800 7800 50  0001 C CNN
-F 3 "" H 15800 7800 50  0000 C CNN
-	1    15600 7800
+P 18850 8100
+F 0 "W3" H 18850 8370 50  0000 C CNN
+F 1 "Spare2" H 18850 8300 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 19050 8100 50  0001 C CNN
+F 3 "" H 19050 8100 50  0000 C CNN
+	1    18850 8100
 	1    0    0    -1  
 $EndComp
-Text Label 12150 7800 3    60   ~ 0
+Text Label 10400 8100 3    60   ~ 0
 Spare_1
-Text Label 12450 7800 3    60   ~ 0
+Text Label 10700 8100 3    60   ~ 0
 Spare_4
-Text Label 15600 7800 3    60   ~ 0
+Text Label 18850 8100 3    60   ~ 0
 Spare_2
-Text Label 15950 7800 3    60   ~ 0
+Text Label 19200 8100 3    60   ~ 0
 Spare_3
-Text Notes 5350 4650 0    60   ~ 0
+Text Notes 4000 3350 0    60   ~ 0
 1: Blue/Red\n2: IR/Green
-Text Notes 23050 3250 0    60   ~ 0
+Text Notes 29200 4800 0    60   ~ 0
 DVI Spare Pinouts
 Text GLabel 9600 12950 2    60   Input ~ 0
 LV4_30
-Text GLabel 15250 6050 0    60   Input ~ 0
+Text GLabel 18500 6350 0    60   Input ~ 0
 LV4_26
-Text GLabel 4850 5750 2    60   Input ~ 0
+Text GLabel 3500 4450 2    60   Input ~ 0
 LV4_30
-Text GLabel 12100 6050 0    60   Input ~ 0
+Text GLabel 10350 6350 0    60   Input ~ 0
 LV4_29
 Text GLabel 9600 12750 2    60   Input ~ 0
 LV4_29
@@ -908,113 +908,113 @@ Text GLabel 9600 12550 2    60   Input ~ 0
 LV4_28
 Text GLabel 8600 12550 0    60   Input ~ 0
 LV4_25
-Text GLabel 12100 6150 0    60   Input ~ 0
+Text GLabel 10350 6450 0    60   Input ~ 0
 LV4_28
 $Comp
 L JUMPER JP1
 U 1 1 57C6B93E
-P 12350 8600
-F 0 "JP1" H 12350 8750 50  0000 C CNN
-F 1 "JUMPER" H 12350 8520 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 12350 8600 50  0001 C CNN
-F 3 "" H 12350 8600 50  0000 C CNN
-	1    12350 8600
+P 10600 8900
+F 0 "JP1" H 10600 9050 50  0000 C CNN
+F 1 "JUMPER" H 10600 8820 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10600 8900 50  0001 C CNN
+F 3 "" H 10600 8900 50  0000 C CNN
+	1    10600 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L JUMPER JP2
 U 1 1 57C6BC9C
-P 12350 9100
-F 0 "JP2" H 12350 9250 50  0000 C CNN
-F 1 "JUMPER" H 12350 9020 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 12350 9100 50  0001 C CNN
-F 3 "" H 12350 9100 50  0000 C CNN
-	1    12350 9100
+P 10600 9400
+F 0 "JP2" H 10600 9550 50  0000 C CNN
+F 1 "JUMPER" H 10600 9320 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10600 9400 50  0001 C CNN
+F 3 "" H 10600 9400 50  0000 C CNN
+	1    10600 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L JUMPER JP3
 U 1 1 57C6BD19
-P 15700 8600
-F 0 "JP3" H 15700 8750 50  0000 C CNN
-F 1 "JUMPER" H 15700 8520 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 15700 8600 50  0001 C CNN
-F 3 "" H 15700 8600 50  0000 C CNN
-	1    15700 8600
+P 18950 8900
+F 0 "JP3" H 18950 9050 50  0000 C CNN
+F 1 "JUMPER" H 18950 8820 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 18950 8900 50  0001 C CNN
+F 3 "" H 18950 8900 50  0000 C CNN
+	1    18950 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L JUMPER JP4
 U 1 1 57C6BDF3
-P 15700 9100
-F 0 "JP4" H 15700 9250 50  0000 C CNN
-F 1 "JUMPER" H 15700 9020 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 15700 9100 50  0001 C CNN
-F 3 "" H 15700 9100 50  0000 C CNN
-	1    15700 9100
+P 18950 9400
+F 0 "JP4" H 18950 9550 50  0000 C CNN
+F 1 "JUMPER" H 18950 9320 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 18950 9400 50  0001 C CNN
+F 3 "" H 18950 9400 50  0000 C CNN
+	1    18950 9400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 3950 0    60   Input ~ 0
+Text GLabel 3900 2650 0    60   Input ~ 0
 SEL_LED_1
-Text GLabel 5250 4100 0    60   Input ~ 0
+Text GLabel 3900 2800 0    60   Input ~ 0
 SEL_LED_2
-Text GLabel 5900 3950 2    60   Input ~ 0
+Text GLabel 4550 2650 2    60   Input ~ 0
 LV4_7
-Text GLabel 5900 4100 2    60   Input ~ 0
+Text GLabel 4550 2800 2    60   Input ~ 0
 LV4_8
-Text Label 12650 8600 0    60   ~ 0
+Text Label 10900 8900 0    60   ~ 0
 OUT_UR_GND
-Text Label 12650 9100 0    60   ~ 0
+Text Label 10900 9400 0    60   ~ 0
 OUT_LR_GND
-Text Label 16000 8600 0    60   ~ 0
+Text Label 19250 8900 0    60   ~ 0
 OUT_UL_GND
-Text Label 16000 9100 0    60   ~ 0
+Text Label 19250 9400 0    60   ~ 0
 OUT_LL_GND
-Text Label 12050 8600 2    60   ~ 0
+Text Label 10300 8900 2    60   ~ 0
 GND
-Text Label 12050 9100 2    60   ~ 0
+Text Label 10300 9400 2    60   ~ 0
 GND
-Text Label 15400 8600 2    60   ~ 0
+Text Label 18650 8900 2    60   ~ 0
 GND
-Text Label 15400 9100 2    60   ~ 0
+Text Label 18650 9400 2    60   ~ 0
 GND
-Text Label 15850 3050 2    60   ~ 0
+Text Label 19100 3350 2    60   ~ 0
 GND
-Text Label 15850 3150 2    60   ~ 0
+Text Label 19100 3450 2    60   ~ 0
 GND
-Text Label 15850 3350 2    60   ~ 0
+Text Label 19100 3650 2    60   ~ 0
 GND
-Text Label 15850 3550 2    60   ~ 0
+Text Label 19100 3850 2    60   ~ 0
 GND
-Text Label 15850 3750 2    60   ~ 0
+Text Label 19100 4050 2    60   ~ 0
 GND
-Text Label 15850 3950 2    60   ~ 0
+Text Label 19100 4250 2    60   ~ 0
 GND
-Text Label 13000 2950 2    60   ~ 0
+Text Label 11250 3250 2    60   ~ 0
 OUT_LL_GND
-Text Label 13000 3050 2    60   ~ 0
+Text Label 11250 3350 2    60   ~ 0
 GND
-Text Label 13000 3150 2    60   ~ 0
+Text Label 11250 3450 2    60   ~ 0
 GND
-Text Label 13000 3350 2    60   ~ 0
+Text Label 11250 3650 2    60   ~ 0
 GND
-Text Label 13000 3550 2    60   ~ 0
+Text Label 11250 3850 2    60   ~ 0
 GND
-Text Label 13000 3750 2    60   ~ 0
+Text Label 11250 4050 2    60   ~ 0
 GND
-Text Label 13000 3950 2    60   ~ 0
+Text Label 11250 4250 2    60   ~ 0
 GND
-NoConn ~ 15250 4850
-NoConn ~ 12100 4850
-Text Label 4000 4600 2    60   ~ 0
+NoConn ~ 18500 5150
+NoConn ~ 10350 5150
+Text Label 2650 3300 2    60   ~ 0
 GND
-Text GLabel 4100 5650 0    60   Input ~ 0
+Text GLabel 2750 4350 0    60   Input ~ 0
 LED_+5
-Text GLabel 4100 5750 0    60   Input ~ 0
+Text GLabel 2750 4450 0    60   Input ~ 0
 LED_+15V
-Text GLabel 4100 5450 0    60   Input ~ 0
+Text GLabel 2750 4150 0    60   Input ~ 0
 FLASH_V
-Text GLabel 4100 5550 0    60   Input ~ 0
+Text GLabel 2750 4250 0    60   Input ~ 0
 LED_PWR
 Text GLabel 22300 12500 0    60   Input ~ 0
 HV9_25
@@ -1024,24 +1024,24 @@ Text GLabel 23200 12700 2    60   Input ~ 0
 HV9_29
 Text GLabel 23200 12900 2    60   Input ~ 0
 HV9_30
-Text GLabel 4100 5850 0    60   Input ~ 0
+Text GLabel 2750 4550 0    60   Input ~ 0
 SHUT_OUT
-Text GLabel 4850 5550 2    60   Input ~ 0
+Text GLabel 3500 4250 2    60   Input ~ 0
 HV9_30
-Text GLabel 4850 5850 2    60   Input ~ 0
+Text GLabel 3500 4550 2    60   Input ~ 0
 LV4_9
-Text GLabel 4850 5650 2    60   Input ~ 0
+Text GLabel 3500 4350 2    60   Input ~ 0
 HV9_29
-Text GLabel 15250 6250 0    60   Input ~ 0
+Text GLabel 18500 6550 0    60   Input ~ 0
 HV9_25
 Text Label 1550 12100 2    60   ~ 0
 GND
 Text Label 2900 12100 0    60   ~ 0
 GND
-Text Label 9750 2400 2    60   ~ 0
+Text Label 8000 2700 2    60   ~ 0
 GND
 NoConn ~ 9600 13150
-Text Label 10650 2400 0    60   ~ 0
+Text Label 8900 2700 0    60   ~ 0
 GND
 Text Label 9600 13050 0    60   ~ 0
 GND
@@ -1059,17 +1059,17 @@ Text Label 23200 13100 0    60   ~ 0
 GND
 Text Label 22300 13100 2    60   ~ 0
 GND
-Text Label 26800 13350 0    60   ~ 0
+Text Label 14500 2700 0    60   ~ 0
 GND
-Text Label 25900 13350 2    60   ~ 0
+Text Label 13600 2700 2    60   ~ 0
 GND
-Text Label 29600 13350 0    60   ~ 0
+Text Label 17300 2700 0    60   ~ 0
 GND
-Text Label 28700 13350 2    60   ~ 0
+Text Label 16400 2700 2    60   ~ 0
 GND
-Text GLabel 15250 6150 0    60   Input ~ 0
+Text GLabel 18500 6450 0    60   Input ~ 0
 LV4_25
-Text GLabel 12100 6250 0    60   Input ~ 0
+Text GLabel 10350 6550 0    60   Input ~ 0
 HV9_28
 NoConn ~ 8600 12050
 Text GLabel 9600 10750 2    60   Input ~ 0
@@ -1089,7 +1089,7 @@ NoConn ~ 16200 12950
 NoConn ~ 16200 13050
 NoConn ~ 16200 13250
 NoConn ~ 16200 13350
-Text GLabel 25900 13150 0    60   Input ~ 0
+Text GLabel 13600 2500 0    60   Input ~ 0
 DRV10_CH8
 NoConn ~ 22300 12700
 NoConn ~ 22300 12900
@@ -1116,77 +1116,77 @@ Text Label 8600 10650 2    60   ~ 0
 GND
 Text Label 9600 10650 0    60   ~ 0
 GND
-NoConn ~ 26800 13050
-Text GLabel 26800 12650 2    60   Input ~ 0
+NoConn ~ 14500 2400
+Text GLabel 14500 2000 2    60   Input ~ 0
 DRV10_CH3
-Text GLabel 26800 12950 2    60   Input ~ 0
+Text GLabel 14500 2300 2    60   Input ~ 0
 DRV10_CH5
-Text GLabel 25900 12550 0    60   Input ~ 0
+Text GLabel 13600 1900 0    60   Input ~ 0
 DRV10_CH4
-Text GLabel 25900 12850 0    60   Input ~ 0
+Text GLabel 13600 2200 0    60   Input ~ 0
 DRV10_CH6
-Text GLabel 26800 13250 2    60   Input ~ 0
+Text GLabel 14500 2600 2    60   Input ~ 0
 DRV10_CH7
-Text Label 25900 12150 2    60   ~ 0
+Text Label 13600 1500 2    60   ~ 0
 GND
-Text Label 26800 12150 0    60   ~ 0
+Text Label 14500 1500 0    60   ~ 0
 GND
-Text GLabel 17250 1450 0    60   Input ~ 0
+Text GLabel 21650 1000 0    60   Input ~ 0
 DRV10_CH1
-Text GLabel 17200 1950 0    60   Input ~ 0
+Text GLabel 21600 1500 0    60   Input ~ 0
 DRV10_CH3
-Text GLabel 17850 1450 0    60   Input ~ 0
+Text GLabel 22250 1000 0    60   Input ~ 0
 DRV10_CH5
-Text GLabel 17850 1950 0    60   Input ~ 0
+Text GLabel 22250 1500 0    60   Input ~ 0
 DRV10_CH7
-Text GLabel 17200 2150 0    60   Input ~ 0
+Text GLabel 21600 1700 0    60   Input ~ 0
 DRV10_CH4
-Text GLabel 17800 1700 0    60   Input ~ 0
+Text GLabel 22200 1250 0    60   Input ~ 0
 DRV10_CH6
-Text GLabel 17800 2150 0    60   Input ~ 0
+Text GLabel 22200 1700 0    60   Input ~ 0
 DRV10_CH8
-Text Label 29600 12150 0    60   ~ 0
+Text Label 17300 1500 0    60   ~ 0
 GND
-Text Label 28700 12150 2    60   ~ 0
+Text Label 16400 1500 2    60   ~ 0
 GND
-NoConn ~ 29600 12250
-Text GLabel 29600 12350 2    60   Input ~ 0
+NoConn ~ 17300 1600
+Text GLabel 17300 1700 2    60   Input ~ 0
 DRV11_CH1
-Text GLabel 28700 12250 0    60   Input ~ 0
+Text GLabel 16400 1600 0    60   Input ~ 0
 DRV11_CH2
-Text GLabel 18850 1650 0    60   Input ~ 0
+Text GLabel 23250 1200 0    60   Input ~ 0
 DRV11_CH2
-Text GLabel 17200 1700 0    60   Input ~ 0
+Text GLabel 21600 1250 0    60   Input ~ 0
 DRV10_CH2
-Text GLabel 29600 12650 2    60   Input ~ 0
+Text GLabel 17300 2000 2    60   Input ~ 0
 DRV11_CH3
-Text GLabel 28700 12550 0    60   Input ~ 0
+Text GLabel 16400 1900 0    60   Input ~ 0
 DRV11_CH4
-Text GLabel 29600 12950 2    60   Input ~ 0
+Text GLabel 17300 2300 2    60   Input ~ 0
 DRV11_CH5
-Text GLabel 28700 12850 0    60   Input ~ 0
+Text GLabel 16400 2200 0    60   Input ~ 0
 DRV11_CH6
-Text GLabel 28700 13150 0    60   Input ~ 0
+Text GLabel 16400 2500 0    60   Input ~ 0
 DRV11_CH8
-Text GLabel 29600 13250 2    60   Input ~ 0
+Text GLabel 17300 2600 2    60   Input ~ 0
 DRV11_CH7
-Text GLabel 19550 1450 0    60   Input ~ 0
+Text GLabel 23950 1000 0    60   Input ~ 0
 DRV11_CH5
-Text GLabel 19550 1950 0    60   Input ~ 0
+Text GLabel 23950 1500 0    60   Input ~ 0
 DRV11_CH7
-Text GLabel 18850 2100 0    60   Input ~ 0
+Text GLabel 23250 1650 0    60   Input ~ 0
 DRV11_CH4
-Text GLabel 19550 1700 0    60   Input ~ 0
+Text GLabel 23950 1250 0    60   Input ~ 0
 DRV11_CH6
-Text GLabel 19550 2150 0    60   Input ~ 0
+Text GLabel 23950 1700 0    60   Input ~ 0
 DRV11_CH8
-Text GLabel 18850 1850 0    60   Input ~ 0
+Text GLabel 23250 1400 0    60   Input ~ 0
 DRV11_CH3
-NoConn ~ 20400 1500
-NoConn ~ 20200 1500
-NoConn ~ 20000 1500
-NoConn ~ 19450 1400
-NoConn ~ 19200 1400
+NoConn ~ 24800 1050
+NoConn ~ 24600 1050
+NoConn ~ 24400 1050
+NoConn ~ 23850 950 
+NoConn ~ 23600 950 
 Text Label 23200 10600 0    60   ~ 0
 GND
 Text Label 22300 10600 2    60   ~ 0
@@ -1195,196 +1195,204 @@ Text Label 12600 12250 0    60   ~ 0
 GND
 Text Label 11550 12250 2    60   ~ 0
 GND
-Text Label 10650 1200 0    60   ~ 0
+Text Label 8900 1500 0    60   ~ 0
 GND
-Text Label 9750 1200 2    60   ~ 0
+Text Label 8000 1500 2    60   ~ 0
 GND
-Text GLabel 18300 1400 2    60   Input ~ 0
+Text GLabel 22700 950  2    60   Input ~ 0
 DRV11_CH1
 Wire Wire Line
-	15950 2650 15850 2650
+	19200 2950 19100 2950
 Wire Wire Line
-	13150 2650 13000 2650
+	11400 2950 11250 2950
 Wire Wire Line
-	13150 2750 13000 2750
+	11400 3050 11250 3050
 Wire Wire Line
-	13150 2850 13000 2850
+	11400 3150 11250 3150
 Wire Wire Line
-	13150 2950 13000 2950
+	11400 3250 11250 3250
 Wire Wire Line
-	13150 3050 13000 3050
+	11400 3350 11250 3350
 Wire Wire Line
-	13150 3150 13000 3150
+	11400 3450 11250 3450
 Wire Wire Line
-	13150 3350 13000 3350
+	11400 3650 11250 3650
 Wire Wire Line
-	13150 3550 13000 3550
+	11400 3850 11250 3850
 Wire Wire Line
-	13150 3750 13000 3750
+	11400 4050 11250 4050
 Wire Wire Line
-	13150 3950 13000 3950
+	11400 4250 11250 4250
 Wire Wire Line
-	13150 4850 12100 4850
+	11400 5150 10350 5150
 Wire Wire Line
-	13150 4950 12100 4950
+	11400 5250 10350 5250
 Wire Wire Line
-	13150 5050 12100 5050
+	11400 5350 10350 5350
 Wire Wire Line
-	13150 5150 12100 5150
+	11400 5450 10350 5450
 Wire Wire Line
-	13150 5250 12100 5250
+	11400 5550 10350 5550
 Wire Wire Line
-	13150 5350 12100 5350
+	11400 5650 10350 5650
 Wire Wire Line
-	13150 5450 12100 5450
+	11400 5750 10350 5750
 Wire Wire Line
-	13150 5550 12100 5550
+	11400 5850 10350 5850
 Wire Wire Line
-	13150 5650 12100 5650
+	11400 5950 10350 5950
 Wire Wire Line
-	13150 5750 12100 5750
+	11400 6050 10350 6050
 Wire Wire Line
-	13150 5850 12100 5850
+	11400 6150 10350 6150
 Wire Wire Line
-	13150 5950 12100 5950
+	11400 6250 10350 6250
 Wire Wire Line
-	13150 6050 12100 6050
+	11400 6350 10350 6350
 Wire Wire Line
-	13150 6150 12100 6150
+	11400 6450 10350 6450
 Wire Wire Line
-	13150 6250 12100 6250
+	11400 6550 10350 6550
 Wire Wire Line
-	15950 2750 15850 2750
+	19200 3050 19100 3050
 Wire Wire Line
-	15950 2850 15850 2850
+	19200 3150 19100 3150
 Wire Wire Line
-	15950 2950 15850 2950
+	19200 3250 19100 3250
 Wire Wire Line
-	15950 3050 15850 3050
+	19200 3350 19100 3350
 Wire Wire Line
-	15950 3150 15850 3150
+	19200 3450 19100 3450
 Wire Wire Line
-	15950 3250 15250 3250
+	19200 3550 18500 3550
 Wire Wire Line
-	15950 3450 15250 3450
+	19200 3750 18500 3750
 Wire Wire Line
-	15950 3550 15850 3550
+	19200 3850 19100 3850
 Wire Wire Line
-	15950 3650 15250 3650
+	19200 3950 18500 3950
 Wire Wire Line
-	15950 3750 15850 3750
+	19200 4050 19100 4050
 Wire Wire Line
-	15950 3850 15250 3850
+	19200 4150 18500 4150
 Wire Wire Line
-	15950 3950 15850 3950
+	19200 4250 19100 4250
 Wire Wire Line
-	15950 4050 15250 4050
+	19200 4350 18500 4350
 Wire Wire Line
-	15950 4450 15250 4450
+	19200 4750 18500 4750
 Wire Wire Line
-	15950 4650 15250 4650
+	19200 4950 18500 4950
 Wire Wire Line
-	15950 4850 15250 4850
+	19200 5150 18500 5150
 Wire Wire Line
-	15950 4950 15250 4950
+	19200 5250 18500 5250
 Wire Wire Line
-	15950 5050 15250 5050
+	19200 5350 18500 5350
 Wire Wire Line
-	15950 5150 15250 5150
+	19200 5450 18500 5450
 Wire Wire Line
-	15950 5250 15250 5250
+	19200 5550 18500 5550
 Wire Wire Line
-	15950 5350 15250 5350
+	19200 5650 18500 5650
 Wire Wire Line
-	15950 5450 15250 5450
+	19200 5750 18500 5750
 Wire Wire Line
-	15950 5550 15250 5550
+	19200 5850 18500 5850
 Wire Wire Line
-	15950 5650 15250 5650
+	19200 5950 18500 5950
 Wire Wire Line
-	15950 5750 15250 5750
+	19200 6050 18500 6050
 Wire Wire Line
-	15950 5850 15250 5850
+	19200 6150 18500 6150
 Wire Wire Line
-	15950 5950 15250 5950
+	19200 6250 18500 6250
 Wire Wire Line
-	15950 6050 15250 6050
+	19200 6350 18500 6350
 Wire Wire Line
-	15950 6150 15250 6150
+	19200 6450 18500 6450
 Wire Wire Line
-	15950 6250 15250 6250
+	19200 6550 18500 6550
 Wire Wire Line
-	15950 4250 15250 4250
+	19200 4550 18500 4550
 Wire Wire Line
-	5900 4100 5250 4100
+	4550 2800 3900 2800
 Wire Wire Line
-	5250 3950 5900 3950
+	3900 2650 4550 2650
 Wire Wire Line
-	15950 3350 15850 3350
+	19200 3650 19100 3650
 Wire Wire Line
-	4100 5450 4850 5450
+	2750 4150 3500 4150
 Wire Wire Line
-	4100 5550 4850 5550
+	2750 4250 3500 4250
 Wire Wire Line
-	4100 5650 4850 5650
+	2750 4350 3500 4350
 Wire Wire Line
-	4100 5750 4850 5750
+	2750 4450 3500 4450
 Wire Wire Line
-	4100 5850 4850 5850
+	2750 4550 3500 4550
 Wire Wire Line
-	12150 3250 13150 3250
+	10400 3550 11400 3550
 Wire Wire Line
-	12150 3250 12150 1400
+	10400 3550 10400 1700
 Wire Wire Line
-	12150 1400 10650 1400
+	10400 1700 8900 1700
 Wire Wire Line
-	12000 3450 13150 3450
+	10250 3750 11400 3750
 Wire Wire Line
-	12000 3450 12000 1700
+	10250 3750 10250 2000
 Wire Wire Line
-	12000 1700 10650 1700
+	10250 2000 8900 2000
 Wire Wire Line
-	11800 3650 13150 3650
+	10050 3950 11400 3950
 Wire Wire Line
-	11800 3650 11800 2000
+	10050 3950 10050 2300
 Wire Wire Line
-	11800 2000 10650 2000
+	10050 2300 8900 2300
 Wire Wire Line
-	11550 3850 13150 3850
+	9800 4150 11400 4150
 Wire Wire Line
-	11550 3850 11550 2300
+	9800 4150 9800 2600
 Wire Wire Line
-	11550 2300 10650 2300
+	9800 2600 8900 2600
 Wire Wire Line
-	9750 2200 9300 2200
+	8000 2500 7550 2500
 Wire Wire Line
-	9300 2200 9300 4050
+	7550 2500 7550 4350
 Wire Wire Line
-	9300 4050 13150 4050
+	7550 4350 11400 4350
 Wire Wire Line
-	9100 4250 13150 4250
+	7350 4550 11400 4550
 Wire Wire Line
-	8900 4450 13150 4450
+	7150 4750 11400 4750
 Wire Wire Line
-	8750 4650 13150 4650
+	7000 4950 11400 4950
 Wire Wire Line
-	9100 4250 9100 1900
+	7350 4550 7350 2200
 Wire Wire Line
-	9100 1900 9750 1900
+	7350 2200 8000 2200
 Wire Wire Line
-	9750 1600 8900 1600
+	8000 1900 7150 1900
 Wire Wire Line
-	8900 1600 8900 4450
+	7150 1900 7150 4750
 Wire Wire Line
-	8750 4650 8750 1300
+	7000 4950 7000 1600
 Wire Wire Line
-	8750 1300 9750 1300
+	7000 1600 8000 1600
 Wire Notes Line
-	2500 2150 2500 6900
+	1150 850  1150 5600
 Wire Notes Line
-	2500 6900 7050 6900
+	1150 5600 5700 5600
 Wire Notes Line
-	7050 6900 7050 2150
+	5700 5600 5700 850 
 Wire Notes Line
-	7050 2150 2500 2150
+	5700 850  1150 850 
+Wire Notes Line
+	32450 3350 25150 3350
+Wire Notes Line
+	25150 3350 25150 8400
+Wire Notes Line
+	25150 8400 32450 8400
+Wire Notes Line
+	32450 8400 32450 3350
 $EndSCHEMATC

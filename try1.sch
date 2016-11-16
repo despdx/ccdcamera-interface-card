@@ -368,10 +368,6 @@ Text Label 12600 13350 0    60   ~ 0
 OUT_LL_GND
 Text Label 12600 12750 0    60   ~ 0
 OUT_UR_GND
-Text GLabel 14500 1700 2    60   Input ~ 0
-DRV10_CH1
-Text GLabel 13600 1600 0    60   Input ~ 0
-DRV10_CH2
 Text GLabel 22300 11300 0    60   Input ~ 0
 HV9_5
 Text GLabel 22300 11400 0    60   Input ~ 0
@@ -1057,8 +1053,6 @@ NoConn ~ 16200 12950
 NoConn ~ 16200 13050
 NoConn ~ 16200 13250
 NoConn ~ 16200 13350
-Text GLabel 13600 2500 0    60   Input ~ 0
-DRV10_CH8
 NoConn ~ 22300 12700
 NoConn ~ 22300 12900
 NoConn ~ 22300 12300
@@ -1085,76 +1079,15 @@ GND
 Text Label 9600 10650 0    60   ~ 0
 GND
 NoConn ~ 14500 2400
-Text GLabel 14500 2000 2    60   Input ~ 0
-DRV10_CH3
-Text GLabel 14500 2300 2    60   Input ~ 0
-DRV10_CH5
-Text GLabel 13600 1900 0    60   Input ~ 0
-DRV10_CH4
-Text GLabel 13600 2200 0    60   Input ~ 0
-DRV10_CH6
-Text GLabel 14500 2600 2    60   Input ~ 0
-DRV10_CH7
 Text Label 13600 1500 2    60   ~ 0
 GND
 Text Label 14500 1500 0    60   ~ 0
 GND
-Text GLabel 21650 1000 0    60   Input ~ 0
-DRV10_CH1
-Text GLabel 21600 1500 0    60   Input ~ 0
-DRV10_CH3
-Text GLabel 22250 1000 0    60   Input ~ 0
-DRV10_CH5
-Text GLabel 22250 1500 0    60   Input ~ 0
-DRV10_CH7
-Text GLabel 21600 1700 0    60   Input ~ 0
-DRV10_CH4
-Text GLabel 22200 1250 0    60   Input ~ 0
-DRV10_CH6
-Text GLabel 22200 1700 0    60   Input ~ 0
-DRV10_CH8
 Text Label 17300 1500 0    60   ~ 0
 GND
 Text Label 16400 1500 2    60   ~ 0
 GND
 NoConn ~ 17300 1600
-Text GLabel 17300 1700 2    60   Input ~ 0
-DRV11_CH1
-Text GLabel 16400 1600 0    60   Input ~ 0
-DRV11_CH2
-Text GLabel 23250 1200 0    60   Input ~ 0
-DRV11_CH2
-Text GLabel 21600 1250 0    60   Input ~ 0
-DRV10_CH2
-Text GLabel 17300 2000 2    60   Input ~ 0
-DRV11_CH3
-Text GLabel 16400 1900 0    60   Input ~ 0
-DRV11_CH4
-Text GLabel 17300 2300 2    60   Input ~ 0
-DRV11_CH5
-Text GLabel 16400 2200 0    60   Input ~ 0
-DRV11_CH6
-Text GLabel 16400 2500 0    60   Input ~ 0
-DRV11_CH8
-Text GLabel 17300 2600 2    60   Input ~ 0
-DRV11_CH7
-Text GLabel 23950 1000 0    60   Input ~ 0
-DRV11_CH5
-Text GLabel 23950 1500 0    60   Input ~ 0
-DRV11_CH7
-Text GLabel 23250 1650 0    60   Input ~ 0
-DRV11_CH4
-Text GLabel 23950 1250 0    60   Input ~ 0
-DRV11_CH6
-Text GLabel 23950 1700 0    60   Input ~ 0
-DRV11_CH8
-Text GLabel 23250 1400 0    60   Input ~ 0
-DRV11_CH3
-NoConn ~ 24800 1050
-NoConn ~ 24600 1050
-NoConn ~ 24400 1050
-NoConn ~ 23850 950 
-NoConn ~ 23600 950 
 Text Label 23200 10600 0    60   ~ 0
 GND
 Text Label 22300 10600 2    60   ~ 0
@@ -1167,8 +1100,6 @@ Text Label 8900 1500 0    60   ~ 0
 GND
 Text Label 8000 1500 2    60   ~ 0
 GND
-Text GLabel 22700 950  2    60   Input ~ 0
-DRV11_CH1
 Wire Wire Line
 	19200 2950 19100 2950
 Wire Wire Line
@@ -1196,7 +1127,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 5250 10350 5250
 Wire Wire Line
-	11400 5350 10350 5350
+	9800 5350 11400 5350
 Wire Wire Line
 	11400 5450 10350 5450
 Wire Wire Line
@@ -1232,31 +1163,31 @@ Wire Wire Line
 Wire Wire Line
 	19200 3450 19100 3450
 Wire Wire Line
-	19200 3550 18500 3550
+	13300 3550 19200 3550
 Wire Wire Line
-	19200 3750 18500 3750
+	13150 3750 19200 3750
 Wire Wire Line
 	19200 3850 19100 3850
 Wire Wire Line
-	19200 3950 18500 3950
+	13000 3950 19200 3950
 Wire Wire Line
 	19200 4050 19100 4050
 Wire Wire Line
-	19200 4150 18500 4150
+	12800 4150 19200 4150
 Wire Wire Line
 	19200 4250 19100 4250
 Wire Wire Line
-	19200 4350 18500 4350
+	14600 4350 19200 4350
 Wire Wire Line
-	19200 4750 18500 4750
+	14800 4750 19200 4750
 Wire Wire Line
-	19200 4950 18500 4950
+	14900 4950 19200 4950
 Wire Wire Line
 	19200 5150 18500 5150
 Wire Wire Line
 	19200 5250 18500 5250
 Wire Wire Line
-	19200 5350 18500 5350
+	17500 5350 19200 5350
 Wire Wire Line
 	19200 5450 18500 5450
 Wire Wire Line
@@ -1282,7 +1213,7 @@ Wire Wire Line
 Wire Wire Line
 	19200 6550 18500 6550
 Wire Wire Line
-	19200 4550 18500 4550
+	14700 4550 19200 4550
 Wire Wire Line
 	4550 2800 3900 2800
 Wire Wire Line
@@ -1377,4 +1308,48 @@ NoConn ~ 16400 2700
 NoConn ~ 17300 2700
 NoConn ~ 8900 2700
 NoConn ~ 8000 2700
+Wire Wire Line
+	13600 1600 13300 1600
+Wire Wire Line
+	13300 1600 13300 3550
+Wire Wire Line
+	13600 1900 13150 1900
+Wire Wire Line
+	13150 1900 13150 3750
+Wire Wire Line
+	13600 2200 13000 2200
+Wire Wire Line
+	13000 2200 13000 3950
+Wire Wire Line
+	13600 2500 12800 2500
+Wire Wire Line
+	12800 2500 12800 4150
+Wire Wire Line
+	14500 2600 14600 2600
+Wire Wire Line
+	14600 2600 14600 4350
+Wire Wire Line
+	14500 2300 14700 2300
+Wire Wire Line
+	14700 2300 14700 4550
+Wire Wire Line
+	14500 2000 14800 2000
+Wire Wire Line
+	14800 2000 14800 4750
+Wire Wire Line
+	14500 1700 14900 1700
+Wire Wire Line
+	14900 1700 14900 4950
+Wire Wire Line
+	17300 1700 17400 1700
+Wire Wire Line
+	17400 1700 17400 7150
+Wire Wire Line
+	17400 7150 9800 7150
+Wire Wire Line
+	9800 7150 9800 5350
+Wire Wire Line
+	17300 2000 17500 2000
+Wire Wire Line
+	17500 2000 17500 5350
 $EndSCHEMATC

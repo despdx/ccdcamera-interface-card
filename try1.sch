@@ -905,8 +905,6 @@ NoConn ~ 16200 1950
 NoConn ~ 16200 2050
 NoConn ~ 16200 2250
 NoConn ~ 16200 2350
-NoConn ~ 6200 5400
-NoConn ~ 6200 5600
 NoConn ~ 6200 5000
 Text Label 28850 2300 0    60   ~ 0
 GND
@@ -1323,8 +1321,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 5200 7300 17050
 Wire Wire Line
-	7100 5600 12400 5600
-Wire Wire Line
 	7200 16850 14150 16850
 Wire Wire Line
 	5450 7700 6450 7700
@@ -1339,7 +1335,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 7800 5450 7800
 Wire Wire Line
-	12400 5600 12400 12100
+	12400 5350 12400 12100
 Wire Wire Line
 	7300 5200 7100 5200
 Wire Wire Line
@@ -1359,9 +1355,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 4550 15900 4550
 Wire Wire Line
-	6200 5400 6050 5400
-Wire Wire Line
-	6050 5400 6050 7250
+	6050 5600 6200 5600
 Wire Wire Line
 	6050 7250 6550 7250
 Wire Wire Line
@@ -1403,4 +1397,12 @@ Wire Wire Line
 NoConn ~ 6200 4100
 Wire Wire Line
 	15850 4650 15850 11400
+Wire Wire Line
+	6050 5600 6050 7250
+NoConn ~ 6200 5600
+Wire Wire Line
+	6200 5400 6200 5350
+Wire Wire Line
+	6200 5350 12400 5350
+NoConn ~ 7100 5600
 $EndSCHEMATC

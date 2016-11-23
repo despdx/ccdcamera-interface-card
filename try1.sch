@@ -35,7 +35,7 @@ LIBS:conn_dvi
 LIBS:try1-cache
 EELAYER 25 0
 EELAYER END
-$Descr D 34000 22000
+$Descr User 28000 18000
 encoding utf-8
 Sheet 1 1
 Title "Archon CCD Camera Controller Interface Board"

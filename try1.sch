@@ -35,7 +35,7 @@ LIBS:conn_dvi
 LIBS:try1-cache
 EELAYER 25 0
 EELAYER END
-$Descr User 25000 13000
+$Descr User 23000 13000
 encoding utf-8
 Sheet 1 1
 Title "Archon CCD Camera Controller Interface Board"
@@ -69,7 +69,7 @@ F 3 "" H 16900 8800 50  0000 C CNN
 	1    16900 8800
 	1    0    0    1   
 $EndComp
-Text Notes 19650 5750 0    60   ~ 0
+Text Notes 19000 4950 0    60   ~ 0
 Heater\nMOD2
 Text Notes 5550 7200 0    60   ~ 0
 Driver\nMOD3
@@ -292,16 +292,16 @@ NoConn ~ 3400 4400
 NoConn ~ 3400 4500
 NoConn ~ 3400 4600
 NoConn ~ 3400 4700
-NoConn ~ 19200 4300
-NoConn ~ 19200 4400
-NoConn ~ 19200 4500
-NoConn ~ 19200 4600
-NoConn ~ 19200 4700
-NoConn ~ 20550 4300
-NoConn ~ 20550 4400
-NoConn ~ 20550 4500
-NoConn ~ 20550 4600
-NoConn ~ 20550 4700
+NoConn ~ 18450 3550
+NoConn ~ 18450 3650
+NoConn ~ 18450 3750
+NoConn ~ 18450 3850
+NoConn ~ 18450 3950
+NoConn ~ 19800 3550
+NoConn ~ 19800 3650
+NoConn ~ 19800 3750
+NoConn ~ 19800 3850
+NoConn ~ 19800 3950
 NoConn ~ 16450 8500
 NoConn ~ 8650 9100
 NoConn ~ 8650 8900
@@ -324,19 +324,19 @@ F 3 "" H 15850 4400 50  0000 C CNN
 $EndComp
 Text Notes 15450 3750 0    60   ~ 0
 LED/Projector\n(unnamed DB9 - Shutter Control)
-Text Notes 21650 10300 0    60   ~ 0
+Text Notes 19300 10450 0    60   ~ 0
 Heater
-Text Notes 21650 10500 0    60   ~ 0
+Text Notes 19300 10650 0    60   ~ 0
 Radiation Shield
 $Comp
 L CONN_DVI J41
 U 1 1 579AEE72
-P 21850 9000
-F 0 "J41" H 21450 9950 50  0000 C CNN
-F 1 "CONN_DVI" H 21850 8050 50  0000 C CNN
-F 2 "ccdcamera:MOLEX_DVI_29pin_PN743203000" H 21850 7950 50  0001 C CNN
-F 3 "DOCUMENTATION" H 21900 7850 50  0001 C CNN
-	1    21850 9000
+P 20000 7400
+F 0 "J41" H 19600 8350 50  0000 C CNN
+F 1 "CONN_DVI" H 20000 6450 50  0000 C CNN
+F 2 "ccdcamera:MOLEX_DVI_29pin_PN743203000" H 20000 6350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 20050 6250 50  0001 C CNN
+	1    20000 7400
 	1    0    0    -1  
 $EndComp
 Text Label 6500 1700 0    60   ~ 0
@@ -358,169 +358,169 @@ OUT_UR_GND
 $Comp
 L CONN_02X02 P1
 U 1 1 57B547B3
-P 19200 8800
-F 0 "P1" H 19200 8950 50  0000 C CNN
-F 1 "CONN_02X02" H 19200 8650 50  0000 C CNN
-F 2 "molex_MiniFiT-JR_5556:Molex_MiniFit-JR-5556-04A_2x02x4.20mm_Straight" H 19200 7600 50  0000 C CNN
-F 3 "" H 19200 7600 50  0000 C CNN
-	1    19200 8800
+P 19950 5300
+F 0 "P1" H 19950 5450 50  0000 C CNN
+F 1 "CONN_02X02" H 19950 5150 50  0000 C CNN
+F 2 "molex_MiniFiT-JR_5556:Molex_MiniFit-JR-5556-04A_2x02x4.20mm_Straight" H 20050 4800 50  0000 C CNN
+F 3 "" H 19950 4100 50  0000 C CNN
+	1    19950 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 20550 2500 2    60   Input ~ 0
+Text GLabel 19800 1750 2    60   Input ~ 0
 HEATER1_BP
-Text GLabel 20550 4000 2    60   Input ~ 0
+Text GLabel 19800 3250 2    60   Input ~ 0
 HEATER1_AP
-Text GLabel 20550 2800 2    60   Input ~ 0
+Text GLabel 19800 2050 2    60   Input ~ 0
 HEATER1_BN
-Text GLabel 20550 3700 2    60   Input ~ 0
+Text GLabel 19800 2950 2    60   Input ~ 0
 HEATER1_AN
-Text GLabel 19200 3100 0    60   Input ~ 0
+Text GLabel 18450 2350 0    60   Input ~ 0
 HEATER1_TEMPB_FN
-Text GLabel 19200 3200 0    60   Input ~ 0
+Text GLabel 18450 2450 0    60   Input ~ 0
 HEATER1_TEMPB_FP
-Text GLabel 19200 3400 0    60   Input ~ 0
+Text GLabel 18450 2650 0    60   Input ~ 0
 HEATER1_TEMPA_FN
-Text GLabel 19200 3500 0    60   Input ~ 0
+Text GLabel 18450 2750 0    60   Input ~ 0
 HEATER1_TEMPA_FP
-Text GLabel 20550 3100 2    60   Input ~ 0
+Text GLabel 19800 2350 2    60   Input ~ 0
 HEATER1_TEMPB_SP
-Text GLabel 20550 3200 2    60   Input ~ 0
+Text GLabel 19800 2450 2    60   Input ~ 0
 HEATER1_TEMPB_SN
-Text GLabel 20550 3400 2    60   Input ~ 0
+Text GLabel 19800 2650 2    60   Input ~ 0
 HEATER1_TEMPA_SP
-Text GLabel 20550 3500 2    60   Input ~ 0
+Text GLabel 19800 2750 2    60   Input ~ 0
 HEATER1_TEMPA_SN
-Text GLabel 18950 8750 0    60   Input ~ 0
+Text GLabel 19700 5250 0    60   Input ~ 0
 HEATER1_AP
-Text GLabel 18950 8850 0    60   Input ~ 0
+Text GLabel 19700 5350 0    60   Input ~ 0
 HEATER1_AN
-Text GLabel 19450 8750 2    60   Input ~ 0
+Text GLabel 20200 5250 2    60   Input ~ 0
 HEATER1_BP
-Text GLabel 19450 8850 2    60   Input ~ 0
+Text GLabel 20200 5350 2    60   Input ~ 0
 HEATER1_BN
-Text GLabel 21100 8300 0    60   Input ~ 0
+Text GLabel 19250 6700 0    60   Input ~ 0
 HEATER1_TEMPA_FN
-Text GLabel 21100 8400 0    60   Input ~ 0
+Text GLabel 19250 6800 0    60   Input ~ 0
 HEATER1_TEMPA_FP
-Text GLabel 21100 8600 0    60   Input ~ 0
+Text GLabel 19250 7000 0    60   Input ~ 0
 HEATER1_TEMPA_SN
-Text GLabel 21100 8700 0    60   Input ~ 0
+Text GLabel 19250 7100 0    60   Input ~ 0
 HEATER1_TEMPA_SP
-Text GLabel 22600 8400 2    60   Input ~ 0
+Text GLabel 20750 6800 2    60   Input ~ 0
 HEATER1_TEMPB_FN
-Text GLabel 22600 8500 2    60   Input ~ 0
+Text GLabel 20750 6900 2    60   Input ~ 0
 HEATER1_TEMPB_FP
-Text GLabel 22600 8700 2    60   Input ~ 0
+Text GLabel 20750 7100 2    60   Input ~ 0
 HEATER1_TEMPB_SN
-Text GLabel 22600 8800 2    60   Input ~ 0
+Text GLabel 20750 7200 2    60   Input ~ 0
 HEATER1_TEMPB_SP
 $Comp
 L TEST_1P W5
 U 1 1 57B5D36F
-P 21000 6650
-F 0 "W5" H 21000 6920 50  0000 C CNN
-F 1 "TEST_1P" H 21000 6850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 21200 6650 50  0001 C CNN
-F 3 "" H 21200 6650 50  0000 C CNN
-	1    21000 6650
+P 19150 9400
+F 0 "W5" H 19150 9670 50  0000 C CNN
+F 1 "TEST_1P" H 19150 9600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 19350 9400 50  0001 C CNN
+F 3 "" H 19350 9400 50  0000 C CNN
+	1    19150 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W6
 U 1 1 57B5D617
-P 21300 6650
-F 0 "W6" H 21300 6920 50  0000 C CNN
-F 1 "TEST_1P" H 21300 6850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 21500 6650 50  0001 C CNN
-F 3 "" H 21500 6650 50  0000 C CNN
-	1    21300 6650
+P 19450 9400
+F 0 "W6" H 19450 9670 50  0000 C CNN
+F 1 "TEST_1P" H 19450 9600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 19650 9400 50  0001 C CNN
+F 3 "" H 19650 9400 50  0000 C CNN
+	1    19450 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W7
 U 1 1 57B5D666
-P 21600 6650
-F 0 "W7" H 21600 6920 50  0000 C CNN
-F 1 "TEST_1P" H 21600 6850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 21800 6650 50  0001 C CNN
-F 3 "" H 21800 6650 50  0000 C CNN
-	1    21600 6650
+P 19750 9400
+F 0 "W7" H 19750 9670 50  0000 C CNN
+F 1 "TEST_1P" H 19750 9600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 19950 9400 50  0001 C CNN
+F 3 "" H 19950 9400 50  0000 C CNN
+	1    19750 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W8
 U 1 1 57B5D69D
-P 21900 6650
-F 0 "W8" H 21900 6920 50  0000 C CNN
-F 1 "TEST_1P" H 21900 6850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 22100 6650 50  0001 C CNN
-F 3 "" H 22100 6650 50  0000 C CNN
-	1    21900 6650
+P 20050 9400
+F 0 "W8" H 20050 9670 50  0000 C CNN
+F 1 "TEST_1P" H 20050 9600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 20250 9400 50  0001 C CNN
+F 3 "" H 20250 9400 50  0000 C CNN
+	1    20050 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W9
 U 1 1 57B5D6ED
-P 22200 6650
-F 0 "W9" H 22200 6920 50  0000 C CNN
-F 1 "TEST_1P" H 22200 6850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 22400 6650 50  0001 C CNN
-F 3 "" H 22400 6650 50  0000 C CNN
-	1    22200 6650
+P 20350 9400
+F 0 "W9" H 20350 9670 50  0000 C CNN
+F 1 "TEST_1P" H 20350 9600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 20550 9400 50  0001 C CNN
+F 3 "" H 20550 9400 50  0000 C CNN
+	1    20350 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W10
 U 1 1 57B5D728
-P 22500 6650
-F 0 "W10" H 22500 6920 50  0000 C CNN
-F 1 "TEST_1P" H 22500 6850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 22700 6650 50  0001 C CNN
-F 3 "" H 22700 6650 50  0000 C CNN
-	1    22500 6650
+P 20650 9400
+F 0 "W10" H 20650 9670 50  0000 C CNN
+F 1 "TEST_1P" H 20650 9600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 20850 9400 50  0001 C CNN
+F 3 "" H 20850 9400 50  0000 C CNN
+	1    20650 9400
 	1    0    0    -1  
 $EndComp
-Text GLabel 21100 9100 0    60   Input ~ 0
+Text GLabel 19250 7500 0    60   Input ~ 0
 DVI_P9_SPARET1
-Text GLabel 21100 9200 0    60   Input ~ 0
+Text GLabel 19250 7600 0    60   Input ~ 0
 DVI_P9_SPARET2
-Text GLabel 21100 9400 0    60   Input ~ 0
+Text GLabel 19250 7800 0    60   Input ~ 0
 DVI_P9_SPARET3
-Text GLabel 21100 9500 0    60   Input ~ 0
+Text GLabel 19250 7900 0    60   Input ~ 0
 DVI_P9_SPARET4
-Text GLabel 22600 9100 2    60   Input ~ 0
+Text GLabel 20750 7500 2    60   Input ~ 0
 DVI_P9_SPARET5
-Text GLabel 22600 9000 2    60   Input ~ 0
+Text GLabel 20750 7400 2    60   Input ~ 0
 DVI_P9_SPARET6
-Text GLabel 21000 6650 3    60   Input ~ 0
+Text GLabel 19150 9400 3    60   Input ~ 0
 DVI_P9_SPARET1
-Text GLabel 21300 6650 3    60   Input ~ 0
+Text GLabel 19450 9400 3    60   Input ~ 0
 DVI_P9_SPARET2
-Text GLabel 21600 6650 3    60   Input ~ 0
+Text GLabel 19750 9400 3    60   Input ~ 0
 DVI_P9_SPARET3
-Text GLabel 21900 6650 3    60   Input ~ 0
+Text GLabel 20050 9400 3    60   Input ~ 0
 DVI_P9_SPARET4
-Text GLabel 22200 6650 3    60   Input ~ 0
+Text GLabel 20350 9400 3    60   Input ~ 0
 DVI_P9_SPARET5
-Text GLabel 22500 6650 3    60   Input ~ 0
+Text GLabel 20650 9400 3    60   Input ~ 0
 DVI_P9_SPARET6
-Text Notes 21650 8050 0    60   ~ 0
+Text Notes 19800 6450 0    60   ~ 0
 SHIELD PINS:\n3,11,19,22\n(Connect to Dewar/Cold Finger Heater GND)
-NoConn ~ 21100 8500
-NoConn ~ 21100 9300
-NoConn ~ 22600 8600
-NoConn ~ 22600 8900
-NoConn ~ 22600 8300
-NoConn ~ 21100 8800
-NoConn ~ 21100 9000
-NoConn ~ 21100 8900
-NoConn ~ 21100 9600
-NoConn ~ 21100 9700
-NoConn ~ 22600 9200
-NoConn ~ 22600 9300
-NoConn ~ 22600 9400
-NoConn ~ 22600 9500
-NoConn ~ 22600 9600
+NoConn ~ 19250 6900
+NoConn ~ 19250 7700
+NoConn ~ 20750 7000
+NoConn ~ 20750 7300
+NoConn ~ 20750 6700
+NoConn ~ 19250 7200
+NoConn ~ 19250 7400
+NoConn ~ 19250 7300
+NoConn ~ 19250 8000
+NoConn ~ 19250 8100
+NoConn ~ 20750 7600
+NoConn ~ 20750 7700
+NoConn ~ 20750 7800
+NoConn ~ 20750 7900
+NoConn ~ 20750 8000
 Text GLabel 15400 4700 0    60   Input ~ 0
 SHUT_OUT
 Text GLabel 15400 4600 0    60   Input ~ 0
@@ -536,40 +536,40 @@ FLASH_V
 Text GLabel 15400 4000 0    60   Input ~ 0
 LED_+15V
 NoConn ~ 15400 4200
-NoConn ~ 19200 2500
-NoConn ~ 19200 2600
-NoConn ~ 19200 2700
-NoConn ~ 19200 2800
-NoConn ~ 19200 2900
-NoConn ~ 19200 3000
-NoConn ~ 19200 3300
-NoConn ~ 19200 3600
-NoConn ~ 19200 3700
-NoConn ~ 19200 3800
-NoConn ~ 19200 3900
-NoConn ~ 19200 4000
-NoConn ~ 19200 4100
-NoConn ~ 19200 4800
-NoConn ~ 19200 4900
-NoConn ~ 19200 5000
-NoConn ~ 19200 5100
-NoConn ~ 19200 5200
-NoConn ~ 19200 5300
-NoConn ~ 20550 4800
-NoConn ~ 20550 4900
-NoConn ~ 20550 5000
-NoConn ~ 20550 5100
-NoConn ~ 20550 5200
-NoConn ~ 20550 5300
-NoConn ~ 20550 2600
-NoConn ~ 20550 2700
-NoConn ~ 20550 2900
-NoConn ~ 20550 3000
-NoConn ~ 20550 3300
-NoConn ~ 20550 3600
-NoConn ~ 20550 3800
-NoConn ~ 20550 3900
-NoConn ~ 20550 4100
+NoConn ~ 18450 1750
+NoConn ~ 18450 1850
+NoConn ~ 18450 1950
+NoConn ~ 18450 2050
+NoConn ~ 18450 2150
+NoConn ~ 18450 2250
+NoConn ~ 18450 2550
+NoConn ~ 18450 2850
+NoConn ~ 18450 2950
+NoConn ~ 18450 3050
+NoConn ~ 18450 3150
+NoConn ~ 18450 3250
+NoConn ~ 18450 3350
+NoConn ~ 18450 4050
+NoConn ~ 18450 4150
+NoConn ~ 18450 4250
+NoConn ~ 18450 4350
+NoConn ~ 18450 4450
+NoConn ~ 18450 4550
+NoConn ~ 19800 4050
+NoConn ~ 19800 4150
+NoConn ~ 19800 4250
+NoConn ~ 19800 4350
+NoConn ~ 19800 4450
+NoConn ~ 19800 4550
+NoConn ~ 19800 1850
+NoConn ~ 19800 1950
+NoConn ~ 19800 2150
+NoConn ~ 19800 2250
+NoConn ~ 19800 2550
+NoConn ~ 19800 2850
+NoConn ~ 19800 3050
+NoConn ~ 19800 3150
+NoConn ~ 19800 3350
 NoConn ~ 5250 5750
 NoConn ~ 5250 5850
 NoConn ~ 5250 6050
@@ -802,7 +802,7 @@ Text Label 14850 1100 3    60   ~ 0
 Spare_3
 Text Notes 16100 4450 0    60   ~ 0
 1: Blue/Red\n2: IR/Green
-Text Notes 21400 7400 0    60   ~ 0
+Text Notes 19550 10150 0    60   ~ 0
 DVI Spare Pinouts
 $Comp
 L JUMPER JP1
@@ -906,20 +906,20 @@ NoConn ~ 8800 1750
 NoConn ~ 8800 1950
 NoConn ~ 8800 2050
 NoConn ~ 3400 3500
-Text Label 20550 2400 0    60   ~ 0
+Text Label 19800 1650 0    60   ~ 0
 GND
 $Comp
 L Archon-connector-modules-Heater J2
 U 1 1 5790BF23
-P 19200 5300
-F 0 "J2" H 19400 5430 45  0000 L BNN
-F 1 "Archon-connector-modules-Heater" H 19300 2200 45  0000 L BNN
-F 2 "samtec:ERM8-0030-XX.X-X-DV" H 19850 5550 39  0001 C TNN
-F 3 "" H 19200 5300 60  0000 C CNN
-	1    19200 5300
+P 18450 4550
+F 0 "J2" H 18650 4680 45  0000 L BNN
+F 1 "Archon-connector-modules-Heater" H 18550 1450 45  0000 L BNN
+F 2 "samtec:ERM8-0030-XX.X-X-DV" H 19100 4800 39  0001 C TNN
+F 3 "" H 18450 4550 60  0000 C CNN
+	1    18450 4550
 	1    0    0    1   
 $EndComp
-Text Label 19200 2400 2    60   ~ 0
+Text Label 18450 1650 2    60   ~ 0
 GND
 Text Label 1200 5800 2    60   ~ 0
 GND
@@ -953,8 +953,8 @@ NoConn ~ 8800 2150
 NoConn ~ 7750 2150
 NoConn ~ 6500 2200
 NoConn ~ 5450 2200
-NoConn ~ 20550 4200
-NoConn ~ 19200 4200
+NoConn ~ 19800 3450
+NoConn ~ 18450 3450
 NoConn ~ 10850 6750
 NoConn ~ 11750 6750
 NoConn ~ 13650 6750
@@ -1155,9 +1155,7 @@ Wire Wire Line
 Wire Notes Line
 	17350 5950 17350 11000
 Wire Notes Line
-	17350 11000 23900 11000
-Wire Notes Line
-	23900 11000 23900 5900
+	17350 11000 22100 11000
 Wire Wire Line
 	10850 5650 10550 5650
 Wire Wire Line
@@ -1199,9 +1197,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 6350 14750 9400
 Wire Notes Line
-	23900 5900 23900 1300
-Wire Notes Line
-	23900 1300 17350 1300
+	22100 1300 17350 1300
 Wire Notes Line
 	17350 1300 17350 6000
 Wire Wire Line
@@ -1359,11 +1355,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 5750 3250 5750
 Wire Wire Line
-	3250 5750 3250 10600
+	3250 4100 3250 10600
 Wire Wire Line
 	3250 10600 8650 10600
 Wire Wire Line
-	16300 4050 16300 6650
+	16300 6650 16300 4050
 Wire Wire Line
 	3400 3350 13000 3350
 Wire Wire Line
@@ -1394,8 +1390,6 @@ NoConn ~ 3400 2600
 Wire Wire Line
 	13050 3150 13050 9900
 Wire Wire Line
-	3250 4100 3250 5750
-Wire Wire Line
 	3400 3900 3400 3850
 Wire Wire Line
 	3400 3850 9600 3850
@@ -1405,4 +1399,6 @@ Wire Wire Line
 	15400 4100 15400 4050
 Wire Wire Line
 	15400 4050 16300 4050
+Wire Notes Line
+	22100 1300 22100 11000
 $EndSCHEMATC

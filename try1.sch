@@ -213,7 +213,7 @@ VDD_B
 Text Label 8500 9600 2    60   ~ 0
 Spare_3
 Text Label 8500 9700 2    60   ~ 0
-Spare_2
+Spare_4
 Text Label 8500 9800 2    60   ~ 0
 VRD2_L
 Text Label 8500 9900 2    60   ~ 0
@@ -267,7 +267,7 @@ VDD_A
 Text Label 16350 9600 2    60   ~ 0
 Spare_1
 Text Label 16350 9700 2    60   ~ 0
-Spare_4
+Spare_2
 Text Label 16350 9800 2    60   ~ 0
 VRD2_R
 Text Label 16350 9900 2    60   ~ 0

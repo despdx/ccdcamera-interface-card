@@ -1,0 +1,16 @@
+### Module positions - created on 12/12/16 16:16:23 ###
+### Printed by Pcbnew version kicad 4.0.4-stable
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                              Package                   PosX       PosY       Rot  Side
+J2        Archon-connector-modules-Heater  ERM8-0030-XX.X-X-DV    64.6000   -49.2000   90.0000  top
+J3        Archon-connector-modules-Driver  ERM8-013-XX.X-X-DV     79.8400   -36.5000   90.0000  top
+J4        Archon-connector-modules-LVBias  ERM8-0030-XX.X-X-DV    95.0800   -44.1200   90.0000  top
+J5        Archon-connector-modules-ADC     ERM8-013-XX.X-X-DV    110.3200   -39.0400   90.0000  top
+J6        Archon-connector-modules-ADC     ERM8-013-XX.X-X-DV    125.5600   -39.0400   90.0000  top
+J7        Archon-connector-modules-ADC     ERM8-013-XX.X-X-DV    140.8000   -39.0400   90.0000  top
+J8        Archon-connector-modules-ADC     ERM8-013-XX.X-X-DV    156.0400   -39.0400   90.0000  top
+J9        Archon-connector-modules-HVBias  ERM8-0030-XX.X-X-DV   171.2800   -46.6600   90.0000  top
+J10       Archon-connector-modules-Driver  ERM8-013-XX.X-X-DV    186.5200   -36.5000   90.0000  top
+J11       Archon-connector-modules-Driver  ERM8-013-XX.X-X-DV    201.7400   -36.5000   90.0000  top
+## End

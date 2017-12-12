@@ -974,7 +974,6 @@ NoConn ~ 1200 6000
 NoConn ~ 1200 6200
 NoConn ~ 1200 6300
 NoConn ~ 1200 6500
-NoConn ~ 1200 7700
 NoConn ~ 14550 5750
 NoConn ~ 3400 3700
 NoConn ~ 2200 7500
@@ -992,8 +991,6 @@ F 3 "" H 3400 4700 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 NoConn ~ 2200 7600
-NoConn ~ 2200 7700
-NoConn ~ 2200 7900
 Wire Wire Line
 	16450 7000 16350 7000
 Wire Wire Line
@@ -1207,10 +1204,6 @@ Wire Wire Line
 Wire Wire Line
 	850  7100 850  10300
 Wire Wire Line
-	800  10400 800  6900
-Wire Wire Line
-	700  6800 700  10500
-Wire Wire Line
 	15000 10200 16450 10200
 Wire Wire Line
 	16450 10000 14900 10000
@@ -1229,10 +1222,6 @@ Wire Wire Line
 Wire Wire Line
 	15300 11900 2550 11900
 Wire Wire Line
-	2550 11900 2550 7400
-Wire Wire Line
-	2650 7200 2650 11800
-Wire Wire Line
 	2650 11800 15200 11800
 Wire Wire Line
 	15200 11800 15200 10400
@@ -1244,10 +1233,6 @@ Wire Wire Line
 	2750 11700 2750 7100
 Wire Wire Line
 	2850 6900 2850 11600
-Wire Wire Line
-	1200 6800 700  6800
-Wire Wire Line
-	800  6900 1200 6900
 Wire Wire Line
 	850  7100 1200 7100
 Wire Wire Line
@@ -1296,10 +1281,6 @@ Wire Wire Line
 	2850 6900 2200 6900
 Wire Wire Line
 	2750 7100 2200 7100
-Wire Wire Line
-	2650 7200 2200 7200
-Wire Wire Line
-	2550 7400 2200 7400
 Wire Wire Line
 	15400 4700 5000 4700
 Wire Wire Line
@@ -1390,11 +1371,34 @@ Wire Wire Line
 Wire Wire Line
 	3400 3850 12800 3850
 NoConn ~ 4300 4100
-NoConn ~ 1200 7900
 Wire Wire Line
 	14800 4100 15400 4100
 Wire Notes Line
 	22100 11000 22100 1300
 Wire Wire Line
 	3250 4100 3250 10600
+Wire Wire Line
+	1200 7700 700  7700
+Connection ~ 700  7700
+Wire Wire Line
+	700  7700 700  10500
+Wire Wire Line
+	1200 7900 800  7900
+Connection ~ 800  7900
+Wire Wire Line
+	800  7900 800  10400
+Wire Wire Line
+	2200 7900 2550 7900
+Connection ~ 2550 7900
+Wire Wire Line
+	2200 7700 2650 7700
+Connection ~ 2650 7700
+Wire Wire Line
+	2650 7700 2650 11800
+Wire Wire Line
+	2550 7900 2550 11900
+NoConn ~ 1200 6800
+NoConn ~ 1200 6900
+NoConn ~ 2200 7200
+NoConn ~ 2200 7400
 $EndSCHEMATC

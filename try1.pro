@@ -1,4 +1,4 @@
-update=12/12/2016 2:42:34 PM
+update=12/26/2017 1:56:54 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,6 +60,8 @@ LibName30=ERM8-013-XX.X-X-DV
 LibName31=ERM8-0030-XX.X-X-DV
 LibName32=archon
 LibName33=conn_dvi
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -70,5 +72,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1

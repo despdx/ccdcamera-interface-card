@@ -39,7 +39,7 @@ $Descr User 23000 13000
 encoding utf-8
 Sheet 1 1
 Title "Archon CCD Camera Controller Interface Board"
-Date "2017-12-12"
+Date "2018-01-19"
 Rev "201"
 Comp "Porltand State University"
 Comment1 "Copyright 2017 Paul R. DeStefano"
